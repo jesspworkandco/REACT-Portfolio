@@ -1,0 +1,11 @@
+img {
+  height: 35px;
+}
+footer {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 10px;
+  height: 70px;
+  border-top: 3px solid darkgrey;
+  background-color: white;
+}
