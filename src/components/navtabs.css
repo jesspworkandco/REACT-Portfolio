@@ -2,14 +2,15 @@
   text-align: center;
   background-color: white;
 }
-.navbar-brand {
-  font-size: x-large;
+#name {
+  font-size: 30px;
 }
-.nav {
-  font-size: 20px;
-}
+
 .nav-link {
   color: black;
+}
+.nav-item {
+  font-size: 20px;
   max-height: 50px;
 }
 .nav-link:hover {
