@@ -1,7 +1,6 @@
 import React from "react";
 import "./portfolio.css";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import projects from "../../../src/projects.json";
 
 class Portfolio extends React.Component {
@@ -19,19 +18,17 @@ class Portfolio extends React.Component {
         <div className="card-group">
           {this.state.projects.map((project) => (
             <Card className="card" key={project.id} style={{ width: "18rem" }}>
-              <Card.Img
-                className="screenshot"
-                variant="top"
-                src={project.screenshot}
-                alt={project.title}
-              />
+              <a href={project.link} rel="noopener noreferrer" target="_blank">
+                <Card.Img
+                  className="screenshot"
+                  variant="top"
+                  src={project.image}
+                  alt="project screenshot"
+                />
+              </a>
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
-                <Button
-                  variant="primary"
-                  onClick={() => `${project.link}`}
-                ></Button>
               </Card.Body>
             </Card>
           ))}

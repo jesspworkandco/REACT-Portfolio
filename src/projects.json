@@ -1,79 +1,79 @@
 [
   {
     "id": "1",
-    "screenshot": "../project-screenshots/day-planner.png",
+    "image": "../",
     "title": "Your Day Planner",
     "description": "Simple calendar application that allows the user to save events for each hour of the day and stay organized!",
     "link": "https://jessicaperez1.github.io/Your-Day-Planner/"
   },
   {
     "id": "2",
-    "screenshot": "",
+    "image": "",
     "title": "Password Generator",
     "description": "",
     "link": "https://jessicaperez1.github.io/Password-Generator/"
   },
   {
     "id": "3",
-    "screenshot": "",
+    "image": "",
     "title": "Note Taker",
     "description": "",
-    "link": ""
+    "link": "https://github.com/JessicaPerez1/Note-Taker.git"
   },
   {
     "id": "4",
-    "screenshot": "",
+    "image": "",
     "title": "Team Profile Generator",
     "description": "",
-    "link": ""
+    "link": "https://github.com/JessicaPerez1/Team-Profile-Generator.git"
   },
   {
     "id": "5",
-    "screenshot": "",
+    "image": "",
     "title": "Employee Tracker",
     "description": "",
-    "link": ""
+    "link": "https://github.com/JessicaPerez1/Employee-Tracker.git"
   },
   {
     "id": "6",
-    "screenshot": "",
+    "image": "",
     "title": "Eat Da Burger",
     "description": "",
-    "link": ""
+    "link": "https://github.com/JessicaPerez1/Eat-Da-Burger.git"
   },
   {
     "id": "7",
-    "screenshot": "",
+    "image": "",
     "title": "Weather Dashboard",
     "description": "",
-    "link": ""
+    "link": "https://github.com/JessicaPerez1/Weather-Dashboard.git"
   },
   {
     "id": "8",
-    "screenshot": "",
+    "image": "",
     "title": "Fitness Tracker",
     "description": "",
-    "link": ""
+    "link": "https://github.com/JessicaPerez1/Fitness-Tracker.git"
   },
   {
     "id": "9",
-    "screenshot": "",
+    "image": "",
     "title": "Budget Tracker",
     "description": "",
-    "link": ""
+    "link": "https://github.com/JessicaPerez1/Budget-Tracker.git"
   },
   {
     "id": "10",
-    "screenshot": "",
+    "image": "",
     "title": "Famous Painters Rolodex",
     "description": "",
-    "link": ""
+    "link": "https://github.com/JessicaPerez1/Famous-Painters-React.git"
   },
   {
     "id": "11",
-    "screenshot": "",
+    "image": "",
     "title": "The Joke Factory",
     "description": "",
-    "link": ""
+    "link": "https://github.com/mkgude/marian-mike-jessica-camrynne-Joke-Factory.git"
   }
 ]

@@ -11,7 +11,7 @@ function About() {
       </h1>
       <h4>
         NEW YORK, NY 10010 * <span className="cell">(917) 847-1533</span> *
-        1JESSICAPEREZ@GMAIL.COM
+        <a href="mailto:1jessicaperez@gmail.com"> 1JESSICAPEREZ@GMAIL.COM</a>
       </h4>
       <p className="bio">
         Full Stack Web Developer, aiming to integrate my marketing background
