@@ -1,14 +1,15 @@
 import React from "react";
+import Jumbotron from "react-bootstrap/Jumbotron";
 
 function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <Jumbotron fluid>
+      <h5>Fluid jumbotron</h5>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui
+        This is a modified jumbotron that occupies the entire horizontal space
+        of its parent.
       </p>
-    </div>
+    </Jumbotron>
   );
 }
 

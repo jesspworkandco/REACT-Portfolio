@@ -1,0 +1,13 @@
+#home {
+  font-size: 40px;
+}
+.nav-link {
+  color: black;
+}
+.mr-auto {
+  font-size: 25px;
+  max-height: 50px;
+}
+.nav-link:hover {
+  color: #858384;
+}
