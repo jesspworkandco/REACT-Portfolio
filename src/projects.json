@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "screenshot": "",
+    "screenshot": "../project-screenshots/day-planner.png",
     "title": "Your Day Planner",
     "description": "Simple calendar application that allows the user to save events for each hour of the day and stay organized!",
     "link": "https://jessicaperez1.github.io/Your-Day-Planner/"
