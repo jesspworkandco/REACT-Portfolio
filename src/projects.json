@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "screenshot": "",
+    "title": "Your Day Planner",
+    "description": "Simple calendar application that allows the user to save events for each hour of the day and stay organized!",
+    "link": "https://jessicaperez1.github.io/Your-Day-Planner/"
+  },
+  {
+    "id": "2",
+    "screenshot": "",
+    "title": "Password Generator",
+    "description": "",
+    "link": "https://jessicaperez1.github.io/Password-Generator/"
+  },
+  {
+    "id": "3",
+    "screenshot": "",
+    "title": "Note Taker",
+    "description": "",
+    "link": ""
+  },
+  {
+    "id": "4",
+    "screenshot": "",
+    "title": "Team Profile Generator",
+    "description": "",
+    "link": ""
+  },
+  {
+    "id": "5",
+    "screenshot": "",
+    "title": "Employee Tracker",
+    "description": "",
+    "link": ""
+  },
+  {
+    "id": "6",
+    "screenshot": "",
+    "title": "Eat Da Burger",
+    "description": "",
+    "link": ""
+  },
+  {
+    "id": "7",
+    "screenshot": "",
+    "title": "Weather Dashboard",
+    "description": "",
+    "link": ""
+  },
+  {
+    "id": "8",
+    "screenshot": "",
+    "title": "Fitness Tracker",
+    "description": "",
+    "link": ""
+  },
+  {
+    "id": "9",
+    "screenshot": "",
+    "title": "Budget Tracker",
+    "description": "",
+    "link": ""
+  },
+  {
+    "id": "10",
+    "screenshot": "",
+    "title": "Famous Painters Rolodex",
+    "description": "",
+    "link": ""
+  },
+  {
+    "id": "11",
+    "screenshot": "",
+    "title": "The Joke Factory",
+    "description": "",
+    "link": ""
+  }
+]

@@ -8,3 +8,13 @@
   font-weight: bolder;
   color: darkgray;
 }
+.card-group {
+  display: flex;
+  flex-wrap: row;
+}
+.card {
+  border: 1px solid grey;
+  margin: 10px 10px 10px 20px;
+  min-width: 40%;
+  display: flex;
+}
