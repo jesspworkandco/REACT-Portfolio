@@ -1,0 +1,14 @@
+.container {
+  margin: 0 auto;
+}
+.row {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: row;
+}
+
+.logo {
+  width: 50px;
+  display: flex;
+  flex-wrap: row;
+}

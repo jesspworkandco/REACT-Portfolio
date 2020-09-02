@@ -1,0 +1,19 @@
+.jumbo {
+  background-color: white;
+}
+.first {
+  font-size: 40px;
+  font-weight: bolder;
+  color: black;
+}
+.last {
+  font-size: 40px;
+  font-weight: bolder;
+  color: darkgray;
+}
+.cell {
+  color: darkgray;
+}
+.bio {
+  margin: 50px 50px 50px 50px;
+}
