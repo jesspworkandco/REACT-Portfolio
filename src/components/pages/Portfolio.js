@@ -1,6 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 import Card from "react-bootstrap/Card";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import projects from "../../../src/projects.json";
 
 class Portfolio extends React.Component {
@@ -15,23 +17,38 @@ class Portfolio extends React.Component {
           <span className="portfolio">PORTFOLIO</span>
           <span className="gallery">GALLERY</span>
         </h1>
+
         <div className="card-group">
-          {this.state.projects.map((project) => (
-            <Card className="card" key={project.id} style={{ width: "18rem" }}>
-              <a href={project.link} rel="noopener noreferrer" target="_blank">
-                <Card.Img
-                  src={project.image}
-                  className="screenshot"
-                  variant="top"
-                  alt="project image"
-                />
-              </a>
-              <Card.Body>
-                <Card.Title>{project.title}</Card.Title>
-                <Card.Text>{project.description}</Card.Text>
-              </Card.Body>
-            </Card>
-          ))}
+          <Row>
+            {this.state.projects.map((project) => (
+              <Col sm={10} md={4} className="mx-sm-3">
+                <Card
+                  className="card"
+                  // style={{ width: "18rem" }}
+                  key={project.id}
+                >
+                  <a
+                    href={project.link}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Card.Img
+                      src={project.image}
+                      className="image"
+                      variant="top"
+                      alt="project image"
+                    />
+                  </a>
+                  <Card.Body>
+                    <Card.Title className="project-title">
+                      {project.title}
+                    </Card.Title>
+                    <Card.Text>{project.description}</Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
+          </Row>
         </div>
       </div>
     );

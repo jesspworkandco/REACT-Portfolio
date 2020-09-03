@@ -1,3 +1,8 @@
+.form {
+  margin: 50px 50px 50px 50px;
+  max-width: 700px;
+  font-family: "Jura", sans-serif;
+}
 .first {
   font-size: 40px;
   font-weight: bolder;
@@ -9,10 +14,6 @@
   color: darkgray;
 }
 
-.form {
-  margin: 50px 50px 50px 50px;
-  max-width: 700px;
-}
 button {
   text-align: left;
 }

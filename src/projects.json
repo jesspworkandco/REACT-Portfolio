@@ -1,77 +1,77 @@
 [
   {
     "id": "1",
-    "image": "../../images/day-planner.png",
+    "image": "https://images.unsplash.com/photo-1518607692857-bff9babd9d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     "title": "Your Day Planner",
     "description": "Simple calendar application that allows the user to save events for each hour of the day and stay organized!",
     "link": "https://jessicaperez1.github.io/Your-Day-Planner/"
   },
   {
     "id": "2",
-    "image": "",
+    "image": "https://images.unsplash.com/photo-1592439024283-43a91c26a445?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     "title": "Password Generator",
     "description": "",
     "link": "https://jessicaperez1.github.io/Password-Generator/"
   },
   {
     "id": "3",
-    "image": "",
+    "image": "https://images.unsplash.com/photo-1527168027773-0cc890c4f42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     "title": "Note Taker",
     "description": "",
     "link": "https://github.com/JessicaPerez1/Note-Taker.git"
   },
   {
     "id": "4",
-    "image": "",
+    "image": "https://d2d3qesrx8xj6s.cloudfront.net/img/screenshots/b43c39513963d870d399a0aab2438af225f9f485.jpg",
     "title": "Team Profile Generator",
     "description": "",
     "link": "https://github.com/JessicaPerez1/Team-Profile-Generator.git"
   },
   {
     "id": "5",
-    "image": "",
+    "image": "data:image/png;base64,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",
     "title": "Employee Tracker",
     "description": "",
     "link": "https://github.com/JessicaPerez1/Employee-Tracker.git"
   },
   {
     "id": "6",
-    "image": "",
+    "image": "https://i.ytimg.com/vi/lW4l9S1Q4aI/hqdefault.jpg",
     "title": "Eat Da Burger",
     "description": "",
-    "link": "https://github.com/JessicaPerez1/Eat-Da-Burger.git"
+    "link": "https://zeburgereater.herokuapp.com/"
   },
   {
     "id": "7",
-    "image": "",
+    "image": "https://images.unsplash.com/photo-1509803874385-db7c23652552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
     "title": "Weather Dashboard",
     "description": "",
-    "link": "https://github.com/JessicaPerez1/Weather-Dashboard.git"
+    "link": "https://jessicaperez1.github.io/Weather-Dashboard/"
   },
   {
     "id": "8",
-    "image": "",
+    "image": "https://elements-cover-images-0.imgix.net/c55068dd-bb20-4dc7-b926-aae00b17c890?auto=compress&crop=edges&fit=crop&fm=jpeg&h=630&w=1200&s=034505c3f83d25bc3655d1810d113cd4",
     "title": "Fitness Tracker",
     "description": "",
     "link": "https://github.com/JessicaPerez1/Fitness-Tracker.git"
   },
   {
     "id": "9",
-    "image": "",
+    "image": "https://images.unsplash.com/photo-1586034679970-cb7b5fc4928a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
     "title": "Budget Tracker",
     "description": "",
     "link": "https://github.com/JessicaPerez1/Budget-Tracker.git"
   },
   {
     "id": "10",
-    "image": "",
+    "image": "https://images.unsplash.com/photo-1593412355111-3a811fc8e66d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
     "title": "Famous Painters Rolodex",
     "description": "",
     "link": "https://github.com/JessicaPerez1/Famous-Painters-React.git"
   },
   {
     "id": "11",
-    "image": "",
+    "image": "https://www.jokejive.com/images/jokejive/7f/7f7a62b5ec521103e7eceda34cd6cf65.jpeg",
     "title": "The Joke Factory",
     "description": "",
     "link": "https://github.com/mkgude/marian-mike-jessica-camrynne-Joke-Factory.git"

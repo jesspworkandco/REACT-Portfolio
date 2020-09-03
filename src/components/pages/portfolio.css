@@ -1,5 +1,6 @@
 .portfolio-title {
   margin: 50px 50px 50px 50px;
+  font-family: "Jura", sans-serif;
 }
 .portfolio {
   font-size: 40px;
@@ -13,15 +14,21 @@
   color: darkgray;
 }
 .card-group {
+  border: 1px solid grey;
   display: flex;
   flex-wrap: row;
 }
 .card {
-  border: 1px solid grey;
-  margin: 10px 10px 10px 20px;
-  min-width: 40%;
+  border: none;
+  margin: 30px 20px 10px 20px;
+  min-width: 30%;
+  height: 400px;
   display: flex;
 }
-.screenshot {
-  width: 100px;
+.image {
+  max-width: 20rem;
+  max-height: 200px;
+}
+.project-title {
+  font-weight: 900;
 }
