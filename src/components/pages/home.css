@@ -1,5 +1,7 @@
 .container {
   font-family: "Jura", sans-serif;
+  margin: 0;
+  width: 100%;
 }
 /* .container {
   background-image: url(assets/images/me-nature.jpg);
