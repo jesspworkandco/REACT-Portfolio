@@ -1,11 +1,15 @@
+.navigation {
+  height: 7rem;
+  font-family: "Jura", sans-serif;
+}
 #home {
-  font-size: 40px;
+  font-size: 4rem;
 }
 .nav-link {
+  font-size: 2rem;
   color: lavenderblush;
 }
 .mr-auto {
-  font-size: 25px;
   max-height: 50px;
 }
 .nav-link:hover {

@@ -1,8 +1,12 @@
+.portfolio-title {
+  margin: 50px 50px 50px 50px;
+}
 .portfolio {
   font-size: 40px;
   font-weight: bolder;
   color: black;
 }
+
 .gallery {
   font-size: 40px;
   font-weight: bolder;

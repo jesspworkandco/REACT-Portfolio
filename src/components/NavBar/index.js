@@ -6,10 +6,12 @@ import "./navbar.css";
 function NavBar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar className="navigation" bg="dark" variant="dark">
         <Navbar.Brand id="home" href="/">
           JP
         </Navbar.Brand>
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse> */}
         <Nav className="mr-auto">
           <Nav.Link className="nav-link" href="/about">
             About
@@ -21,6 +23,7 @@ function NavBar() {
             Contact
           </Nav.Link>
         </Nav>
+        {/* </Navbar.Collapse> */}
       </Navbar>
     </>
   );

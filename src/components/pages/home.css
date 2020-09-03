@@ -1,14 +1,26 @@
-.container {
+/* .container {
   margin: 0 auto;
+} */
+/* .container {
+  background-image: url(assets/images/me-nature.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: "Jura", sans-serif;
+} */
+.links {
+  font-family: "Jura", sans-serif;
 }
 .row {
-  margin-top: 50px;
   display: flex;
   flex-wrap: row;
 }
 
 .logo {
-  width: 50px;
+  width: 80px;
   display: flex;
   flex-wrap: row;
 }

@@ -20,10 +20,10 @@ class Portfolio extends React.Component {
             <Card className="card" key={project.id} style={{ width: "18rem" }}>
               <a href={project.link} rel="noopener noreferrer" target="_blank">
                 <Card.Img
+                  src={project.image}
                   className="screenshot"
                   variant="top"
-                  src={project.image}
-                  alt="project screenshot"
+                  alt="project image"
                 />
               </a>
               <Card.Body>

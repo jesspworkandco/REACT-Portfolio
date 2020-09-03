@@ -1,15 +1,37 @@
 import React from "react";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import "./contact.css";
 
 function Contact(props) {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean
-      </p>
-    </div>
+    <Form className="form mx-sm-auto px-3 text-center">
+      <h1>
+        <span className="first">LET'S STAY</span>
+        <span className="last">IN TOUCH</span>
+      </h1>
+      <Form.Group className="label mt-5" controlId="formBasicName">
+        <Form.Label>From</Form.Label>
+        <Form.Control type="name" placeholder="Enter your name" />
+      </Form.Group>
+      <Form.Group className="label" controlId="formBasicEmail">
+        <Form.Label>Email</Form.Label>
+        <Form.Control
+          type="email"
+          placeholder="Enter you email example@gmail.com"
+        />
+        <Form.Text className="text-muted">
+          We'll never share your email with anyone else.
+        </Form.Text>
+      </Form.Group>
+      <Form.Group className="label" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Message</Form.Label>
+        <Form.Control as="textarea" rows="3" />
+      </Form.Group>
+      <Button className="btn" variant="dark" type="submit">
+        Submit
+      </Button>
+    </Form>
   );
 }
 
