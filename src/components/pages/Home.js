@@ -3,16 +3,17 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
+import Pdf from "../../assets/Jessica-Perez-CV.pdf";
 
 import "./home.css";
 
 function Home() {
   return (
     <Container className="container mx-sm-auto px-3 text-center">
-      <h1 className="links mt-5">
+      <h2 className="links mt-5">
         <span className="first">JESSICA</span>
         <span className="last">PEREZ</span>
-      </h1>
+      </h2>
       <Row className="row pt-5 mx-sm-auto">
         <Col sm={4} mb-3>
           <a
@@ -40,11 +41,7 @@ function Home() {
           </a>
         </Col>
         <Col sm={4}>
-          <a
-            href="assets/Jessica-Perez-CV.pdf"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+          <a href={Pdf} rel="noopener noreferrer" target="_blank">
             <Image
               className="logo"
               src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/600x/1b89f2fc96fc819c2a7e15c7e545e8a9/3/1/3164.9-cv-file-icon-iconbunny.jpg"
@@ -53,6 +50,20 @@ function Home() {
           </a>
         </Col>
       </Row>
+      <h5 className="skills mt-5">
+        <span className="last">TECHNICAL</span>
+        <span className="first">SKILLS</span>
+      </h5>
+      <ul>
+        <li> > HTML5</li>
+        <li> > CSS</li>
+        <li> > Bootstrap</li>
+        <li> > JavaScript</li>
+        <li> > NodeJS</li>
+        <li> > MySQL</li>
+        <li> > MongoDB</li>
+        <li> > ReactJS</li>
+      </ul>
     </Container>
   );
 }

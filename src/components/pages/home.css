@@ -1,6 +1,6 @@
-/* .container {
-  margin: 0 auto;
-} */
+.container {
+  font-family: "Jura", sans-serif;
+}
 /* .container {
   background-image: url(assets/images/me-nature.jpg);
   background-size: cover;
@@ -11,8 +11,9 @@
   width: 100%;
   font-family: "Jura", sans-serif;
 } */
-.links {
-  font-family: "Jura", sans-serif;
+
+.skills {
+  font-size: small;
 }
 .row {
   display: flex;
@@ -20,7 +21,11 @@
 }
 
 .logo {
-  width: 80px;
+  width: 70px;
   display: flex;
   flex-wrap: row;
+}
+ul {
+  list-style-type: none;
+  font-size: 1.3rem;
 }
