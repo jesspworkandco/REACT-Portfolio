@@ -21,7 +21,7 @@ class Portfolio extends React.Component {
         <div className="card-group">
           <Row>
             {this.state.projects.map((project) => (
-              <Col sm={10} md={4} className="mx-sm-3">
+              <Col sm={10} md={4}>
                 <Card
                   className="card"
                   // style={{ width: "18rem" }}

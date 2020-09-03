@@ -4,16 +4,18 @@ import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Pdf from "../../assets/Jessica-Perez-CV.pdf";
+import Jpg from "../../assets/me-nature.jpg";
 
 import "./home.css";
 
 function Home() {
   return (
     <Container className="container mx-sm-auto px-3 text-center">
-      <h2 className="links mt-5">
+      <h3 className="links mt-5">
         <span className="first">JESSICA</span>
         <span className="last">PEREZ</span>
-      </h2>
+      </h3>
+      <Image className="nature" src={Jpg} roundedCircle />
       <Row className="row pt-5 mx-sm-auto">
         <Col sm={4} mb-3>
           <a

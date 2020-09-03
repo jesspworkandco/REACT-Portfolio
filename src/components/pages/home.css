@@ -19,7 +19,9 @@
   display: flex;
   flex-wrap: row;
 }
-
+.nature {
+  width: 250px;
+}
 .logo {
   width: 70px;
   display: flex;
