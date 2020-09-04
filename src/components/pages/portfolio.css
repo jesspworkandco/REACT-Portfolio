@@ -1,5 +1,11 @@
+.column {
+  width: 100%;
+  display: grid;
+  margin: none;
+  padding: none;
+}
 .portfolio-title {
-  margin: 50px 50px 50px 50px;
+  margin: 50px 20px 20px 20px;
   font-family: "Jura", sans-serif;
 }
 .portfolio {
