@@ -11,7 +11,7 @@ function About() {
           <span className="first">JESSICA</span>
           <span className="last">PEREZ</span>
         </h1>
-        <h4 className="contact mt-5">
+        <h4 className="contact mt-3">
           NEW YORK, NY 10010 || <span className="cell">(917) 847-1533</span> ||
           <a href="mailto:1jessicaperez@gmail.com"> 1JESSICAPEREZ@GMAIL.COM</a>
         </h4>

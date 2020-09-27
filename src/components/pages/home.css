@@ -3,17 +3,6 @@
   margin: 0;
   width: 100%;
 }
-/* .container {
-  background-image: url(assets/images/me-nature.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0px;
-  height: 100%;
-  width: 100%;
-  font-family: "Jura", sans-serif;
-} */
-
 .skills {
   font-size: small;
 }
@@ -22,13 +11,8 @@
   flex-wrap: row;
 }
 .nature {
-  margin-top: 30px;
-  width: 250px;
-}
-.logo {
-  width: 70px;
-  display: flex;
-  flex-wrap: row;
+  margin-top: 5rem;
+  width: 370px;
 }
 ul {
   list-style-type: none;
