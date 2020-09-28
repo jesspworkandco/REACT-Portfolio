@@ -3,7 +3,7 @@
   display: grid;
   margin-top: 8rem;
   margin-bottom: 2rem;
-  padding: none;
+  padding: 0.8rem;
 }
 .portfolio-title {
   margin: 50px 20px 20px 20px;
@@ -26,9 +26,10 @@
 }
 .card {
   border: none;
-  margin: 30px 20px 10px 20px;
+  margin: 5px 0px 0px 3px;
+  padding: 0px;
   min-width: 30%;
-  height: 400px;
+  height: auto;
   display: flex;
 }
 .image {
@@ -36,5 +37,5 @@
   height: 13rem;
 }
 .project-title {
-  font-weight: 900;
+  font-weight: 700;
 }

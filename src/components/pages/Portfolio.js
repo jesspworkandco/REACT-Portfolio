@@ -12,17 +12,17 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <Col xs={10} className="column mx-auto px-auto">
+      <Col xs={10} className="column mx-auto">
         <div className="portfolio-title mx-sm-4 text-center">
           <h1>
             <span className="portfolio">PORTFOLIO</span>
             <span className="gallery">GALLERY</span>
           </h1>
 
-          <div className="card-group">
+          <div className="card-group mx-auto">
             <Row>
               {this.state.projects.map((project) => (
-                <Col sm={10} md={6} lg={4}>
+                <Col sm={12} md={6} lg={4}>
                   <Card className="card" key={project.id}>
                     <a
                       href={project.link}
