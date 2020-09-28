@@ -1,11 +1,7 @@
 import React from "react";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
-import Pdf from "../../assets/Jessica-Perez-CV.pdf";
 import Jpg from "../../assets/me-nature.jpg";
-
 import "./home.css";
 
 function Home() {

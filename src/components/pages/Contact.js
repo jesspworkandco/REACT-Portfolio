@@ -27,10 +27,10 @@ function Contact(props) {
       <Form.Group className="label" controlId="exampleForm.ControlTextarea1">
         <Form.Label>Message</Form.Label>
         <Form.Control as="textarea" rows="3" />
+        <Button className="btn" type="submit">
+          Submit
+        </Button>
       </Form.Group>
-      <Button className="btn" variant="dark" type="submit">
-        Submit
-      </Button>
     </Form>
   );
 }

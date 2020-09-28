@@ -11,8 +11,8 @@
   flex-wrap: row;
 }
 .nature {
-  margin-top: 5rem;
   width: 370px;
+  margin-top: 3rem;
 }
 ul {
   list-style-type: none;
