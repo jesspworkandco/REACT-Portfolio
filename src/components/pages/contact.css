@@ -1,5 +1,5 @@
 .form {
-  margin-top: 11rem;
+  margin-top: 12rem;
   max-width: 700px;
   font-family: "Jura", sans-serif;
 }
@@ -24,4 +24,5 @@ button {
 .btn {
   background-color: #66b2b2;
   border: #66b2b2;
+  margin-top: 10px;
 }

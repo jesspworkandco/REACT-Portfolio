@@ -12,16 +12,15 @@ function Home() {
         <span className="last">PEREZ</span>
       </h3>
       <Image className="nature" src={Jpg} roundedCircle />
-      <h5 className="skills mt-5">
+      <h5 className="skills mt-3">
         <span className="last">TECHNICAL</span>
         <span className="first">SKILLS</span>
       </h5>
-      <ul>
+      <ul className="text-center mb-5">
         <li> > HTML5</li>
         <li> > CSS</li>
         <li> > Bootstrap</li>
         <li> > MaterialUI</li>
-        <li> > Bulma</li>
         <li> > JavaScript</li>
         <li> > MySQL</li>
         <li> > MERN stack: MongoDB, ExpressJS, ReactJS, NodeJS</li>

@@ -10,7 +10,7 @@ function Contact(props) {
         <span className="first">LET'S STAY</span>
         <span className="last">IN TOUCH</span>
       </h1>
-      <Form.Group className="label mt-5" controlId="formBasicName">
+      <Form.Group className="label mt-2" controlId="formBasicName">
         <Form.Label>From</Form.Label>
         <Form.Control type="name" placeholder="Enter your name" />
       </Form.Group>

@@ -89,5 +89,12 @@
     "title": "The Joke Factory",
     "description": "Living in this 2020 Covid era is tough - need some humor? This app gives you access to jokes based on your preferences, to cheer up your family, dazzle your online dating matches, and strengthen your washboard abs of comedy.",
     "link": "https://mkgude.github.io/marian-mike-jessica-camrynne-Joke-Factory/"
+  },
+  {
+    "id": "14",
+    "image": "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
+    "title": "The Village",
+    "description": "Stay connected to your community: The Village app allows people from a specific area/zipcode to share and check local activities shared by their community.",
+    "link": "https://limitless-refuge-18664.herokuapp.com/"
   }
 ]
