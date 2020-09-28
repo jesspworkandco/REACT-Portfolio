@@ -12,7 +12,7 @@ Created my portfolio with REACT and REACT-BOOTSTRAP.
 
 ## Usage
 
-- Click on the deployed app link and check it out!
+- Click on the deployed app link and check it out! Please don't hesitate to get in touch.
 
 ### Github-repository-Heroku-deployed-link
 
