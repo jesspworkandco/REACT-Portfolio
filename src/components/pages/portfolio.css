@@ -9,6 +9,9 @@
   margin: 50px 20px 20px 20px;
   font-family: "Jura", sans-serif;
 }
+.subtitle {
+  font-size: 1.2rem;
+}
 .portfolio {
   font-size: 40px;
   font-weight: bolder;
@@ -36,6 +39,24 @@
   width: 16rem;
   height: 13rem;
 }
-.project-title {
+.tooltip {
   font-weight: 700;
+  color: #66b2b2;
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 105%;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }

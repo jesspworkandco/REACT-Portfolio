@@ -14,16 +14,21 @@ class Portfolio extends React.Component {
     return (
       <Col xs={10} className="column mx-auto">
         <div className="portfolio-title mx-sm-4 text-center">
-          <h1>
-            <span className="portfolio">PORTFOLIO</span>
-            <span className="gallery">GALLERY</span>
-          </h1>
-
+          <div>
+            <h1>
+              <span className="portfolio">PORTFOLIO</span>
+              <span className="gallery">GALLERY</span>
+            </h1>
+            <p className="subtitle">
+              Click the image and start exploring some of my personal and group
+              projects!
+            </p>
+          </div>
           <div className="card-group mx-auto">
             <Row>
               {this.state.projects.map((project) => (
-                <Col sm={12} md={6} lg={4}>
-                  <Card className="card" key={project.id}>
+                <Col sm={12} md={6} lg={4} key={project.id}>
+                  <Card className="card">
                     <a
                       href={project.link}
                       rel="noopener noreferrer"
@@ -37,9 +42,18 @@ class Portfolio extends React.Component {
                       />
                     </a>
                     <Card.Body>
-                      <Card.Title className="project-title">
-                        {project.title}
-                      </Card.Title>
+                      <a
+                        href={project.github}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <Card.Title>
+                          {project.title}
+                          <div className="tooltip">
+                            <span className="tooltiptext">GitHub Link</span>
+                          </div>
+                        </Card.Title>
+                      </a>
                       <Card.Text>{project.description}</Card.Text>
                     </Card.Body>
                   </Card>
