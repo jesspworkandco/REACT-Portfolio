@@ -14,14 +14,13 @@
   font-weight: bolder;
   color: black;
 }
-
 .gallery {
   font-size: 40px;
   font-weight: bolder;
   color: darkgray;
 }
 .card-group {
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   display: flex;
   flex-wrap: row;
 }

@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  height: 5rem;
+  background-color: #eaebed;
+  padding-top: 1rem;
+}
+.logo {
+  width: 40px;
+}
+.item {
+  align-items: center;
+}

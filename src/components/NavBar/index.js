@@ -1,32 +1,40 @@
 import React from "react";
-import Col from "react-bootstrap/Col";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import { Navbar, Nav, NavItem, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
+// import Png from "../../assets/girl-logo.png";
 import "./navbar.css";
 
 function NavBar() {
   return (
-    <Col xs={12} className="row">
-      <Navbar className="navigation m-sm-0" bg="dark" variant="dark">
-        <Navbar.Brand id="home" href="/">
-          JP
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link className="nav-link" href="/about">
+    <Navbar className="navigation" bg="dark" fixed="top" expand="lg">
+      {/* <Image className="girl-logo" src={Png} rounded /> */}
+      <Navbar.Brand id="home" href="/">
+        JP
+      </Navbar.Brand>
+      <Navbar.Toggle
+        className="toggler"
+        aria-controls="responsive-navbar-nav"
+      />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="navlinks justify-content-end">
+          <NavItem className="nav-link">
+            <Link className="links" to="/about">
               About
-            </Nav.Link>
-            <Nav.Link className="nav-link" href="/portfolio">
+            </Link>
+          </NavItem>
+          <NavItem className="nav-link">
+            <Link className="links" to="/portfolio">
               Portfolio
-            </Nav.Link>
-            <Nav.Link className="nav-link" href="/contact">
+            </Link>
+          </NavItem>
+          <NavItem className="nav-link">
+            <Link className="links" to="/contact">
               Contact
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </Col>
+            </Link>
+          </NavItem>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 

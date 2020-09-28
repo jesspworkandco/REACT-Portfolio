@@ -1,7 +1,3 @@
-/* .container {
- 
-  white-space: nowrap;
-} */
 .row {
   margin: none;
   padding: none;
@@ -11,14 +7,25 @@
   height: 7rem;
   font-family: "Jura", sans-serif;
   padding-left: 10px;
-  padding-right: 10px;
+  background-color: darkgrey;
 }
 #home {
+  padding-right: 5px;
   font-size: 4rem;
+  color: #66b2b2;
 }
-.nav-link {
-  font-size: 1.8rem;
-  color: lavenderblush;
+
+/* .girl-logo {
+  width: 40px;
+  margin-right: 15px;
+} */
+.toggler {
+  background-color: #66b2b2;
+  border-color: #66b2b2;
+}
+.links {
+  font-size: 1.3rem;
+  color: #008080;
 }
 .mr-auto {
   max-height: 50px;

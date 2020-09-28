@@ -3,28 +3,28 @@
     "id": "1",
     "image": "https://images.unsplash.com/photo-1518607692857-bff9babd9d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     "title": "Your Day Planner",
-    "description": "Simple calendar application that allows the user to save events for each hour of the day and stay organized!",
+    "description": "Simple calendar application that allows you to save events for each hour of the day and stay organized!",
     "link": "https://jessicaperez1.github.io/Your-Day-Planner/"
   },
   {
     "id": "2",
     "image": "https://images.unsplash.com/photo-1592439024283-43a91c26a445?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     "title": "Password Generator",
-    "description": "This app generates a random password based on user input when chosing creteria.",
+    "description": "This app generates a random password based on user criteria input.",
     "link": "https://jessicaperez1.github.io/Password-Generator/"
   },
   {
     "id": "3",
     "image": "https://images.unsplash.com/photo-1527168027773-0cc890c4f42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     "title": "Note Taker",
-    "description": "",
+    "description": "Don't forget anything: this app can be used to write, save and delete notes.",
     "link": "https://github.com/JessicaPerez1/Note-Taker.git"
   },
   {
     "id": "4",
     "image": "https://d2d3qesrx8xj6s.cloudfront.net/img/screenshots/b43c39513963d870d399a0aab2438af225f9f485.jpg",
     "title": "Team Profile Generator",
-    "description": "",
+    "description": "This app takes information about employees and generates an HTML webpage that displays summaries for each person.",
     "link": "https://github.com/JessicaPerez1/Team-Profile-Generator.git"
   },
   {
@@ -38,7 +38,7 @@
     "id": "6",
     "image": "https://i.ytimg.com/vi/lW4l9S1Q4aI/hqdefault.jpg",
     "title": "Eat Da Burger",
-    "description": "",
+    "description": "Pick from a burger menu, keep track of the ones you've eaten; create your own burgers and add them to the menu!",
     "link": "https://zeburgereater.herokuapp.com/"
   },
   {
@@ -53,28 +53,28 @@
     "image": "https://elements-cover-images-0.imgix.net/c55068dd-bb20-4dc7-b926-aae00b17c890?auto=compress&crop=edges&fit=crop&fm=jpeg&h=630&w=1200&s=034505c3f83d25bc3655d1810d113cd4",
     "title": "Fitness Tracker",
     "description": "",
-    "link": "https://github.com/JessicaPerez1/Fitness-Tracker.git"
+    "link": "https://sheltered-eyrie-16270.herokuapp.com/"
   },
   {
     "id": "9",
     "image": "https://images.unsplash.com/photo-1586034679970-cb7b5fc4928a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
     "title": "Budget Tracker",
     "description": "",
-    "link": "https://github.com/JessicaPerez1/Budget-Tracker.git"
+    "link": "https://obscure-wildwood-18662.herokuapp.com/"
   },
   {
     "id": "10",
-    "image": "https://images.unsplash.com/photo-1593412355111-3a811fc8e66d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
+    "image": "https://media3.s-nbcnews.com/i/newscms/2015_10/921071/150308-sistine-chapel_1fa1222efe978183efb3a604efbfac09.jpg",
     "title": "Famous Painters Rolodex",
     "description": "This is a ReactJS famous painters directory. There is an autocomplete functionality and results can be filtered by name.",
-    "link": "https://github.com/JessicaPerez1/Famous-Painters-React.git"
+    "link": "https://cryptic-sea-20756.herokuapp.com/"
   },
   {
     "id": "11",
     "image": "https://www.jokejive.com/images/jokejive/7a/7aed749d0b67973eb1a1a7236c4b89c3.jpeg",
     "title": "The Joke Factory",
     "description": "",
-    "link": "https://github.com/mkgude/marian-mike-jessica-camrynne-Joke-Factory.git"
+    "link": "https://mkgude.github.io/marian-mike-jessica-camrynne-Joke-Factory/"
   },
   {
     "id": "12",

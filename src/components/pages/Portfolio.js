@@ -12,7 +12,7 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <Col xs={10} className="column mx-auto">
+      <Col xs={10} className="column mx-auto px-auto">
         <div className="portfolio-title mx-sm-4 text-center">
           <h1>
             <span className="portfolio">PORTFOLIO</span>
@@ -20,7 +20,7 @@ class Portfolio extends React.Component {
           </h1>
 
           <div className="card-group">
-            <Row className="mx-auto">
+            <Row>
               {this.state.projects.map((project) => (
                 <Col sm={10} md={6} lg={4}>
                   <Card className="card" key={project.id}>
