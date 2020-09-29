@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
-import Jpg from "../../assets/me-nature.jpg";
+import Jpeg from "../../assets/me-nature.jpeg";
 import "./home.css";
 
 function Home() {
@@ -11,12 +11,12 @@ function Home() {
         <span className="first">JESSICA</span>
         <span className="last">PEREZ</span>
       </h3>
-      <Image className="nature" src={Jpg} roundedCircle />
+      <Image className="nature" src={Jpeg} roundedCircle />
       <h5 className="skills mt-3">
         <span className="last">TECHNICAL</span>
         <span className="first">SKILLS</span>
       </h5>
-      <ul className="text-center mb-5">
+      <ul className="mb-5">
         <li> > HTML5</li>
         <li> > CSS</li>
         <li> > Bootstrap</li>
