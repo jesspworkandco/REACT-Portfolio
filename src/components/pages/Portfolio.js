@@ -47,11 +47,8 @@ class Portfolio extends React.Component {
                         rel="noopener noreferrer"
                         target="_blank"
                       >
-                        <Card.Title>
+                        <Card.Title className="project-title">
                           {project.title}
-                          <div className="tooltip">
-                            <span className="tooltiptext">GitHub Link</span>
-                          </div>
                         </Card.Title>
                       </a>
                       <Card.Text>{project.description}</Card.Text>
