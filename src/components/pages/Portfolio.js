@@ -51,6 +51,7 @@ class Portfolio extends React.Component {
                           {project.title}
                         </Card.Title>
                       </a>
+                      <p className="technology">{project.technologies}</p>
                       <Card.Text>{project.description}</Card.Text>
                     </Card.Body>
                   </Card>
