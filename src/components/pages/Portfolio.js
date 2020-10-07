@@ -20,8 +20,8 @@ class Portfolio extends React.Component {
               <span className="gallery">GALLERY</span>
             </h1>
             <p className="subtitle">
-              Click the image and start exploring some of my personal and group
-              projects!
+              Click the image to start testing the apps and click the title to
+              see the code!
             </p>
           </div>
           <div className="card-group mx-auto">

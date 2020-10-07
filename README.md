@@ -2,7 +2,7 @@
 
 ## Description
 
-Created my portfolio with REACT and REACT-BOOTSTRAP.
+Created my portfolio with REACT and REACT-BOOTSTRAP. Ensured a responsive layout and user friendly interface with burger nav and clickable images/icons and links.
 
 ## Table of Contents
 
@@ -12,7 +12,10 @@ Created my portfolio with REACT and REACT-BOOTSTRAP.
 
 ## Usage
 
-- Click on the deployed app link and check it out! Please don't hesitate to get in touch.
+- Click on the deployed app link and check out my Portfolio! Please don't hesitate to get in touch.
+- The user can click the project image and will be directed to the deployed app and click the title to see the GitHub repository.
+- Navbar and footer are fixed on all pages for easy navigation.
+- Click the footer icons to easily view my GitHub, LinkedIn, and PDF resume.
 
 ### Github-repository-Heroku-deployed-link
 
