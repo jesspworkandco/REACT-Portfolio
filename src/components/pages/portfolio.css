@@ -1,7 +1,7 @@
 .column {
   width: 100%;
   display: grid;
-  margin-top: 8rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
   padding: 0.8rem;
 }
@@ -13,12 +13,12 @@
   font-size: 1.2rem;
 }
 .portfolio {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bolder;
   color: black;
 }
 .gallery {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bolder;
   color: darkgray;
 }

@@ -1,22 +1,61 @@
-.container {
+/* .container {
   font-family: "Jura", sans-serif;
   margin-top: 8rem;
 
   width: 100%;
-}
-.skills {
+} */
+/* .skills {
   font-size: small;
-}
-.row {
+} */
+/* .row {
   display: flex;
   flex-wrap: row;
-}
-.nature {
-  width: 400px;
-  margin-top: 1rem;
-}
-ul {
+} */
+/* ul {
   list-style-type: none;
   font-size: 1.3rem;
   padding-bottom: 3rem;
+} */
+
+.nature {
+  width: 400px;
+  margin-top: 0.1rem;
+}
+.column {
+  width: 100%;
+  display: grid;
+}
+.jumbo {
+  font-family: "Jura", sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  margin-top: 3.8rem;
+}
+.first {
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+.last {
+  font-size: 30px;
+  font-weight: bolder;
+  color: darkgray;
+}
+.cell {
+  color: darkgray;
+  margin-bottom: 0.5rem;
+}
+#email {
+  margin-left: 5px;
+  color: #66b2b2;
+}
+h4 {
+  font-weight: bold;
+}
+.bio {
+  color: #777e7e;
+  font-size: 1.1rem;
+  margin: 0 auto;
+  max-width: 800px;
+  line-height: 2rem;
 }

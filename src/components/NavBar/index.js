@@ -1,13 +1,11 @@
 import React from "react";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// import Png from "../../assets/girl-logo.png";
 import "./navbar.css";
 
 function NavBar() {
   return (
     <Navbar className="navigation" bg="dark" fixed="top" expand="lg">
-      {/* <Image className="girl-logo" src={Png} rounded /> */}
       <Navbar.Brand id="home" href="/">
         JP
       </Navbar.Brand>
@@ -17,11 +15,6 @@ function NavBar() {
       />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="navlinks justify-content-end">
-          <NavItem className="nav-link">
-            <Link className="links" to="/about">
-              About
-            </Link>
-          </NavItem>
           <NavItem className="nav-link">
             <Link className="links" to="/portfolio">
               Portfolio
