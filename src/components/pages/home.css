@@ -1,25 +1,6 @@
-/* .container {
-  font-family: "Jura", sans-serif;
-  margin-top: 8rem;
-
-  width: 100%;
-} */
-/* .skills {
-  font-size: small;
-} */
-/* .row {
-  display: flex;
-  flex-wrap: row;
-} */
-/* ul {
-  list-style-type: none;
-  font-size: 1.3rem;
-  padding-bottom: 3rem;
-} */
-
 .nature {
   width: 400px;
-  margin-top: 0.1rem;
+  margin-top: 0.4rem;
 }
 .column {
   width: 100%;
@@ -56,6 +37,12 @@ h4 {
   color: #777e7e;
   font-size: 1.1rem;
   margin: 0 auto;
+  padding-right: 0.5rem;
   max-width: 800px;
   line-height: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.important {
+  color: #585958;
 }

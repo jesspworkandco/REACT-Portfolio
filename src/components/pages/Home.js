@@ -21,17 +21,27 @@ function Home() {
           </a>
         </h4>
         <p className="bio mt-4">
-          I am a Frontend/Full Stack Web Developer, aiming to combine my
-          marketing background with my education from Columbia University
-          Bootcamp. My skillset and experience, put me at the forefront to join
-          an engineering team tasked to accomplish strategic launches of
-          innovative user friendly apps. A recent portfolio will show personal
-          and team projects. I’ve set sail my own segue from France to the USA,
-          and more recently from marketing, with goals to accomplish this
-          transition towards becoming an accomplished Software Engineer. I love
-          working with people from diverse backgrounds and cultures, am a great
-          communicator and have exceptional interpersonal skills. During my down
-          time, I listen to music and bake french sweets!
+          Web Developer, with a marketing and hospitality manager background.
+          Full-stack certificate from Columbia University during which I
+          developed a comprehensive portfolio. My skillset and experience, put
+          me at the forefront to join an engineering team tasked to accomplish
+          strategic launches of innovative user friendly apps.
+          <br />
+          I’ve set sail my own segue from France to the USA, and more recently
+          from hospitality, with goals to accomplish this transition towards
+          becoming an accomplished Software Engineer working on meaningful
+          projects.
+          <br />
+          Having worked in different industries, I have a great ability to
+          balance distinct skill sets. I enjoy working in teams, am a great
+          listener and communicator.
+          <br />
+          <span className="important">
+            Ambition is my drive, constantly learning new things is my fuel.
+          </span>
+          <br />
+          During my down time, I like watching documentaries, listening to music
+          and baking delicious french sweets!
         </p>
       </Jumbotron>
     </Col>

@@ -9,27 +9,26 @@
   padding-left: 10px;
   background-color: darkgrey;
 }
+#responsive-navbar-nav {
+  margin-top: 0.8rem;
+}
 #home {
   padding-right: 5px;
   font-size: 3rem;
   color: #66b2b2;
 }
-
-/* .girl-logo {
-  width: 40px;
-  margin-right: 15px;
-} */
 .toggler {
   background-color: #66b2b2;
   border-color: #66b2b2;
 }
 .links {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #008080;
+  line-height: 0.5rem;
 }
 .mr-auto {
   max-height: 50px;
 }
-.nav-link:hover {
-  color: #858384;
+.links:hover {
+  color: darkgrey;
 }
