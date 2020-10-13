@@ -22,7 +22,7 @@ Created my portfolio with REACT and REACT-BOOTSTRAP. Ensured a responsive layout
 - Github repository:
   [Github repository](https://github.com/JessicaPerez1/REACT-Portfolio.git)
 - Heroku Deployed link:
-  [Heroku deployed app link](https://peaceful-chamber-26658.herokuapp.com/)
+  [Heroku deployed app link](https://ze-french-coder-portfolio.herokuapp.com/)
 
 ### Questions
 

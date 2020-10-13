@@ -31,19 +31,19 @@ function Home() {
           Full-stack certificate from Columbia University during which I
           developed a comprehensive portfolio. My skillset and experience, put
           me at the forefront to join an engineering team tasked to accomplish
-          strategic launches of innovative user friendly apps.
+          strategic launches of polished user friendly apps.
           <br />
           I’ve set sail my own segue from France to the USA, and more recently
           from hospitality, with goals to accomplish this transition towards
-          becoming an accomplished Software Engineer working on meaningful
-          projects.
+          becoming an accomplished Software Engineer.
           <br />
           Having worked in different industries, I have a great ability to
           balance distinct skill sets. I enjoy working in teams, am a great
-          listener and communicator.
+          listener and communicator, looking to join a team with similar values
+          and working on meaningful projects.
           <br />
           <span className="important">
-            Ambition is my drive, constantly learning new things is my fuel.
+            Ambition is my drive, learning new things is my fuel.
           </span>
           <br />
           During my down time, I like watching documentaries, listening to music
