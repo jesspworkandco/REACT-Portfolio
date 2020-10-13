@@ -15,8 +15,14 @@ function Home() {
           <span className="last">PEREZ</span>
         </h1>
         <h4 className="contact mt-3">
-          NEW YORK, NY 10010 || <span className="cell">(917) 847-1533</span> ||
-          <a id="email" href="mailto:1jessicaperez@gmail.com">
+          NEW YORK, NY 10010 || <span className="cell">(917) 847-1533</span>
+          ||
+          <a
+            data-toggle="tooltip"
+            title="Send me a message!"
+            id="email"
+            href="mailto:1jessicaperez@gmail.com"
+          >
             1JESSICAPEREZ@GMAIL.COM
           </a>
         </h4>
