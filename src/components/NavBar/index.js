@@ -16,6 +16,11 @@ function NavBar() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="navlinks justify-content-end">
           <NavItem className="nav-link">
+            <Link className="links" to="/about">
+              About
+            </Link>
+          </NavItem>
+          <NavItem className="nav-link">
             <Link className="links" to="/portfolio">
               Portfolio
             </Link>
