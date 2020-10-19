@@ -1,13 +1,12 @@
 .aboutbody {
-  height: 1900px;
-
-  margin: 0;
+  height: 1800px;
+  margin: 50px 0px 0px 0px;
 }
 .french-cat {
   width: 250px;
 }
 .container {
-  margin-top: 8rem;
+  margin-top: 50rem;
   margin-bottom: 3rem;
 }
 .jumbo {
@@ -43,10 +42,7 @@ h4 {
 }
 .bio {
   color: black;
-  /* color: #777e7e; */
   font-size: 1.1rem;
-  /* margin: 0 auto; */
-  /* max-width: 800px; */
   line-height: 1.7rem;
   text-align: justify;
   text-justify: inter-word;
@@ -55,11 +51,13 @@ h4 {
   color: #585958;
   font-size: 1.2rem;
 }
-
 .tooltip {
   position: relative;
   display: inline-block;
   margin-left: 5px;
   color: #66b2b2;
   font-size: xx-large;
+}
+#topics-name {
+  color: #cf1a06;
 }
