@@ -27,7 +27,7 @@ class Portfolio extends React.Component {
                 see the GitHub repository!
               </p>
             </div>
-            <div className="card-group mx-auto">
+            <div className="card-group">
               <Row>
                 {this.state.projects.map((project) => (
                   <Col sm={12} md={6} lg={4} key={project.id}>

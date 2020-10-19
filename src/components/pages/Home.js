@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar";
+import Image from "react-bootstrap/Image";
 import "./home.css";
 
 class Home extends React.Component {
@@ -38,12 +39,22 @@ class Home extends React.Component {
           </h1>
           <p className="text text-center">
             ze French
-            <img
-              src="../../assets/eiffel-tower.png"
+            <Image
+              src="https://www.iconarchive.com/download/i91881/icons8/windows-8/Travel-Eiffel-Tower.ico"
+              className="eiffel-tower mx-2"
+              width="30px"
+            ></Image>
+            {/* <img
+              src="../../src/assets/eiffel-tower.png"
               alt="eiffel tower icon"
               id="eiffel"
-            ></img>
+            ></img> */}
             coder
+            <Image
+              src="https://www.iconarchive.com/download/i91881/icons8/windows-8/Travel-Eiffel-Tower.ico"
+              className="eiffel-tower-2 mx-2"
+              width="30px"
+            ></Image>
           </p>
         </div>
       </>

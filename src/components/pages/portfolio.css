@@ -20,23 +20,24 @@
 .gallery {
   font-size: 30px;
   font-weight: bolder;
-  color: darkgray;
+  color: #008080;
 }
 .card-group {
-  border: 1px solid lightgrey;
+  /* border: 1px solid lightgrey; */
   display: flex;
   flex-wrap: row;
 }
 .card {
   border: none;
-  margin: 5px 0px 0px 3px;
-  padding: 0px;
+  border-radius: 10px;
+  margin: 3px 0px 0px 3px;
+  padding: none;
   min-width: 30%;
-  height: auto;
+  height: 27rem;
   display: flex;
 }
 .image {
-  width: 16rem;
+  width: 17rem;
   height: 13rem;
 }
 .project-title {
