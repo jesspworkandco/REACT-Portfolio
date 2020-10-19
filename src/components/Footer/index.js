@@ -8,7 +8,20 @@ function Footer() {
   return (
     <Container fluid className="footer text-center fixed-bottom">
       <Row className="fullrow">
-        <Col className="item">
+        <Col xs={3} className="item">
+          <a
+            href="mailto:1jessicaperez@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <Image
+              className="logo"
+              src="https://icon-library.com/images/mail-icon-circle/mail-icon-circle-19.jpg"
+              roundedCircle
+            />
+          </a>
+        </Col>
+        <Col xs={3} className="item">
           <a
             href="https://github.com/JessicaPerez1"
             rel="noopener noreferrer"
@@ -21,7 +34,7 @@ function Footer() {
             />
           </a>
         </Col>
-        <Col className="item">
+        <Col xs={3} className="item">
           <a
             href="https://www.linkedin.com/in/jessica-p-a13a20b5/"
             rel="noopener noreferrer"
@@ -29,15 +42,15 @@ function Footer() {
           >
             <Image
               className="logo"
-              src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png"
+              src="https://icon-library.com/images/linkedin-icon-black-and-white/linkedin-icon-black-and-white-13.jpg"
             />
           </a>
         </Col>
-        <Col className="item">
+        <Col xs={3} className="item">
           <a href={Pdf} rel="noopener noreferrer" target="_blank">
             <Image
               className="logo"
-              src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/600x/1b89f2fc96fc819c2a7e15c7e545e8a9/3/1/3164.9-cv-file-icon-iconbunny.jpg"
+              src="https://icon-library.com/images/icon-resume/icon-resume-15.jpg"
               roundedCircle
             />
           </a>

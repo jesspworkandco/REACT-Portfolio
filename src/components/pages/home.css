@@ -1,56 +1,56 @@
-.nature {
-  width: 400px;
-  margin-top: 0.4rem;
-}
-.column {
-  width: 100%;
-  display: grid;
-}
-.jumbo {
+body {
   font-family: "Jura", sans-serif;
-  font-weight: bold;
-  background-color: transparent;
-  margin-top: 3.8rem;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  /* background-image: url("../../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #b6b1a0;
 }
-.first {
-  font-size: 30px;
-  font-weight: bolder;
-  color: black;
+.homebody {
+  height: 1900px;
 }
-.last {
-  font-size: 30px;
-  font-weight: bolder;
-  color: darkgray;
-}
-.cell {
-  color: darkgray;
-  margin-bottom: 0.5rem;
-}
-#email {
-  margin-left: 5px;
-  color: #66b2b2;
-}
-h4 {
-  font-weight: bold;
-}
-.bio {
-  color: #777e7e;
-  font-size: 1.1rem;
+.name {
   margin: 0 auto;
-  padding-right: 0.5rem;
-  max-width: 800px;
-  line-height: 2rem;
-  text-align: justify;
-  text-justify: inter-word;
+  padding-top: 200px;
+  color: #cf1a06;
 }
-.important {
-  color: #585958;
+h1 .first {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #008080;
 }
-
-.tooltip {
+h1 .last {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #008080;
+}
+/* BERET ANIMATION */
+.beret {
   position: relative;
-  display: inline-block;
-  margin-left: 5px;
-  color: #66b2b2;
-  font-size: xx-large;
+  animation: mymove 2s infinite;
+  animation-timing-function: linear;
 }
+@keyframes mymove {
+  from {
+    left: 7px;
+  }
+  to {
+    right: 10px;
+  }
+}
+.text {
+  color: rgb(73, 71, 71);
+  font-size: 30px;
+}
+#eiffel {
+  width: 15px;
+}
+/* color: #286928; */
+/* color: #024224; */
+
+/* #c08081 */
+/* #fbccd1 */
+/* #cf989f */

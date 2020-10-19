@@ -1,10 +1,14 @@
-.nature {
-  width: 400px;
-  margin-top: 0.4rem;
+.aboutbody {
+  height: 1900px;
+
+  margin: 0;
 }
-.column {
-  width: 100%;
-  display: grid;
+.french-cat {
+  width: 250px;
+}
+.container {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
 }
 .jumbo {
   font-family: "Jura", sans-serif;
@@ -13,38 +17,43 @@
   margin-top: 3.8rem;
 }
 .first {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
   color: black;
 }
 .last {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
   color: darkgray;
 }
+.contact {
+  font-size: 18px;
+}
 .cell {
-  color: darkgray;
-  margin-bottom: 0.5rem;
+  color: black;
+  /* color: darkgray; */
+  margin-bottom: 0.3rem;
 }
 #email {
   margin-left: 5px;
-  color: #66b2b2;
+  color: #008080;
 }
 h4 {
   font-weight: bold;
 }
 .bio {
-  color: #777e7e;
+  color: black;
+  /* color: #777e7e; */
   font-size: 1.1rem;
-  margin: 0 auto;
-  padding-right: 0.5rem;
-  max-width: 800px;
-  line-height: 2rem;
+  /* margin: 0 auto; */
+  /* max-width: 800px; */
+  line-height: 1.7rem;
   text-align: justify;
   text-justify: inter-word;
 }
 .important {
   color: #585958;
+  font-size: 1.2rem;
 }
 
 .tooltip {

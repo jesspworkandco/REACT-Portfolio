@@ -7,28 +7,29 @@
   height: 7rem;
   font-family: "Jura", sans-serif;
   padding-left: 10px;
-  background-color: darkgrey;
+  /* background-color: #b6b1a0; */
 }
 #responsive-navbar-nav {
   margin-top: 0.8rem;
 }
 #home {
   padding-right: 5px;
-  font-size: 3rem;
-  color: #66b2b2;
+  font-size: 2.5rem;
+  color: #e26b03;
 }
 .toggler {
-  background-color: #66b2b2;
-  border-color: #66b2b2;
+  background-color: #cf1a06;
+  border-color: #cf1a06;
 }
 .links {
   font-size: 1.4rem;
-  color: #008080;
+  color: #cf1a06;
+
   line-height: 0.5rem;
 }
 .mr-auto {
   max-height: 50px;
 }
 .links:hover {
-  color: darkgrey;
+  color: #e26b03;
 }

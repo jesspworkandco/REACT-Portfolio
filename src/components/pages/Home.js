@@ -1,57 +1,53 @@
 import React from "react";
-import Image from "react-bootstrap/Image";
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Col from "react-bootstrap/Col";
-import Jpeg from "../../assets/me-nature.jpeg";
+import NavBar from "../NavBar";
 import "./home.css";
 
-function Home() {
-  return (
-    <Col xs={12} className="column mt-1">
-      <Jumbotron fluid className="jumbo text-center">
-        <Image className="nature" src={Jpeg} roundedCircle />
-        <h1>
-          <span className="first">JESSICA</span>
-          <span className="last">PEREZ</span>
-        </h1>
-        <h4 className="contact mt-3">
-          NEW YORK, NY 10010 || <span className="cell">(917) 847-1533</span>
-          ||
-          <a
-            data-toggle="tooltip"
-            title="Send me a message!"
-            id="email"
-            href="mailto:1jessicaperez@gmail.com"
-          >
-            1JESSICAPEREZ@GMAIL.COM
-          </a>
-        </h4>
-        <p className="bio mt-4">
-          Web Developer, with a marketing and hospitality manager background.
-          Full-stack certificate from Columbia University during which I
-          developed a comprehensive portfolio. My skillset and experience, put
-          me at the forefront to join an engineering team tasked to accomplish
-          strategic launches of polished user friendly apps.
-          <br />
-          I’ve set sail my own segue from France to the USA, and more recently
-          from hospitality, with goals to accomplish this transition towards
-          becoming an accomplished Software Engineer.
-          <br />
-          Having worked in different industries, I have a great ability to
-          balance distinct skill sets. I enjoy working in teams, am a great
-          listener and communicator, looking to join a team with similar values
-          and working on meaningful projects.
-          <br />
-          <span className="important">
-            Ambition is my drive, learning new things is my fuel.
-          </span>
-          <br />
-          During my down time, I like watching documentaries, listening to music
-          and baking delicious french sweets!
-        </p>
-      </Jumbotron>
-    </Col>
-  );
+class Home extends React.Component {
+  state = {
+    title: "Hello, I am",
+  };
+  frenchTitle = () => {
+    this.setState({
+      title: "Bonjour, je m'appelle",
+    });
+  };
+  englishTitle = () => {
+    this.setState({
+      title: "Hello, I am",
+    });
+  };
+  render() {
+    return (
+      <>
+        <NavBar />
+        <div className="homebody">
+          <h1 className="name text-center">
+            <p onMouseEnter={this.frenchTitle} onMouseLeave={this.englishTitle}>
+              {this.state.title}
+            </p>
+            <span className="first">JESSICA</span>
+            <img
+              src="https://image.flaticon.com/icons/png/512/26/26868.png"
+              // src="https://img2.pngio.com/baguette-bread-icon-noto-emoji-food-drink-iconset-google-baguette-icon-png-1024_1024.png"
+              alt="baguette icon"
+              width="60"
+              height="70"
+              className="beret pb-3 px-2"
+            ></img>
+            <span className="last">PEREZ</span>
+          </h1>
+          <p className="text text-center">
+            ze French
+            <img
+              src="../../assets/eiffel-tower.png"
+              alt="eiffel tower icon"
+              id="eiffel"
+            ></img>
+            coder
+          </p>
+        </div>
+      </>
+    );
+  }
 }
-
 export default Home;
