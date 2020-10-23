@@ -15,7 +15,7 @@
   background-color: transparent;
   margin-top: 3.8rem;
 }
-.first {
+/* .first {
   font-size: 25px;
   font-weight: bolder;
   color: black;
@@ -31,18 +31,18 @@
 .cell {
   color: black;
   /* color: darkgray; */
-  margin-bottom: 0.3rem;
-}
-#email {
+/* margin-bottom: 0.3rem; */
+
+/* #email {
   margin-left: 5px;
-  color: #008080;
+  color: #c08081;
 }
 h4 {
   font-weight: bold;
-}
+} */
 .bio {
   color: black;
-  font-size: 1.1rem;
+  font-size: 4rem;
   line-height: 1.7rem;
   text-align: justify;
   text-justify: inter-word;
@@ -57,7 +57,4 @@ h4 {
   margin-left: 5px;
   color: #66b2b2;
   font-size: xx-large;
-}
-#topics-name {
-  color: #cf1a06;
 }

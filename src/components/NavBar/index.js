@@ -1,53 +1,61 @@
 import React from "react";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Image from "react-bootstrap/Image";
 import "./navbar.css";
 
-function NavBar() {
-  return (
-    <>
-      <Navbar
-        className="navigation justify-content-end"
-        fixed="top"
-        expand="lg"
-      >
-        {/* <img
-          src="https://image.flaticon.com/icons/png/512/26/26868.png"
-          alt="beret icon"
-          width="40"
-        ></img> */}
-        <Navbar.Brand id="home" href="/" className="pl-2">
-          JP
-        </Navbar.Brand>
-        <Navbar.Toggle
-          className="toggler "
-          aria-controls="responsive-navbar-nav"
-        />
-        <Navbar.Collapse
-          id="responsive-navbar-nav"
-          className="justify-content-end"
-        >
-          <Nav className="navlinks justify-content-end">
-            <NavItem className="nav-link">
-              <Link className="links" to="/about">
-                About
-              </Link>
-            </NavItem>
-            <NavItem className="nav-link">
-              <Link className="links" to="/portfolio">
-                Portfolio
-              </Link>
-            </NavItem>
-            {/* <NavItem className="nav-link">
-              <Link className="links" to="/contact">
-                Contact
-              </Link>
-            </NavItem> */}
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </>
-  );
-}
+class NavBar extends React.Component {
+  render() {
+    return (
+      <>
+        <Navbar className="navigation flex-column" fixed="top" expand="lg">
+          <Navbar.Toggle
+            className="toggler mx-0"
+            // aria-controls="responsive-navbar-nav"
+          ></Navbar.Toggle>
+          <Navbar.Collapse id="responsive-navbar-nav" className="ml-0">
+            <Nav className="navlinks flex-column text-center">
+              {/* <span className="close">&times;</span> */}
+              <Image
+                className="french-cat mb-2"
+                // width="220"
+                src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
+                roundedCircle
+              />
+              <h4 className="contact mt-3">
+                NEW YORK, NY 10010
+                <br /> <span className="cell">(917) 847-1533</span>
+                <br />
+                <a
+                  data-toggle="tooltip"
+                  title="Send me a message!"
+                  id="email"
+                  href="mailto:1jessicaperez@gmail.com"
+                >
+                  1JESSICAPEREZ@GMAIL.COM
+                </a>
+              </h4>
 
+              <NavItem className="nav-link">
+                <Link className="links" to="/home">
+                  Home
+                </Link>
+              </NavItem>
+              <NavItem className="nav-link">
+                <Link className="links" to="/about">
+                  About
+                </Link>
+              </NavItem>
+              <NavItem className="nav-link">
+                <Link className="links" to="/portfolio">
+                  Portfolio
+                </Link>
+              </NavItem>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </>
+    );
+  }
+}
 export default NavBar;

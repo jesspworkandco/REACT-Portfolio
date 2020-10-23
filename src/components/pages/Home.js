@@ -30,7 +30,7 @@ class Home extends React.Component {
             <img
               src="https://image.flaticon.com/icons/png/512/26/26868.png"
               // src="https://img2.pngio.com/baguette-bread-icon-noto-emoji-food-drink-iconset-google-baguette-icon-png-1024_1024.png"
-              alt="baguette icon"
+              alt="beret icon"
               width="60"
               height="70"
               className="beret pb-3 px-2"

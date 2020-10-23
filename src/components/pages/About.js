@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import NavBar from "../NavBar";
-import Image from "react-bootstrap/Image";
+
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
@@ -21,7 +21,9 @@ const topicsArray = [
   "APIs",
   "Express",
 ];
-
+const topicStyle = {
+  color: "#008080",
+};
 class About extends React.Component {
   //state to start at index 0
   state = { topicsIndex: 0 };
@@ -42,16 +44,16 @@ class About extends React.Component {
       <>
         <NavBar />
         <div className="aboutbody">
-          <Container className="container" style={{ marginTop: "10em" }}>
+          <Container className="container" style={{ marginTop: "8em" }}>
             <Row>
-              <Col md={4} className="first-column text-center">
-                <Image
+              <Col sm={0} md={2} className="first-column text-center">
+                {/* <Image
                   className="french-cat"
                   width="220"
                   src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
                   roundedCircle
-                />
-                <h4 className="contact mt-3">
+                /> */}
+                {/* <h4 className="contact mt-3">
                   NEW YORK, NY 10010
                   <br /> <span className="cell">(917) 847-1533</span>
                   <br />
@@ -63,19 +65,20 @@ class About extends React.Component {
                   >
                     1JESSICAPEREZ@GMAIL.COM
                   </a>
-                </h4>
+                </h4> */}
               </Col>
-              <Col md={8} className="pl-sm-5">
+              <Col sm={12} md={10} className="pl-sm-5">
                 <h3 className="skills text-left">
-                  OUI OUI to <span id="topics-name">{changeTopics}</span>
+                  OUI OUI to: <span style={topicStyle}>{changeTopics}</span>
                 </h3>
+                <h5>Aspiring Frontend Developer...</h5>
                 <p className="bio mt-4">
-                  Web Developer, with a marketing and hospitality manager
-                  background. Full-stack certificate from Columbia University
-                  during which I developed a comprehensive portfolio. My
-                  skillset and experience, put me at the forefront to join an
-                  engineering team tasked to accomplish strategic launches of
-                  polished user friendly apps.
+                  ...with a marketing and hospitality manager background.
+                  Full-stack certificate from Columbia University during which I
+                  developed a comprehensive portfolio. My skillset and
+                  experience, put me at the forefront to join an engineering
+                  team tasked to accomplish strategic launches of polished user
+                  friendly apps.
                   <br />
                   I’ve set sail my own segue from France to the USA, and more
                   recently from hospitality, with goals to achieve this

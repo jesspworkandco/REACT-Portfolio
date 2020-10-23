@@ -54,17 +54,9 @@
     "link": "https://github.com/JessicaPerez1/Employee-Tracker.git",
     "github": "https://github.com/JessicaPerez1/Employee-Tracker.git"
   },
+
   {
     "id": "7",
-    "image": "https://images.unsplash.com/photo-1565169609627-4b848c72c614?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
-    "title": "Eat Da Burger",
-    "technologies": "Node Express Handlebars",
-    "description": "Pick from a burger menu, keep track of the ones you've eaten; create your own burgers and add them to the menu!",
-    "link": "https://zeburgereater.herokuapp.com/",
-    "github": "https://github.com/JessicaPerez1/Eat-Da-Burger.git"
-  },
-  {
-    "id": "8",
     "image": "https://images.unsplash.com/photo-1509803874385-db7c23652552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
     "title": "Weather Dashboard",
     "technologies": "Javascript, 3rd party API",
@@ -73,7 +65,7 @@
     "github": "https://github.com/JessicaPerez1/Weather-Dashboard.git"
   },
   {
-    "id": "9",
+    "id": "8",
     "image": "https://elements-cover-images-0.imgix.net/c55068dd-bb20-4dc7-b926-aae00b17c890?auto=compress&crop=edges&fit=crop&fm=jpeg&h=630&w=1200&s=034505c3f83d25bc3655d1810d113cd4",
     "title": "Fitness Tracker",
     "technologies": "NoSQL, Mongoose/Express",
@@ -82,7 +74,7 @@
     "github": "https://github.com/JessicaPerez1/Fitness-Tracker.git"
   },
   {
-    "id": "10",
+    "id": "9",
     "image": "https://images.unsplash.com/photo-1586034679970-cb7b5fc4928a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
     "title": "Budget Tracker",
     "technologies": "IndexedDB, Mongoose/Express",
@@ -91,7 +83,7 @@
     "github": "https://github.com/JessicaPerez1/Budget-Tracker.git"
   },
   {
-    "id": "11",
+    "id": "10",
     "image": "https://images.unsplash.com/photo-1527168027773-0cc890c4f42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     "title": "Note Taker",
     "technologies": "Express",
@@ -100,39 +92,12 @@
     "github": "https://github.com/JessicaPerez1/Note-Taker.git"
   },
   {
-    "id": "12",
+    "id": "11",
     "image": "https://images.unsplash.com/photo-1592439024283-43a91c26a445?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     "title": "Password Generator",
     "technologies": "Javascript, CSS",
     "description": "This app generates a random password based on user criteria input.",
     "link": "https://jessicaperez1.github.io/Password-Generator/",
     "github": "https://github.com/JessicaPerez1/Password-Generator.git"
-  },
-  {
-    "id": "13",
-    "image": "data:image/png;base64,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",
-    "title": "Ze French Quiz",
-    "technologies": "Javascript, Bootstrap, Web API",
-    "description": "This ia a  multiple-choice quiz. This app features dynamically updated HTML and CSS powered by JavaScript code.",
-    "link": "https://jessicaperez1.github.io/Ze-French-Quiz/",
-    "github": "https://github.com/JessicaPerez1/Ze-French-Quiz.git"
-  },
-  {
-    "id": "14",
-    "image": "https://www.jokejive.com/images/jokejive/7a/7aed749d0b67973eb1a1a7236c4b89c3.jpeg",
-    "title": "The Joke Factory",
-    "technologies": "jQuery, Bulma, 3rd party API",
-    "description": "Living in this 2020 Covid era is tough - need some humor? This app gives you access to jokes based on your preferences, to cheer up your family, dazzle your online dating matches, and strengthen your washboard abs of comedy.",
-    "link": "https://mkgude.github.io/marian-mike-jessica-camrynne-Joke-Factory/",
-    "github": "https://github.com/JessicaPerez1/marian-mike-jessica-camrynne-Joke-Factory.git"
-  },
-  {
-    "id": "15",
-    "image": "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
-    "title": "The Village",
-    "technologies": "MySQL, server side APIs",
-    "description": "Stay connected to your community: The Village app allows people from a specific area/zipcode to share and check local activities shared by their community.",
-    "link": "https://limitless-refuge-18664.herokuapp.com/",
-    "github": "https://github.com/JessicaPerez1/The-Village.git"
   }
 ]
