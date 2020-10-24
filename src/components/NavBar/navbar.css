@@ -18,20 +18,21 @@
 #responsive-navbar-nav {
   margin-top: 0;
   height: 100vh;
-  background-color: #b6b1a0;
+  background-color: #0050a4;
   font-family: "Jura", sans-serif;
 }
 .french-cat {
   margin: 0 auto;
   min-width: 50%;
   max-width: 70%;
+  border: 2px solid white;
 }
-#home {
+/* #home {
   padding-right: 5px;
   font-size: 2.5rem;
   color: #e26b03;
-}
-.first {
+} */
+/* .first {
   font-size: 25px;
   font-weight: bolder;
   color: black;
@@ -40,29 +41,26 @@
   font-size: 25px;
   font-weight: bolder;
   color: darkgray;
-}
+} */
 .contact {
   font-size: 18px;
-}
-.cell {
-  color: black;
-  /* color: darkgray; */
-  margin-bottom: 0.3rem;
+  color: white;
 }
 #email {
   margin-left: 5px;
-  color: #c08081;
+  color: yellow;
 }
 h4 {
   font-weight: bold;
 }
 .toggler {
-  background-color: #008080;
-  border-color: #008080;
+  background-color: #0050a4;
+  border-color: #0050a4;
 }
 .links {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #cf1a06;
+  font-weight: bold;
   /* line-height: 0.5rem; */
 }
 .mr-auto {

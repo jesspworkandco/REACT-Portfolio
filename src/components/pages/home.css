@@ -13,8 +13,8 @@ body {
   transform: rotate(90deg);
 }
 .homebody {
-  height: 100vh;
-  width: 100vw;
+  /* height: 100vh;
+  width: 100vw; */
   /* background-image: url(https://image.freepik.com/free-vector/hand-drawn-france-doodle-set_160308-254.jpg); */
   /* background-image: url(https://lh3.googleusercontent.com/proxy/JT633RoAIUkPolYq0VQpp40AAqG9T_pgk6dW0-AxbkxjNi-JR-4i04-RYtdFvtStVucF3wHmG-dPu1C8bmwWB0RQ); */
   /* background-image: url(https://freevector-images.s3.amazonaws.com/uploads/vector/preview/32785/32785.png); */
@@ -26,21 +26,22 @@ body {
   background-size: contain;
   /* background-image: url("../../assets/background.jpg");
   /* background-color: #b6b1a0; */
+  margin: 0 auto;
 }
 .name {
-  padding-top: 20rem;
-  color: #cf1a06;
+  padding-top: 10rem;
+  color: rgb(73, 71, 71);
   font-size: 2.5rem;
 }
 h1 .first {
   font-size: 2rem;
   font-weight: bolder;
-  color: #008080;
+  color: #cf1a06;
 }
 h1 .last {
   font-size: 2rem;
   font-weight: bolder;
-  color: #008080;
+  color: #cf1a06;
 }
 /* BERET ANIMATION */
 .beret {
@@ -56,7 +57,7 @@ h1 .last {
     right: 10px;
   }
 }
-.text {
+.coder-text {
   color: rgb(73, 71, 71);
   font-size: 2rem;
 }

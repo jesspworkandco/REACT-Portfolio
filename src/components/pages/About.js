@@ -1,7 +1,5 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import NavBar from "../NavBar";
-
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
@@ -19,6 +17,16 @@ const topicsArray = [
 ];
 const topicStyle = {
   color: "#008080",
+};
+const containerStyle = {
+  marginTop: "8em",
+};
+const bioStyle = {
+  marginTop: "1rem",
+  fontSize: "1.1rem",
+  /* line-height: 1.7rem; */
+  textAlign: "justify",
+  textJustify: "inter-word",
 };
 class About extends React.Component {
   //state to start at index 0
@@ -38,18 +46,13 @@ class About extends React.Component {
     let changeTopics = topicsArray[this.state.topicsIndex % topicsArray.length];
     return (
       <>
-        <NavBar />
         <div className="aboutbody">
-          <Container className="container" style={{ marginTop: "8em" }}>
+          <Container className="container" style={containerStyle}>
             <Row>
               <Col sm={0} md={2} className="first-column text-center"></Col>
               <Col sm={12} md={10} className="pl-sm-5">
-                <h3 className="skills text-left">
-                  Technical skills:{" "}
-                  <span style={topicStyle}>{changeTopics}</span>
-                </h3>
-                <h5>Enthusiastic Frontend Developer</h5>
-                <p className="bio mt-4">
+                <h3>Enthusiastic Frontend Developer</h3>
+                <p className="bio" style={bioStyle}>
                   Recent graduate from Columbia University, aspiring Frontent
                   Developer with a marketing background.
                   <br />
@@ -58,12 +61,13 @@ class About extends React.Component {
                   expectations. Passion for self-teaching and learning new
                   skills quickly.
                   <br />
-                  Having worked in different positions and industries, I can
-                  balance distinct skill sets and wear different hats.
-                  <br />
                   During my down time, I like watching documentaries, listening
                   to music and baking delicious Canelés from Bordeaux!
                 </p>
+                <h4 className="skills text-left">
+                  Technical skills:{" "}
+                  <span style={topicStyle}>{changeTopics}</span>
+                </h4>
               </Col>
             </Row>
           </Container>

@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../NavBar";
 import "./portfolio.css";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
@@ -14,7 +13,6 @@ class Portfolio extends React.Component {
   render() {
     return (
       <>
-        <NavBar />
         <Col xs={10} className="column mx-auto">
           <div className="portfolio-title mx-sm-4 text-center">
             <div>

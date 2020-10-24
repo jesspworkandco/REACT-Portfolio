@@ -1,7 +1,6 @@
-.aboutbody {
-  height: 1800px;
-  margin: 50px 0px 0px 0px;
-}
+/* .aboutbody {
+  /* margin: 50px 0px 0px 0px; */
+/* } */
 .french-cat {
   width: 250px;
 }
@@ -16,20 +15,16 @@
   margin-top: 3.8rem;
 }
 .bio {
-  color: black;
-  font-size: 4rem;
-  line-height: 1.7rem;
+  margin-top: 8rem;
+  font-size: 100px;
+  /* line-height: 1.7rem; */
   text-align: justify;
   text-justify: inter-word;
 }
-.important {
-  color: #585958;
-  font-size: 1.2rem;
-}
-.tooltip {
+/* .tooltip {
   position: relative;
   display: inline-block;
   margin-left: 5px;
   color: #66b2b2;
   font-size: xx-large;
-}
+} */
