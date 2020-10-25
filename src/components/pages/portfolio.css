@@ -9,18 +9,9 @@
   margin: 50px 20px 20px 20px;
   font-family: "Jura", sans-serif;
 }
-.subtitle {
-  font-size: 1.2rem;
-}
-.portfolio {
+.projects {
   font-size: 30px;
   font-weight: bolder;
-  color: black;
-}
-.gallery {
-  font-size: 30px;
-  font-weight: bolder;
-  color: #008080;
 }
 .card-group {
   /* border: 1px solid lightgrey; */
@@ -28,7 +19,8 @@
   flex-wrap: row;
 }
 .card {
-  border: none;
+  border: 1px solid grey;
+  box-shadow: grey;
   border-radius: 10px;
   margin: 3px 0px 0px 3px;
   padding: none;

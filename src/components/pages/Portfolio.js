@@ -8,27 +8,28 @@ import projects from "../../../src/projects.json";
 class Portfolio extends React.Component {
   state = {
     projects: projects,
+    isMouseInside: false,
   };
-
+  mouseEnter = () => {
+    this.setState({ isMouseInside: true });
+  };
+  mouseLeave = () => {
+    this.setState({ isMouseInside: false });
+  };
   render() {
     return (
       <>
-        <Col xs={10} className="column mx-auto">
+        <Col xs={8} sm={10} className="column mx-auto">
           <div className="portfolio-title mx-sm-4 text-center">
             <div>
               <h1>
-                <span className="portfolio">PORTFOLIO</span>
-                <span className="gallery">GALLERY</span>
+                <span className="projects">My Projects</span>
               </h1>
-              <p className="subtitle">
-                Click the image to start testing the apps and click the title to
-                see the GitHub repository!
-              </p>
             </div>
             <div className="card-group">
               <Row>
                 {this.state.projects.map((project) => (
-                  <Col sm={12} md={6} lg={4} key={project.id}>
+                  <Col sm={10} xl={6} key={project.id}>
                     <Card className="card">
                       <a
                         href={project.link}
