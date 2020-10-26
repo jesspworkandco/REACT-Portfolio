@@ -3,19 +3,19 @@ import "./portfolio.css";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import projects from "../../../src/projects.json";
+import projects from "../../projects.json";
 
 class Portfolio extends React.Component {
   state = {
     projects: projects,
-    isMouseInside: false,
+    // isMouseInside: false,
   };
-  mouseEnter = () => {
-    this.setState({ isMouseInside: true });
-  };
-  mouseLeave = () => {
-    this.setState({ isMouseInside: false });
-  };
+  // mouseEnter = () => {
+  //   this.setState({ isMouseInside: true });
+  // };
+  // mouseLeave = () => {
+  //   this.setState({ isMouseInside: false });
+  // };
   render() {
     return (
       <>
@@ -29,33 +29,68 @@ class Portfolio extends React.Component {
             <div className="card-group">
               <Row>
                 {this.state.projects.map((project) => (
-                  <Col sm={10} xl={6} key={project.id}>
+                  <Col className="projects-col" sm={10} xl={6} key={project.id}>
                     <Card className="card">
-                      <a
+                      <Row>
+                        <Col className="image-col" sm={12} xl={6}>
+                          {/* <span
+                        onMouseEnter={this.mouseEnter}
+                        onMouseLeave={this.mouseLeave}
+                      >
+                        {this.state.isMouseInside ? (
+                          <>
+                            <button> */}
+                          {/* <a
+                                href={project.link}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                              >
+                                View Site
+                              </a>
+                            </button> */}
+
+                          {/* <button>
+                              <a
+                                href={project.link}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                              >
+                                {" "}
+                                View Code
+                              </a>
+                            </button>
+                          </>
+                        ) : null} */}
+                          {/* <a
                         href={project.link}
                         rel="noopener noreferrer"
                         target="_blank"
-                      >
-                        <Card.Img
-                          src={project.image}
-                          className="image"
-                          variant="top"
-                          alt="project image"
-                        />
-                      </a>
-                      <Card.Body>
-                        <a
+                      > */}
+                          <Card.Img
+                            src={project.image}
+                            className="image"
+                            variant="top"
+                            alt="project image"
+                          />
+                          {/* </span> */}
+                          {/* </a> */}
+                        </Col>
+                        <Col sm={12} xl={6}>
+                          <Card.Body>
+                            {/* <a
                           href={project.github}
                           rel="noopener noreferrer"
                           target="_blank"
-                        >
-                          <Card.Title className="project-title">
-                            {project.title}
-                          </Card.Title>
-                        </a>
-                        <p className="technology">{project.technologies}</p>
-                        <Card.Text>{project.description}</Card.Text>
-                      </Card.Body>
+                        > */}
+                            <Card.Title className="project-title">
+                              {project.title}
+                            </Card.Title>
+                            {/* </a> */}
+                            <p className="technology">{project.technologies}</p>
+                            <Card.Text>{project.description}</Card.Text>
+                          </Card.Body>
+                        </Col>
+                      </Row>
                     </Card>
                   </Col>
                 ))}

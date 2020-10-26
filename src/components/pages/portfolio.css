@@ -14,9 +14,11 @@
   font-weight: bolder;
 }
 .card-group {
-  /* border: 1px solid lightgrey; */
   display: flex;
   flex-wrap: row;
+}
+.projects-col {
+  margin: 0 auto;
 }
 .card {
   border: 1px solid grey;
@@ -24,9 +26,7 @@
   border-radius: 10px;
   margin: 3px 0px 0px 3px;
   padding: none;
-  min-width: 30%;
-  height: 27rem;
-  display: flex;
+  min-height: 17rem;
 }
 .image {
   width: 17rem;
