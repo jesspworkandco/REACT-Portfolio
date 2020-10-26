@@ -1,16 +1,16 @@
-.column {
+.main-column {
   width: 100%;
   display: grid;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
   padding: 0.8rem;
 }
 .portfolio-title {
-  margin: 50px 20px 20px 20px;
+  color: #555555;
+  margin: 0 auto;
   font-family: "Jura", sans-serif;
 }
-.projects {
-  font-size: 30px;
+h1 {
+  font-size: 40px;
   font-weight: bolder;
 }
 .card-group {
@@ -44,7 +44,6 @@
   bottom: 100%;
   left: 0;
   right: 0;
-  /* background-color: black; */
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -56,7 +55,6 @@
 }
 .project-link {
   width: 10rem;
-  height: auto;
   padding: 10px 10px 10px 10px;
   background-color: white;
   color: black;
@@ -72,7 +70,6 @@
 }
 .project-github {
   width: 10rem;
-  height: auto;
   padding: 10px 10px 10px 10px;
   background-color: white;
   color: black;
@@ -88,11 +85,14 @@
 }
 .project-title {
   font-weight: 700;
-  color: #66b2b2;
+  color: red;
 }
 .technology {
   color: darkgrey;
   font-size: small;
   padding: 0;
   margin: 0;
+}
+.project-description {
+  font-size: 1.1rem;
 }

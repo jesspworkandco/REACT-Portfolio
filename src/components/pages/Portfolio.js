@@ -12,12 +12,10 @@ class Portfolio extends React.Component {
   render() {
     return (
       <>
-        <Col xs={8} sm={10} className="column mx-auto">
+        <Col xs={8} sm={10} className="main-column mx-auto">
           <div className="portfolio-title mx-sm-4 text-center">
             <div>
-              <h1>
-                <span className="projects">My Projects</span>
-              </h1>
+              <h1>My Projects</h1>
             </div>
             <div className="card-group">
               <Row>
@@ -34,26 +32,25 @@ class Portfolio extends React.Component {
                               alt="project image"
                             />
                             <div className="link-site">
-                              <button>
-                                <a
-                                  href={project.link}
-                                  rel="noopener noreferrer"
-                                  target="_blank"
-                                  className="project-link"
-                                >
+                              <a
+                                href={project.link}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                              >
+                                {" "}
+                                <button className="project-link">
                                   View Site
-                                </a>
-                              </button>
-                              <button>
-                                <a
-                                  href={project.github}
-                                  rel="noopener noreferrer"
-                                  target="_blank"
-                                  className="project-github"
-                                >
+                                </button>
+                              </a>
+                              <a
+                                href={project.github}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                              >
+                                <button className="project-github">
                                   View Code
-                                </a>
-                              </button>
+                                </button>
+                              </a>
                             </div>
                           </div>
                         </Col>
@@ -63,7 +60,9 @@ class Portfolio extends React.Component {
                               {project.title}
                             </Card.Title>
                             <p className="technology">{project.technologies}</p>
-                            <Card.Text>{project.description}</Card.Text>
+                            <Card.Text className="project-description">
+                              {project.description}
+                            </Card.Text>
                           </Card.Body>
                         </Col>
                       </Row>
