@@ -28,9 +28,63 @@
   padding: none;
   min-height: 17rem;
 }
+.container {
+  position: relative;
+}
 .image {
   width: 17rem;
   height: 13rem;
+}
+.container:hover .image {
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+.link-site {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  /* background-color: black; */
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.container:hover .link-site {
+  bottom: 0;
+  height: 100%;
+}
+.project-link {
+  width: 10rem;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 25px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.project-github {
+  width: 10rem;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 25px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .project-title {
   font-weight: 700;

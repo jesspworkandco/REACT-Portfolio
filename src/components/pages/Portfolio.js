@@ -8,14 +8,7 @@ import projects from "../../projects.json";
 class Portfolio extends React.Component {
   state = {
     projects: projects,
-    // isMouseInside: false,
   };
-  // mouseEnter = () => {
-  //   this.setState({ isMouseInside: true });
-  // };
-  // mouseLeave = () => {
-  //   this.setState({ isMouseInside: false });
-  // };
   render() {
     return (
       <>
@@ -33,59 +26,42 @@ class Portfolio extends React.Component {
                     <Card className="card">
                       <Row>
                         <Col className="image-col" sm={12} xl={6}>
-                          {/* <span
-                        onMouseEnter={this.mouseEnter}
-                        onMouseLeave={this.mouseLeave}
-                      >
-                        {this.state.isMouseInside ? (
-                          <>
-                            <button> */}
-                          {/* <a
-                                href={project.link}
-                                rel="noopener noreferrer"
-                                target="_blank"
-                              >
-                                View Site
-                              </a>
-                            </button> */}
-
-                          {/* <button>
-                              <a
-                                href={project.link}
-                                rel="noopener noreferrer"
-                                target="_blank"
-                              >
-                                {" "}
-                                View Code
-                              </a>
-                            </button>
-                          </>
-                        ) : null} */}
-                          {/* <a
-                        href={project.link}
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      > */}
-                          <Card.Img
-                            src={project.image}
-                            className="image"
-                            variant="top"
-                            alt="project image"
-                          />
-                          {/* </span> */}
-                          {/* </a> */}
+                          <div className="container">
+                            <Card.Img
+                              src={project.image}
+                              className="image"
+                              variant="top"
+                              alt="project image"
+                            />
+                            <div className="link-site">
+                              <button>
+                                <a
+                                  href={project.link}
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                  className="project-link"
+                                >
+                                  View Site
+                                </a>
+                              </button>
+                              <button>
+                                <a
+                                  href={project.github}
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                  className="project-github"
+                                >
+                                  View Code
+                                </a>
+                              </button>
+                            </div>
+                          </div>
                         </Col>
-                        <Col sm={12} xl={6}>
+                        <Col className="project-description-col" sm={12} xl={6}>
                           <Card.Body>
-                            {/* <a
-                          href={project.github}
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        > */}
                             <Card.Title className="project-title">
                               {project.title}
                             </Card.Title>
-                            {/* </a> */}
                             <p className="technology">{project.technologies}</p>
                             <Card.Text>{project.description}</Card.Text>
                           </Card.Body>
