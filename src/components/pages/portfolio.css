@@ -2,16 +2,16 @@
   width: 100%;
   display: grid;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 0.8rem;
-}
-.portfolio-title {
-  color: #555555;
-  margin: 0 auto;
   font-family: "Jura", sans-serif;
 }
 h1 {
   font-size: 40px;
   font-weight: bolder;
+  color: #555555;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 .card-group {
   display: flex;

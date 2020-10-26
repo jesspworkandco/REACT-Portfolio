@@ -11,7 +11,7 @@ class NavBar extends React.Component {
         <Navbar className="navigation flex-column" fixed="top" expand="lg">
           <Navbar.Toggle
             className="toggler mx-0"
-            // aria-controls="responsive-navbar-nav"
+            aria-controls="responsive-navbar-nav"
           ></Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav" className="ml-0 mt-0">
             <Nav className="navlinks flex-column text-center">
@@ -22,7 +22,8 @@ class NavBar extends React.Component {
                 src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
                 roundedCircle
               />
-              <h4 className="contact mt-3">
+              <h4>Jessica Perez</h4>
+              <p className="city mt-3">
                 NEW YORK, NY 10010
                 <br /> <span className="cell">(917) 847-1533</span>
                 <br />
@@ -34,7 +35,7 @@ class NavBar extends React.Component {
                 >
                   1JESSICAPEREZ@GMAIL.COM
                 </a>
-              </h4>
+              </p>
 
               <NavItem className="nav-link">
                 <Link className="links" to="/home">

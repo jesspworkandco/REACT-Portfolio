@@ -2,7 +2,7 @@
   margin: none;
   padding: none;
 }
-.close {
+/* .close {
   margin-top: 0;
   float: left;
   font-size: 3rem;
@@ -10,7 +10,7 @@
   color: #000;
   text-shadow: 0 1px 0 #fff;
   opacity: 0.4;
-}
+} */
 .navigation {
   margin: 0;
   width: 20%;
@@ -27,38 +27,24 @@
   max-width: 70%;
   border: 2px solid white;
 }
-/* #home {
-  padding-right: 5px;
-  font-size: 2.5rem;
-  color: #e26b03;
-} */
-/* .first {
-  font-size: 25px;
-  font-weight: bolder;
-  color: black;
+.city {
+  font-size: 15px;
+  color: white;
 }
-.last {
-  font-size: 25px;
-  font-weight: bolder;
-  color: darkgray;
-} */
-.contact {
-  font-size: 18px;
+h4 {
   color: white;
 }
 #email {
-  margin-left: 5px;
+  font-size: 13px;
+  margin: 0 auto;
   color: yellow;
-}
-h4 {
-  font-weight: bold;
 }
 .toggler {
   background-color: #0050a4;
   border-color: #0050a4;
 }
 .links {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: lightgrey;
   font-weight: bold;
   /* line-height: 0.5rem; */
