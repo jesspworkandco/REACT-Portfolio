@@ -11,9 +11,9 @@ class NavBar extends React.Component {
         <Navbar className="navigation flex-column" fixed="top" expand="lg">
           <Navbar.Toggle
             className="toggler mx-0"
-            aria-controls="responsive-navbar-nav"
-          ></Navbar.Toggle>
-          <Navbar.Collapse id="responsive-navbar-nav" className="ml-0 mt-0">
+            aria-controls="basic-navbar-nav"
+          />
+          <Navbar.Collapse id="basic-navbar-nav" className="ml-0 mt-0">
             <Nav className="navlinks flex-column text-center">
               {/* <span className="close">&times;</span> */}
               <Image
@@ -59,4 +59,5 @@ class NavBar extends React.Component {
     );
   }
 }
+
 export default NavBar;

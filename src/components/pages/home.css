@@ -2,17 +2,8 @@ body {
   font-family: "Jura", sans-serif;
   height: 100vh;
   width: 100vw;
-  margin: 0;
-  padding: 0;
 }
-
-.eiffel-tower {
-  transform: rotate(270deg);
-}
-.eiffel-tower-2 {
-  transform: rotate(90deg);
-}
-.homebody {
+.home {
   /* height: 100vh;
   width: 100vw; */
   /* background-image: url(https://image.freepik.com/free-vector/hand-drawn-france-doodle-set_160308-254.jpg); */
@@ -20,28 +11,27 @@ body {
   /* background-image: url(https://freevector-images.s3.amazonaws.com/uploads/vector/preview/32785/32785.png); */
   /* background-image: url(https://cdn2.vectorstock.com/i/1000x1000/54/26/vintage-round-frame-decor-baroque-antique-vector-20695426.jpg); */
   /* background-image: url(https://lh3.googleusercontent.com/proxy/9NucqLDJ7WtXcL4pfZGN2udVEFkEaXbwmTAKwTzeIbf_mhTQLhma1ooXvX-MtNc6koS8FAiCck72k68EccCNJpXm7k2az6gKKQ); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: contain; */
   /* background-image: url("../../assets/background.jpg");
   /* background-color: #b6b1a0; */
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.greetings {
+  /* margin: auto;
+  width: 50%;
+  height: 25%;
+  padding: 0 auto;
   margin: 0 auto;
-}
-.name {
-  padding-top: 10rem;
+ */
+  /* align-items: center; */
   color: rgb(73, 71, 71);
-  font-size: 2.5rem;
-}
-h1 .first {
   font-size: 2rem;
-  font-weight: bolder;
-  color: #cf1a06;
-}
-h1 .last {
-  font-size: 2rem;
-  font-weight: bolder;
-  color: #cf1a06;
+  margin: auto;
 }
 /* BERET ANIMATION */
 .beret {
@@ -63,6 +53,12 @@ h1 .last {
 }
 #eiffel {
   width: 15px;
+}
+.eiffel-tower {
+  transform: rotate(270deg);
+}
+.eiffel-tower-2 {
+  transform: rotate(90deg);
 }
 /* color: #286928; */
 /* color: #024224; */
