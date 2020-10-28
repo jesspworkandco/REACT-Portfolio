@@ -25,7 +25,6 @@ const greetingsStyle = {
 const topicStyle = {
   color: "red",
 };
-
 const bioStyle = {
   // marginTop: "1rem",
   fontSize: "1.1rem",

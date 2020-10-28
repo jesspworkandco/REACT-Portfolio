@@ -1,9 +1,9 @@
 import React from "react";
-import "./portfolio.css";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import projects from "../../projects.json";
+import "./portfolio.css";
 
 class Portfolio extends React.Component {
   state = {
@@ -12,15 +12,15 @@ class Portfolio extends React.Component {
   render() {
     return (
       <>
-        <Col xs={8} sm={10} className="main-column mx-auto">
-          <div className="portfolio-title mx-sm-4 text-center">
+        <Col xs={10} className="main-column mx-auto mt-1 mb-5">
+          <div className="mx-sm-4 text-center">
             <div>
               <h1>My Projects</h1>
             </div>
             <div className="card-group">
               <Row>
                 {this.state.projects.map((project) => (
-                  <Col className="projects-col" sm={10} xl={6} key={project.id}>
+                  <Col className="projects-col" sm={10} key={project.id}>
                     <Card className="card">
                       <Row>
                         <Col className="image-col" sm={12} xl={6}>
