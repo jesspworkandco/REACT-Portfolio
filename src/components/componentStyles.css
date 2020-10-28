@@ -41,18 +41,19 @@
   height: 100vh;
   padding-left: 20px;
   background-color: navy;
-  /* opacity: 0.8; */
+  opacity: 0.9;
   color: white;
   width: 210px;
   position: fixed;
   z-index: 200;
+  top: 9%;
   left: -100%;
   animation: slide-open 0.4s forwards;
 }
 #close {
   font-size: 3rem;
   font-weight: bolder;
-  color: black;
+  color: white;
   background-color: transparent;
   border: none;
 }

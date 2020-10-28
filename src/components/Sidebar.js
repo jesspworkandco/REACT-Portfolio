@@ -19,7 +19,7 @@ const Sidebar = (props) => {
         &times;
       </button>
       <Image
-        className="french-cat mb-2 mt-5"
+        className="french-cat mb-2"
         width="150"
         src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
         roundedCircle
