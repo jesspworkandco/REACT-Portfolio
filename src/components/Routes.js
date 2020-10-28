@@ -5,19 +5,19 @@ import { Link, useLocation } from "react-router-dom";
 export default function Routes() {
 return (
   <ul className="nav nav-tabs">
-    <li className="nav-item">
+    {/* <li className="nav-item">
       <Link
         to="/"
         className={location.pathname === "/" ? "nav-link active" : "nav-link"}
       >
         JP
       </Link>
-    </li>
+    </li> */}
     <li className="nav-item">
       <Link
         to="/about"
         className={
-          location.pathname === "/about" ? "nav-link active" : "nav-link"
+          location.pathname === "/" ? "nav-link active" : "nav-link"
         }
       >
         About

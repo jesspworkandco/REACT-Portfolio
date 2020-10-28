@@ -1,38 +1,65 @@
 #header-wrapper {
   width: 100vw;
   height: 80px;
-  background-color: navy;
-  color: white;
+  margin-bottom: 2px;
+  color: navy;
   display: flex;
   align-items: center;
   padding-left: 20px;
+  position: relative;
+  border-bottom: red 7px solid;
+}
+#header-wrapper:before {
+  content: " ";
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  right: 0px;
+  bottom: 7px;
+  border-bottom: navy 7px solid;
+}
+#eiffel {
+  width: 15px;
+}
+.eiffel-tower {
+  transform: rotate(270deg);
+}
+.eiffel-tower-2 {
+  transform: rotate(90deg);
 }
 #toggle {
   cursor: pointer;
   color: black;
-  font-size: 60px;
+  font-size: 70px;
   margin-left: 20px;
+  margin-top: 5px;
   background: transparent;
-  border: none;
-  padding: 10px;
+  border: 0.3px solid navy;
+  padding: 7px;
 }
 .sidebar {
   height: 100vh;
   padding-left: 20px;
-  background-color: blue;
-  opacity: 0.8;
+  background-color: navy;
+  /* opacity: 0.8; */
   color: white;
-  width: 200px;
+  width: 210px;
   position: fixed;
   z-index: 200;
   left: -100%;
   animation: slide-open 0.4s forwards;
 }
+#close {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
 .sidebar.close {
   left: 0;
   animation: slide-closed 1s forwards;
 }
-
 @keyframes slide-open {
   100% {
     left: 0;
@@ -42,4 +69,24 @@
   100% {
     left: -100%;
   }
+}
+.french-cat {
+  border: 2px solid white;
+}
+h4 {
+  color: white;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.city,
+.links {
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+  line-height: 2rem;
+}
+#email {
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
 }

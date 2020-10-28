@@ -1,0 +1,17 @@
+.container {
+  margin-top: 50rem;
+  margin-bottom: 3rem;
+}
+.jumbo {
+  font-family: "Jura", sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  margin-top: 3.8rem;
+}
+.bio {
+  margin-top: 8rem;
+  font-size: 100px;
+  /* line-height: 1.7rem; */
+  text-align: justify;
+  text-justify: inter-word;
+}
