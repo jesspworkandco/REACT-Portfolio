@@ -26,7 +26,6 @@ const topicStyle = {
   color: "red",
 };
 const bioStyle = {
-  // marginTop: "1rem",
   fontSize: "1.1rem",
   textAlign: "justify",
   textJustify: "inter-word",
@@ -63,8 +62,9 @@ class Home extends React.Component {
     return (
       <>
         <div className="container" style={containerStyle}>
-          <div className="greetings">
+          <div className="greetings text-center">
             <h1
+              className="greeting"
               style={greetingsStyle}
               onMouseEnter={this.frenchTitle}
               onMouseLeave={this.englishTitle}
@@ -72,17 +72,16 @@ class Home extends React.Component {
               {this.state.title}
             </h1>
             <h2 style={greetingsStyle} className="name">
-              Jessica
-              <img
-                src="https://image.flaticon.com/icons/png/512/26/26868.png"
-                // src="https://img2.pngio.com/baguette-bread-icon-noto-emoji-food-drink-iconset-google-baguette-icon-png-1024_1024.png"
-                alt="beret icon"
-                width="60"
-                height="70"
-                className="beret pb-3 px-2"
-              ></img>
-              Perez
+              Jessica Perez
             </h2>
+            <img
+              src="https://image.flaticon.com/icons/png/512/26/26868.png"
+              // src="https://img2.pngio.com/baguette-bread-icon-noto-emoji-food-drink-iconset-google-baguette-icon-png-1024_1024.png"
+              alt="beret icon"
+              width="60"
+              height="70"
+              className="beret pb-3 px-2 mx-auto"
+            ></img>
             <h3 style={greetingsStyle}>Enthusiastic Frontend Developer</h3>
           </div>
           <div className="bio">

@@ -1,28 +1,14 @@
-.form {
-  margin-top: 9rem;
-  max-width: 700px;
-  font-family: "Jura", sans-serif;
+li {
+  line-height: 2.2rem;
 }
-.first {
-  font-size: 30px;
-  font-weight: bolder;
-  color: black;
+li:hover {
+  transform: scale(1.2);
+  transition: all ease 500ms;
 }
-.last {
-  font-size: 30px;
-  font-weight: bolder;
-  color: darkgray;
+a {
+  color: rgb(133, 131, 131);
 }
-
-button {
-  text-align: left;
-}
-.label {
-  text-align: left;
-  font-size: 1.5rem;
-}
-.btn {
-  background-color: #66b2b2;
-  border: #66b2b2;
-  margin-top: 10px;
+a:hover {
+  color: red;
+  text-decoration: none;
 }
