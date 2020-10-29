@@ -19,7 +19,6 @@ function Contact() {
                 > Email me
               </a>
             </li>
-
             <li>
               <a
                 href="https://www.linkedin.com/in/jessica-p-a13a20b5/"

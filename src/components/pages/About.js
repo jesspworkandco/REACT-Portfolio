@@ -61,7 +61,7 @@ class Home extends React.Component {
     this.timeout = setInterval(() => {
       //current index is 0
       let currentIdx = this.state.topicsIndex;
-      //state to go up by 1 index every 1.5 sec
+      //state to go up by 1 index every 1.4 sec
       this.setState({
         topicsIndex: currentIdx + 1,
         businessIndex: currentIdx + 1,

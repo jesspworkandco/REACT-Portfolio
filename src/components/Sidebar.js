@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "react-bootstrap/Image";
+// import Jpeg from "../assets/me-nature.jpeg";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../components/componentStyles.css";
@@ -24,6 +25,12 @@ const Sidebar = (props) => {
         src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
         roundedCircle
       />
+      {/* <Image
+        className="french-cat mb-3"
+        src={Jpeg}
+        width="170"
+        roundedCircle
+      ></Image> */}
       <h4>Jessica Perez</h4>
       <p className="city mt-1 mb-1">
         NEW YORK, NY
