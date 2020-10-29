@@ -24,6 +24,7 @@ body {
   color: rgb(73, 71, 71);
   font-size: 2rem;
 }
-.skills {
+.skills,
+.business {
   color: navy;
 }

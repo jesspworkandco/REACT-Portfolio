@@ -15,6 +15,16 @@ const topicsArray = [
   "Bootstrap",
   "MaterialUI",
 ];
+const businessArray = [
+  "Team management",
+  "Problem solving",
+  "Client facing",
+  "Marketing",
+  "Business development",
+  "Data analysis",
+  "Communication",
+  "Negotiation",
+];
 const containerStyle = {
   maxWidth: "900px",
 };
@@ -35,6 +45,7 @@ class Home extends React.Component {
   state = {
     title: "Hi, I am",
     topicsIndex: 0,
+    businessIndex: 0,
   };
   frenchTitle = () => {
     this.setState({
@@ -51,14 +62,19 @@ class Home extends React.Component {
       //current index is 0
       let currentIdx = this.state.topicsIndex;
       //state to go up by 1 index every 1.5 sec
-      this.setState({ topicsIndex: currentIdx + 1 });
-    }, 1200);
+      this.setState({
+        topicsIndex: currentIdx + 1,
+        businessIndex: currentIdx + 1,
+      });
+    }, 1400);
   }
   componentWillUnmount() {
     clearInterval(this.timeout);
   }
   render() {
     let changeTopics = topicsArray[this.state.topicsIndex % topicsArray.length];
+    let changeBusiness =
+      businessArray[this.state.businessIndex % businessArray.length];
     return (
       <>
         <div className="container" style={containerStyle}>
@@ -98,8 +114,13 @@ class Home extends React.Component {
               music and baking delicious Canelés from Bordeaux!
             </p>
           </div>
-          <h4 className="skills text-center">
-            Technical skills: <span style={topicStyle}>{changeTopics}</span>
+          <h4 className="skills">
+            <span className="text-left">Technical skills:</span>{" "}
+            <span style={topicStyle}>{changeTopics}</span>
+          </h4>
+          <h4 className="business">
+            <span className="text-left">Business skills:</span>{" "}
+            <span style={topicStyle}>{changeBusiness}</span>
           </h4>
         </div>
       </>

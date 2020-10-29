@@ -25,9 +25,9 @@ const Sidebar = (props) => {
         roundedCircle
       />
       <h4>Jessica Perez</h4>
-      <p className="city mt-3">
+      <p className="city mt-1 mb-1">
         NEW YORK, NY
-        <br /> <span className="cell">(917) 847-1533</span>
+        <br /> (917) 847-1533
         <br />
         <a
           data-toggle="tooltip"

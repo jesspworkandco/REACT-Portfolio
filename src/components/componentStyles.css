@@ -34,7 +34,7 @@
   margin-left: 20px;
   margin-top: 5px;
   background: transparent;
-  /* border: 0.3px solid navy; */
+  border: none;
   padding: 7px;
 }
 .sidebar {
@@ -46,7 +46,7 @@
   width: 210px;
   position: fixed;
   z-index: 200;
-  top: 9%;
+  top: 80px;
   left: -100%;
   animation: slide-open 0.4s forwards;
 }
@@ -73,23 +73,32 @@
 }
 .french-cat {
   border: 2px solid white;
+  margin-top: 0;
 }
 h4 {
   color: white;
   font-size: x-large;
   font-weight: bolder;
 }
-.city,
 .links {
   color: white;
-  font-size: large;
+  font-size: 23px;
   font-weight: bolder;
   line-height: 2rem;
+}
+.city {
+  font-size: large;
+  font-weight: bold;
+  line-height: 1.5rem;
 }
 #email {
   font-size: 13px;
   padding: 0;
   margin: 0;
+  color: rgb(219, 152, 152);
+}
+#email:hover {
+  color: red;
 }
 .nav-link {
   margin: 0;
