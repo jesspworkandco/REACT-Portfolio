@@ -19,7 +19,7 @@ const Sidebar = (props) => {
         &times;
       </button>
       <Image
-        className="french-cat mb-2"
+        className="french-cat mb-3"
         width="150"
         src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
         roundedCircle
@@ -38,10 +38,9 @@ const Sidebar = (props) => {
           1JESSICAPEREZ@GMAIL.COM
         </a>
       </p>
-      {/* <div className="container"> */}
-      <Navbar className="navigation">
-        <Nav className="flex-column mr-auto">
-          <NavItem className="nav-link mr-2">
+      <Navbar className="navigation pt-0">
+        <Nav className="flex-column">
+          <NavItem className="nav-link">
             <Link className="links" to="/">
               About
             </Link>
@@ -52,9 +51,13 @@ const Sidebar = (props) => {
               Projects
             </Link>
           </NavItem>
+          <NavItem className="nav-link">
+            <Link className="links" to="/contact">
+              Contact
+            </Link>
+          </NavItem>
         </Nav>
       </Navbar>
-      {/* </div> */}
     </div>
   );
 };

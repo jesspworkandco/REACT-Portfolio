@@ -12,7 +12,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <>
-        <Col xs={10} className="main-column mx-auto mt-1 mb-5">
+        <Col xs={10} className="main-column mx-auto mb-5 mt-0 pt-0">
           <div className="mx-sm-4 text-center">
             <div>
               <h1>My Projects</h1>
@@ -56,7 +56,7 @@ class Portfolio extends React.Component {
                         </Col>
                         <Col className="project-description-col" sm={12} xl={6}>
                           <Card.Body>
-                            <Card.Title className="project-title">
+                            <Card.Title className="project-title mb-0">
                               {project.title}
                             </Card.Title>
                             <p className="technology">{project.technologies}</p>
@@ -71,6 +71,16 @@ class Portfolio extends React.Component {
                 ))}
               </Row>
             </div>
+            <h3 className="my-4">
+              See more projects on my{" "}
+              <a
+                href="https://github.com/JessicaPerez1"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub!
+              </a>
+            </h3>
           </div>
         </Col>
       </>
