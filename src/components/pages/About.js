@@ -1,5 +1,4 @@
 import React from "react";
-// import Image from "react-bootstrap/Image";
 import "./about.css";
 //array of topics
 const topicsArray = [
@@ -93,7 +92,6 @@ class Home extends React.Component {
             </h2>
             <img
               src="https://image.flaticon.com/icons/png/512/26/26868.png"
-              // src="https://img2.pngio.com/baguette-bread-icon-noto-emoji-food-drink-iconset-google-baguette-icon-png-1024_1024.png"
               alt="beret icon"
               width="60"
               height="70"

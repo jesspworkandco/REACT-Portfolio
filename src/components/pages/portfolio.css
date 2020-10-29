@@ -98,3 +98,19 @@ h1 {
 .project-description {
   font-size: 1.1rem;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background-image: url(https://img2.pngio.com/baguette-bread-icon-noto-emoji-food-drink-iconset-google-baguette-icon-png-1024_1024.png); */
+  background: lightgrey;
+  border-radius: 10px;
+}

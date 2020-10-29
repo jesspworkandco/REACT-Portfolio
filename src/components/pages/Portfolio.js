@@ -78,7 +78,7 @@ class Portfolio extends React.Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                GitHub!
+                GitHub!{" "}
               </a>
             </h3>
           </div>
