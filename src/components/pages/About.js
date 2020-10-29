@@ -27,6 +27,7 @@ const businessArray = [
 ];
 const containerStyle = {
   maxWidth: "900px",
+  marginBottom: "100px",
 };
 const greetingsStyle = {
   textAlign: "center",
@@ -114,14 +115,14 @@ class Home extends React.Component {
               music and baking delicious Canelés from Bordeaux!
             </p>
           </div>
-          <h4 className="skills">
+          <h5 className="skills">
             <span className="text-left">Technical skills:</span>{" "}
             <span style={topicStyle}>{changeTopics}</span>
-          </h4>
-          <h4 className="business">
+          </h5>
+          <h5 className="business">
             <span className="text-left">Business skills:</span>{" "}
             <span style={topicStyle}>{changeBusiness}</span>
-          </h4>
+          </h5>
         </div>
       </>
     );
