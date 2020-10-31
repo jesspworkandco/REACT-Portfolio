@@ -1,7 +1,12 @@
 body {
-  font-family: "Jura", sans-serif;
   height: 100vh;
   width: 100vw;
+}
+.greeting {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  color: #494747;
 }
 .greeting:hover {
   color: red;
@@ -28,4 +33,5 @@ body {
 .business {
   color: navy;
   font-weight: bold;
+  font-size: 1.5rem;
 }

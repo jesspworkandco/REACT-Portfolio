@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
-//array of topics
-const topicsArray = [
+//array of technical skills
+const technicalArray = [
   "HTML",
   "JavaScript",
   "CSS",
@@ -14,12 +14,12 @@ const topicsArray = [
   "Bootstrap",
   "MaterialUI",
 ];
+//array of business skills
 const businessArray = [
   "Team management",
   "Problem solving",
   "Client facing",
   "Marketing",
-  "Business development",
   "Data analysis",
   "Communication",
   "Negotiation",
@@ -31,20 +31,24 @@ const containerStyle = {
 const greetingsStyle = {
   textAlign: "center",
   marginBottom: "0",
+  color: "rgb(73, 71, 71)",
+  fontFamily: "Cormorant serif",
+  fontSize:30,
 };
 const topicStyle = {
   color: "red",
 };
 const bioStyle = {
-  fontSize: "1.1rem",
-  textAlign: "justify",
-  textJustify: "inter-word",
+  fontFamily: "Cormorant serif",
+  fontSize: 22,
+  textAlign: "center",
+  // textJustify: "inter-word",
   marginTop: "10px",
 };
 class Home extends React.Component {
   state = {
     title: "Hi, I am",
-    topicsIndex: 0,
+    technicalIndex: 0,
     businessIndex: 0,
   };
   frenchTitle = () => {
@@ -60,10 +64,10 @@ class Home extends React.Component {
   componentDidMount() {
     this.timeout = setInterval(() => {
       //current index is 0
-      let currentIdx = this.state.topicsIndex;
+      let currentIdx = this.state.technicalIndex;
       //state to go up by 1 index every 1.4 sec
       this.setState({
-        topicsIndex: currentIdx + 1,
+        technicalIndex: currentIdx + 1,
         businessIndex: currentIdx + 1,
       });
     }, 1400);
@@ -72,24 +76,24 @@ class Home extends React.Component {
     clearInterval(this.timeout);
   }
   render() {
-    let changeTopics = topicsArray[this.state.topicsIndex % topicsArray.length];
+    let changeTechnical =
+      technicalArray[this.state.technicalIndex % technicalArray.length];
     let changeBusiness =
       businessArray[this.state.businessIndex % businessArray.length];
     return (
       <>
         <div className="container" style={containerStyle}>
           <div className="greetings text-center">
-            <h1
+            <h2
               className="greeting"
-              style={greetingsStyle}
               onMouseEnter={this.frenchTitle}
               onMouseLeave={this.englishTitle}
             >
               {this.state.title}
-            </h1>
-            <h2 style={greetingsStyle} className="name">
-              Jessica Perez
             </h2>
+            <h3 style={greetingsStyle} className="name">
+              Jessica Perez
+            </h3>
             <img
               src="https://image.flaticon.com/icons/png/512/26/26868.png"
               alt="beret icon"
@@ -97,7 +101,7 @@ class Home extends React.Component {
               height="70"
               className="beret pb-3 px-2 mx-auto"
             ></img>
-            <h3 style={greetingsStyle}>Enthusiastic Frontend Developer</h3>
+            <h4 style={greetingsStyle}>Enthusiastic Frontend Developer</h4>
           </div>
           <div className="bio">
             <p style={bioStyle}>
@@ -109,13 +113,13 @@ class Home extends React.Component {
               expectations. Passion for self-teaching and learning new skills
               quickly.
               <br />
-              During my down time, I like watching documentaries, listening to
+              When I'm not coding, I like watching documentaries, listening to
               music and baking delicious Canelés from Bordeaux!
             </p>
           </div>
           <h5 className="skills">
             <span className="text-left">Technical skills:</span>{" "}
-            <span style={topicStyle}>{changeTopics}</span>
+            <span style={topicStyle}>{changeTechnical}</span>
           </h5>
           <h5 className="business">
             <span className="text-left">Business skills:</span>{" "}

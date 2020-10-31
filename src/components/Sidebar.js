@@ -20,17 +20,11 @@ const Sidebar = (props) => {
         &times;
       </button>
       <Image
-        className="french-cat mb-3"
+        className="french-cat mb-3 mt-5"
         width="150"
         src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
         roundedCircle
       />
-      {/* <Image
-        className="french-cat mb-3"
-        src={Jpeg}
-        width="170"
-        roundedCircle
-      ></Image> */}
       <h4>Jessica Perez</h4>
       <p className="city mt-1 mb-1">
         NEW YORK, NY

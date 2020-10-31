@@ -14,16 +14,14 @@ class Portfolio extends React.Component {
       <>
         <Col xs={10} className="main-column mx-auto mb-5 mt-0 pt-0">
           <div className="mx-sm-4 text-center">
-            <div>
-              <h1>My Projects</h1>
-            </div>
+            <h1>My Projects</h1>
             <div className="card-group">
               <Row>
                 {this.state.projects.map((project) => (
                   <Col className="projects-col" sm={10} key={project.id}>
                     <Card className="card">
                       <Row>
-                        <Col className="image-col" sm={12} xl={6}>
+                        <Col className="image-col px-0" sm={12} xl={6}>
                           <div className="container">
                             <Card.Img
                               src={project.image}
@@ -74,6 +72,7 @@ class Portfolio extends React.Component {
             <h3 className="my-4">
               See more projects on my{" "}
               <a
+              className="github-link"
                 href="https://github.com/JessicaPerez1"
                 rel="noopener noreferrer"
                 target="_blank"

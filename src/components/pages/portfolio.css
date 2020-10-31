@@ -1,13 +1,14 @@
 .main-column {
-  width: 100%;
+  width: 100vh;
   display: grid;
+  margin: 0 auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 0.8rem;
-  font-family: "Jura", sans-serif;
 }
 h1 {
   font-weight: bolder;
+  font-size: 2.2rem;
   color: #555555;
   margin-top: 0;
 }
@@ -24,14 +25,15 @@ h1 {
   border-radius: 10px;
   margin: 3px 0px 0px 3px;
   padding: none;
-  min-height: 17rem;
+  min-height: 13rem;
 }
 .container {
   position: relative;
 }
 .image {
-  width: 17rem;
-  height: 13rem;
+  width: 18rem;
+  height: 16rem;
+  border-radius: 10px;
 }
 .container:hover .image {
   -webkit-filter: blur(4px);
@@ -89,14 +91,18 @@ h1 {
   color: rgb(128, 125, 125);
   font-size: medium;
   font-weight: bold;
+  font-style: italic;
   padding: 0;
   margin: 0;
 }
 .project-description {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+}
+.github-link {
+  font-weight: bolder;
 }
 /* SCROLLBAR */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 15px;
 }
 ::-webkit-scrollbar-track {
@@ -106,4 +112,4 @@ h1 {
 ::-webkit-scrollbar-thumb {
   background: lightgrey;
   border-radius: 10px;
-}
+} */
