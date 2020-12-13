@@ -40,6 +40,7 @@ class Portfolio extends React.Component {
                                   View Site
                                 </button>
                               </a>
+                              {project.github && 
                               <a
                                 href={project.github}
                                 rel="noopener noreferrer"
@@ -48,7 +49,8 @@ class Portfolio extends React.Component {
                                 <button className="project-github">
                                   View Code
                                 </button>
-                              </a>
+                              </a>}
+ 
                             </div>
                           </div>
                         </Col>
@@ -70,7 +72,7 @@ class Portfolio extends React.Component {
               </Row>
             </div>
             <h3 className="my-4">
-              See more projects on my{" "}
+              See more on my{" "}
               <a
               className="github-link"
                 href="https://github.com/JessicaPerez1"
