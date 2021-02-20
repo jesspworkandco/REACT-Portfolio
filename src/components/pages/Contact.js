@@ -7,7 +7,7 @@ function Contact() {
     <div className="mx-sm-4 text-center">
       <div>
         <h1 className="mb-2">Let's Stay in Touch</h1>
-        <h3>Actively looking for a Frontend Developer position!</h3>
+        <h3>Actively looking for a Full Time Frontend Developer position!</h3>
         <ol className="connect text-center">
           <h4>
             <li>

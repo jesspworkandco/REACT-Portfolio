@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "react-bootstrap/Image";
 // import Jpeg from "../assets/me-nature.jpeg";
-import { Navbar, Nav, NavItem } from "react-bootstrap";
+import { Navbar, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../components/componentStyles.css";
 
@@ -20,46 +20,46 @@ const Sidebar = (props) => {
         &times;
       </button>
       <Image
-        className="french-cat mb-3 mt-5"
-        width="150"
+        className="french-cat mb-3 mt-1"
+        width="140"
         // src={Jpeg}
         src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
         roundedCircle
       />
       <h4>Jessica Perez</h4>
-      <p className="city mt-1 mb-1">
-        NEW YORK, NY
-        <br /> (917) 847-1533
-        <br />
-        <a
+      <div className="personal-info mt-1 mb-1">
+        <p>NEW YORK, NY</p>
+        <p>(917) 847-1533</p> 
+        <p><a
           data-toggle="tooltip"
           title="Send me a message!"
           id="email"
           href="mailto:1jessicaperez@gmail.com"
         >
           1JESSICAPEREZ@GMAIL.COM
-        </a>
-      </p>
-      <Navbar className="navigation pt-0">
-        <Nav className="flex-column">
-          <NavItem className="nav-link">
-            <Link className="links" to="/">
-              About
-            </Link>
-          </NavItem>
-          <br />
-          <NavItem className="nav-link">
-            <Link className="links" to="/portfolio">
-              Projects
-            </Link>
-          </NavItem>
-          <NavItem className="nav-link">
-            <Link className="links" to="/contact">
-              Contact
-            </Link>
-          </NavItem>
-        </Nav>
-      </Navbar>
+        </a></p>
+      </div>
+      <div className="navigation-section">
+        <Navbar className="navigation">
+
+            <NavItem className="nav-link">
+              <Link className="links" to="/">
+                About
+              </Link>
+            </NavItem>
+            
+            <NavItem className="nav-link">
+              <Link className="links" to="/portfolio">
+                Projects
+              </Link>
+            </NavItem>
+            <NavItem className="nav-link">
+              <Link className="links" to="/contact">
+                Contact
+              </Link>
+            </NavItem>
+        </Navbar>
+      </div>
     </div>
   );
 };

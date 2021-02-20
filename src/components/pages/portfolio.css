@@ -32,6 +32,7 @@ h1 {
 }
 .container {
   position: relative;
+  max-height: 260px;
 }
 .image {
   width: 18rem;

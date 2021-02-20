@@ -24,10 +24,11 @@ const businessArray = [
   "Communication",
   "Negotiation",
 ];
-const containerStyle = {
-  maxWidth: "900px",
-  marginBottom: "100px",
-};
+// const containerStyle = {
+//   maxWidth: "900px",
+//   marginBottom: "100px",
+//   overflowY: "scroll"
+// };
 const greetingsStyle = {
   textAlign: "center",
   marginBottom: "0",
@@ -82,7 +83,7 @@ class Home extends React.Component {
       businessArray[this.state.businessIndex % businessArray.length];
     return (
       <>
-        <div className="container" style={containerStyle}>
+        <div className="container" >
           <div className="greetings text-center">
             <h2
               className="greeting"
@@ -103,10 +104,9 @@ class Home extends React.Component {
             ></img>
             <h4 style={greetingsStyle}>Enthusiastic Frontend Developer</h4>
           </div>
-          <div className="bio">
+          <div className="bio mb-2">
             <p style={bioStyle}>
-              Recent graduate from Columbia University, aspiring Frontent
-              Developer with a marketing background.
+              Currently a Frontend Developer/ReactJs at <a className="cobalt" href="https://cobalt.co/">Cobalt</a>, contract based position.
               <br />
               Well organized with strong managing and client facing skills.
               Analytical, decisive, coupled with a passion for exceeding
@@ -117,14 +117,16 @@ class Home extends React.Component {
               music and baking delicious Canelés from Bordeaux!
             </p>
           </div>
+          <div className="skills-business text-center mt-3">
           <h5 className="skills">
-            <span className="text-left">Technical skills:</span>{" "}
+            <span>Technical skills:</span>{" "}
             <span style={topicStyle}>{changeTechnical}</span>
           </h5>
           <h5 className="business">
-            <span className="text-left">Business skills:</span>{" "}
+            <span>Business skills:</span>{" "}
             <span style={topicStyle}>{changeBusiness}</span>
           </h5>
+          </div>
         </div>
       </>
     );
