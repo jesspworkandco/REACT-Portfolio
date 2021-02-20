@@ -1,13 +1,16 @@
-/* body {
+body {
   height: 100vh;
   width: 100vw;
-} */
-.container {
+}
+.about-container {
   max-width: 900px;
+  max-height: 800px;
   height: 100vw;
-  /* margin-bottom: 100px; */
+  margin: 0 auto;
+  text-align: center;
   overflow-y: scroll;
 }
+
 .greeting {
   font-weight: bold;
   font-style: italic;
@@ -40,6 +43,9 @@
   color: navy;
   font-weight: bold;
   font-size: 1.5rem;
+}
+.business {
+  margin-bottom: 30px;
 }
 .cobalt {
   font-size: 1.4rem;

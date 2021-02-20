@@ -46,11 +46,12 @@ body {
   opacity: 0.9;
   color: white;
   width: 220px;
-  position: fixed;
+  position: absolute;
   z-index: 200;
   top: 59px;
   left: -100%;
   animation: slide-open 0.4s forwards;
+  overflow-y: scroll;
 }
 #close {
   font-size: 3rem;

@@ -82,8 +82,8 @@ class Home extends React.Component {
     let changeBusiness =
       businessArray[this.state.businessIndex % businessArray.length];
     return (
-      <>
-        <div className="container" >
+      
+        <div className="about-container">
           <div className="greetings text-center">
             <h2
               className="greeting"
@@ -106,7 +106,9 @@ class Home extends React.Component {
           </div>
           <div className="bio mb-2">
             <p style={bioStyle}>
-              Currently a Frontend Developer/ReactJs at <a className="cobalt" href="https://cobalt.co/">Cobalt</a>, contract based position.
+              Currently a Frontend Developer, sharpening my ReactJs skills at
+                <a className="cobalt" href="https://cobalt.co/" rel="noopener noreferrer" target="_blank"> Cobalt</a>
+                - contract based position.
               <br />
               Well organized with strong managing and client facing skills.
               Analytical, decisive, coupled with a passion for exceeding
@@ -128,7 +130,7 @@ class Home extends React.Component {
           </h5>
           </div>
         </div>
-      </>
+    
     );
   }
 }
