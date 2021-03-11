@@ -3,9 +3,8 @@
     "id": "1",
     "image": "https://cobalt.co/wp-content/uploads/2020/11/collab.png",
     "title": "Cobalt",
-    "technologies": "React/Redux, form validation/control, hooks, Routes, RESTful Apis",
-    "description": "The idea development platform! Built the 'DEVELOP IDEA' section, that offers the user a guided, multistep smooth process to launch their new business idea. Also revamped the 'PROJECT DETAIL' experience. Pulled in saved user data and populated all panels with proper project information. Ensured new design matches general website graphic design.",
-    "link": "https://cobalt.co"
+    "technologies": "React/Redux, form validation/control, RESTful Apis, DraftJS",
+    "description": "The idea development platform! 1.Built the PROJECT CREATION experience, that offers the user a guided process to launch their new business idea. 2.Revamped the PROJECT DETAIL section. Pulled in saved user data and populated panels with proper project data. 3.Improved Navigation experience sitewide. Optimized sidenav: made it responsive and changed design. 4.Implemented an intuitive sidebar to PROJECT CREATE and EDIT, added a 'save and close' button option, and error alerts when necessary before project is published. 5.Implemented DraftJs to the app: allow the user to put rich text into the content they add, making sure we allow HTML to be saved to the DB, and rendered in PROJECT DETAILS. 6.Ensured new design matches general website graphic design."
   },
   {
     "id": "2",

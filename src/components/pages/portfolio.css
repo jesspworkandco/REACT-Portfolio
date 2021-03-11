@@ -26,15 +26,18 @@ h1 {
   border: 1px solid grey;
   box-shadow: grey;
   border-radius: 10px;
-  margin: 3px 0px 0px 3px;
+  margin: 5px 0px;
   padding: none;
   min-height: 13rem;
+  max-height: 28rem;
+  overflow: scroll;
 }
 .container {
   position: relative;
   max-height: 260px;
 }
 .image {
+  margin: 2px 0px;
   width: 18rem;
   height: 16rem;
   border-radius: 10px;
@@ -101,6 +104,8 @@ h1 {
 }
 .project-description {
   font-size: 1.2rem;
+  max-width: 38rem;
+  margin: 0 auto;
 }
 .github-link {
   font-weight: bolder;
