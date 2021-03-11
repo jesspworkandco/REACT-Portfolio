@@ -76,11 +76,12 @@ body {
     left: -100%;
   }
 }
-.french-cat {
-  border: 2px solid white;
+.profile-pic {
+  border: 3px solid white;
   padding-top: 0;
   margin: 0 auto;
   display: block;
+  width: 150px;
 }
 h4 {
   color: white;
@@ -94,7 +95,7 @@ p {
 .links {
   color: white;
   font-size: 23px;
-  font-weight: bolder;
+  font-style: normal;
   line-height: 0.7rem;
 }
 .personal-info {

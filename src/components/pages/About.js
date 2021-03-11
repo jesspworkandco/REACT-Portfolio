@@ -31,7 +31,7 @@ const businessArray = [
 // };
 const greetingsStyle = {
   textAlign: "center",
-  marginBottom: "0",
+  marginBottom: "10px",
   color: "rgb(73, 71, 71)",
   fontFamily: "Cormorant serif",
   fontSize:30,
@@ -71,7 +71,7 @@ class Home extends React.Component {
         technicalIndex: currentIdx + 1,
         businessIndex: currentIdx + 1,
       });
-    }, 1400);
+    }, 1500);
   }
   componentWillUnmount() {
     clearInterval(this.timeout);
@@ -95,13 +95,13 @@ class Home extends React.Component {
             <h3 style={greetingsStyle} className="name">
               Jessica Perez
             </h3>
-            <img
+            {/* <img
               src="https://image.flaticon.com/icons/png/512/26/26868.png"
               alt="beret icon"
               width="60"
               height="70"
               className="beret pb-3 px-2 mx-auto"
-            ></img>
+            ></img> */}
             <h4 style={greetingsStyle}>Enthusiastic Frontend Developer</h4>
           </div>
           <div className="bio mb-2">

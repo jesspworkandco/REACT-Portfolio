@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "react-bootstrap/Image";
-// import Jpeg from "../assets/me-nature.jpeg";
+import Jpeg from "../assets/profile-pic.jpeg";
 import { Navbar, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../components/componentStyles.css";
@@ -20,10 +20,9 @@ const Sidebar = (props) => {
         &times;
       </button>
       <Image
-        className="french-cat mb-3 mt-1"
-        width="140"
-        // src={Jpeg}
-        src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
+        className="profile-pic mb-3 mt-1"
+        src={Jpeg}
+        // src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
         roundedCircle
       />
       <h4>Jessica Perez</h4>
