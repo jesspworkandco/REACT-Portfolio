@@ -21,7 +21,7 @@ Created my portfolio with REACT and REACT-BOOTSTRAP. Ensured a responsive layout
 
 - Github repository:
   [Github repository](https://github.com/JessicaPerez1/REACT-Portfolio.git)
-- Heroku Deployed link:
+- Netlify Deployed link:
   [Deployed app link](https://jessica-perez-portfolio.netlify.app/)
 
 ### Questions
