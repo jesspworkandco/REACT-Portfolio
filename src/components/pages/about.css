@@ -14,8 +14,9 @@ body {
 .greeting {
   font-weight: bold;
   font-style: italic;
-  font-size: 40px;
+  font-size: 35px;
   color: #494747;
+  margin-bottom: 30px;
 }
 .greeting:hover {
   color: red;
@@ -51,7 +52,4 @@ body {
   font-size: 1.4rem;
   font-weight: bold;
   color: navy;
-}
-.bio {
-  text-align: justify;
 }

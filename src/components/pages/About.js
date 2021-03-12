@@ -24,17 +24,13 @@ const businessArray = [
   "Communication",
   "Negotiation",
 ];
-// const containerStyle = {
-//   maxWidth: "900px",
-//   marginBottom: "100px",
-//   overflowY: "scroll"
-// };
+
 const greetingsStyle = {
   textAlign: "center",
   marginBottom: "10px",
   color: "rgb(73, 71, 71)",
   fontFamily: "Cormorant serif",
-  fontSize:30,
+  fontSize:27,
 };
 const topicStyle = {
   color: "red",
@@ -43,8 +39,8 @@ const bioStyle = {
   fontFamily: "Cormorant serif",
   fontSize: 22,
   textAlign: "center",
-  // textJustify: "inter-word",
   marginTop: "10px",
+  marginBottom: "20px"
 };
 class Home extends React.Component {
   state = {
@@ -54,12 +50,12 @@ class Home extends React.Component {
   };
   frenchTitle = () => {
     this.setState({
-      title: "Bonjour, je m'appelle",
+      title: "Bonjour je m'appelle",
     });
   };
   englishTitle = () => {
     this.setState({
-      title: "Hello, I am",
+      title: "Hello I am",
     });
   };
   componentDidMount() {
@@ -90,11 +86,8 @@ class Home extends React.Component {
               onMouseEnter={this.frenchTitle}
               onMouseLeave={this.englishTitle}
             >
-              {this.state.title}
+              {this.state.title}, Jessica Perez
             </h2>
-            <h3 style={greetingsStyle} className="name">
-              Jessica Perez
-            </h3>
             {/* <img
               src="https://image.flaticon.com/icons/png/512/26/26868.png"
               alt="beret icon"
@@ -102,7 +95,7 @@ class Home extends React.Component {
               height="70"
               className="beret pb-3 px-2 mx-auto"
             ></img> */}
-            <h4 style={greetingsStyle}>Enthusiastic Frontend Developer</h4>
+            <h4 style={greetingsStyle}>Enthusiastic Frontend Developer, looking for a fulltime position</h4>
           </div>
           <div className="bio mb-2">
             <p style={bioStyle}>

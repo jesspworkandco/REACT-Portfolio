@@ -37,8 +37,9 @@ h1 {
   max-height: 260px;
 }
 .image {
-  margin: 2px 0px;
-  width: 18rem;
+  margin: 0px;
+  padding: 0px;
+  width: 20rem;
   height: 16rem;
   border-radius: 10px;
 }

@@ -1,10 +1,11 @@
 [
     {
     "id": "1",
-    "image": "https://cobalt.co/wp-content/uploads/2020/11/collab.png",
+    "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80",
     "title": "Cobalt",
     "technologies": "React/Redux, form validation/control, RESTful Apis, DraftJS",
-    "description": "The idea development platform! 1.Built the PROJECT CREATION experience, that offers the user a guided process to launch their new business idea. 2.Revamped the PROJECT DETAIL section. Pulled in saved user data and populated panels with proper project data. 3.Improved Navigation experience sitewide. Optimized sidenav: made it responsive and changed design. 4.Implemented an intuitive sidebar to PROJECT CREATE and EDIT, added a 'save and close' button option, and error alerts when necessary before project is published. 5.Implemented DraftJs to the app: allow the user to put rich text into the content they add, making sure we allow HTML to be saved to the DB, and rendered in PROJECT DETAILS. 6.Ensured new design matches general website graphic design."
+    "description": "The idea development platform! 1.Built the PROJECT CREATION experience, that offers the user a guided process to launch their new business idea. 2.Revamped the PROJECT DETAIL section. Pulled in saved user data and populated panels with proper project data. 3.Improved Navigation experience sitewide. Optimized sidenav: made it responsive and changed design. 4.Implemented an intuitive sidebar to PROJECT CREATE and EDIT, added a 'save and close' button option, and error alerts when necessary before project is published. 5.Implemented DraftJs to the app: allow the user to put rich text into the content they add, making sure we allow HTML to be saved to the DB, and rendered in PROJECT DETAILS. 6.Ensured new design matches general website graphic design.",
+    "link": "https://cobalt.co"
   },
   {
     "id": "2",
