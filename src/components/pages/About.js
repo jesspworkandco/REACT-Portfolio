@@ -44,7 +44,7 @@ const bioStyle = {
 };
 class Home extends React.Component {
   state = {
-    title: "Hi, I am",
+    title: "Hello I am",
     technicalIndex: 0,
     businessIndex: 0,
   };
