@@ -23,9 +23,9 @@ h1 {
   margin: 0 auto;
 }
 .card {
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   box-shadow: grey;
-  border-radius: 10px;
+  border-radius: 15px;
   margin: 5px 0px;
   padding: none;
   min-height: 13rem;
@@ -39,10 +39,11 @@ h1 {
 .image {
   margin: 0px;
   padding: 0px;
-  width: 22rem;
+  width: 21rem;
   height: 16rem;
-  border-radius: 10px;
+  border-radius: 15px;
 }
+
 .container:hover .image {
   -webkit-filter: blur(4px);
   filter: blur(4px);
