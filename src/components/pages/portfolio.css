@@ -39,7 +39,7 @@ h1 {
 .image {
   margin: 0px;
   padding: 0px;
-  width: 21rem;
+  max-width: 19rem;
   height: 16rem;
   border-radius: 15px;
 }
