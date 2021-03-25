@@ -7,7 +7,7 @@ Created my portfolio with REACT and REACT-BOOTSTRAP. Ensured a responsive layout
 ## Table of Contents
 
 1. [Usage](#Usage)
-2. [Github repository and Heroku deployed app link](#Github-repository-Heroku-deployed-link)
+2. [Github repository and Netlify deployed app link](#Github-repository-Heroku-deployed-link)
 3. [Questions](#Questions)
 
 ## Usage
@@ -17,7 +17,7 @@ Created my portfolio with REACT and REACT-BOOTSTRAP. Ensured a responsive layout
 - Navbar and footer are fixed on all pages for easy navigation.
 - Click the footer icons to easily view my GitHub, LinkedIn, and PDF resume.
 
-### Github-repository-Heroku-deployed-link
+### Github-repository-Netlify-deployed-link
 
 - Github repository:
   [Github repository](https://github.com/JessicaPerez1/REACT-Portfolio.git)
