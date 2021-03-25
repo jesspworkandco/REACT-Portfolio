@@ -2,7 +2,7 @@
 
 ## Description
 
-Created my portfolio with REACT and REACT-BOOTSTRAP. Ensured a responsive layout and user friendly interface with burger nav and clickable images/icons and links.
+Created my portfolio with REACT and REACT-BOOTSTRAP. Ensured a responsive layout and user friendly interface with sidenav and easy navigation to links.
 
 ## Table of Contents
 
@@ -13,9 +13,9 @@ Created my portfolio with REACT and REACT-BOOTSTRAP. Ensured a responsive layout
 ## Usage
 
 - Click on the deployed app link and check out my Portfolio! Please don't hesitate to get in touch.
-- The user can click the project image and will be directed to the deployed app and click the title to see the GitHub repository.
-- Navbar and footer are fixed on all pages for easy navigation.
-- Click the footer icons to easily view my GitHub, LinkedIn, and PDF resume.
+- The user can hover over the project image and will be given the option to view the Github repository or access the app!
+- Sidebar can be open/closed as needed and footer is fixed.
+- Click the footer icons to easily view my GitHub, LinkedIn, or to send me an email.
 
 ### Github-repository-Netlify-deployed-link
 
@@ -26,7 +26,7 @@ Created my portfolio with REACT and REACT-BOOTSTRAP. Ensured a responsive layout
 
 ### Questions
 
-For any questions about this app or if you'd like to contribute, please refer to my Github page or contact me by email!
+For any questions about this app, please refer to my Github page or contact me by email!
 
 - [JessicaPerez1 Github link](https://github.com/JessicaPerez1)
 - 1jessicaperez@gmail.com
