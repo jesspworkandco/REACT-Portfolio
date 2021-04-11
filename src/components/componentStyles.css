@@ -103,11 +103,12 @@ p {
   color: white;
   font-size: 23px;
   font-style: normal;
-  line-height: 0.7rem;
+  line-height: 0.8rem;
 }
 .personal-info {
   font-size: large;
   font-weight: bold;
+  line-height: normal;
 }
 #email {
   font-style: normal;
@@ -118,9 +119,7 @@ p {
 }
 #email:hover {
   color: red;
-  font-size: 19px;
 }
-
 .navigation-section {
   flex-flow: column wrap;
   justify-content: center;

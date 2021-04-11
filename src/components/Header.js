@@ -13,7 +13,7 @@ const Header = () => {
           className="eiffel-tower"
         ></Image>  
         <Link className="home" to="/">   
-          ze French coder
+          ze French Coder
         </Link>
         </div>
           <div id="header-wrapper">

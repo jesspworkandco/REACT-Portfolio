@@ -24,10 +24,10 @@ const Sidebar = (props) => {
         src={Jpeg}
         roundedCircle
       />
-      <h4>Jessica Perez</h4>
-      <div className="personal-info mt-1 mb-1">
-        <p>NEW YORK, NY</p>
-        <p>(917) 847-1533</p> 
+      <h3>Jessica Perez</h3>
+      <div className="personal-info mt-1">
+        <p className="city">Brooklyn, NY</p>
+        <p className="cell">(917) 847-1533</p> 
         <p><a
           data-toggle="tooltip"
           title="Send me a message!"
@@ -51,7 +51,7 @@ const Sidebar = (props) => {
                 Projects
               </Link>
             </NavItem>
-            
+
             <NavItem className="nav-link">
               <Link className="links" to="/contact">
                 Contact

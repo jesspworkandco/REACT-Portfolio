@@ -14,7 +14,7 @@ class Portfolio extends React.Component {
       <React.Fragment>
         <Col xs={10} className="main-column mx-auto mb-5 mt-0 pt-0">
           <div className="main mx-sm-4 text-center">
-            <h1>My Projects</h1>
+            <h1>Work and Projects</h1>
             <div className="card-group">
               <Row>
                 {this.state.projects.map((project) => (
