@@ -55,7 +55,7 @@ class Portfolio extends React.Component {
                           </div>
                         </Col>
                         <Col className="project-description-col" sm={12} xl={8}>
-                          <Card.Body>
+                          <Card.Body className="ml-lg-4">
                             <Card.Title className="project-title mb-0">
                               {project.title}
                             </Card.Title>
