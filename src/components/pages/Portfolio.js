@@ -11,17 +11,17 @@ class Portfolio extends React.Component {
   };
   render() {
     return (
-      <>
+      <React.Fragment>
         <Col xs={10} className="main-column mx-auto mb-5 mt-0 pt-0">
           <div className="main mx-sm-4 text-center">
             <h1>My Projects</h1>
             <div className="card-group">
               <Row>
                 {this.state.projects.map((project) => (
-                  <Col className="projects-col" sm={10} key={project.id}>
+                  <Col className="projects-col" sm={12} key={project.id}>
                     <Card className="card">
                       <Row>
-                        <Col className="image-col px-0" sm={12} xl={6}>
+                        <Col className="image-col px-0" sm={12} xl={4}>
                           <div className="container">
                             <Card.Img
                               src={project.image}
@@ -54,7 +54,7 @@ class Portfolio extends React.Component {
                             </div>
                           </div>
                         </Col>
-                        <Col className="project-description-col" sm={12} xl={6}>
+                        <Col className="project-description-col" sm={12} xl={8}>
                           <Card.Body>
                             <Card.Title className="project-title mb-0">
                               {project.title}
@@ -84,7 +84,7 @@ class Portfolio extends React.Component {
             </h3>
           </div>
         </Col>
-      </>
+      </React.Fragment>
     );
   }
 }
