@@ -5,8 +5,17 @@ body {
   width: 100vw;
 }
 /* HEADER */
-#header-wrapper h3 {
+.header .home {
   font-size: 1.2rem;
+  color: rgb(5, 5, 90);
+  font-style: normal;
+}
+#header-wrapper {
+  width: 100vw;
+  height: 30px;
+  display: flex;
+  position: relative;
+  border-bottom: red 7px solid;
 }
 #header-wrapper:before {
   content: " ";
@@ -17,19 +26,9 @@ body {
   bottom: 7px;
   border-bottom: rgb(5, 5, 90) 7px solid;
 }
-#header-wrapper {
-  width: 100vw;
-  height: 80px;
-  margin-bottom: 2px;
-  color: rgb(5, 5, 90);
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-  position: relative;
-  border-bottom: red 7px solid;
-}
 .eiffel-tower {
   width: 45px;
+  margin: 4px;
 }
 #toggle {
   cursor: pointer;

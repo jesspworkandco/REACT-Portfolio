@@ -51,6 +51,7 @@ const Sidebar = (props) => {
                 Projects
               </Link>
             </NavItem>
+            
             <NavItem className="nav-link">
               <Link className="links" to="/contact">
                 Contact
