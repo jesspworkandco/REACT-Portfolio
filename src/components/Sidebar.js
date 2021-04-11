@@ -22,7 +22,6 @@ const Sidebar = (props) => {
       <Image
         className="profile-pic mb-3 mt-1"
         src={Jpeg}
-        // src="https://i.pinimg.com/736x/e6/3f/94/e63f94393ad1765dbd4923e17c94f140--oui-oui-berets.jpg"
         roundedCircle
       />
       <h4>Jessica Perez</h4>

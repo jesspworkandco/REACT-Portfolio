@@ -25,24 +25,8 @@ const businessArray = [
   "Negotiation",
 ];
 
-const greetingsStyle = {
-  textAlign: "center",
-  marginBottom: "10px",
-  color: "rgb(73, 71, 71)",
-  fontFamily: "Cormorant serif",
-  fontSize:27,
-};
-const topicStyle = {
-  color: "red",
-};
-const bioStyle = {
-  fontFamily: "Cormorant serif",
-  fontSize: 22,
-  textAlign: "center",
-  marginTop: "10px",
-  marginBottom: "20px"
-};
 class Home extends React.Component {
+  // initial state
   state = {
     title: "Hello I am",
     technicalIndex: 0,
@@ -78,7 +62,6 @@ class Home extends React.Component {
     let changeBusiness =
       businessArray[this.state.businessIndex % businessArray.length];
     return (
-      
         <div className="about-container">
           <div className="greetings text-center">
             <h2
@@ -95,10 +78,10 @@ class Home extends React.Component {
               height="70"
               className="beret pb-3 px-2 mx-auto"
             ></img> */}
-            <h4 style={greetingsStyle}>Enthusiastic Frontend Developer, looking for a fulltime position</h4>
+            <h4 >Enthusiastic Frontend Developer, looking for a fulltime position</h4>
           </div>
-          <div className="bio mb-2">
-            <p style={bioStyle}>
+          <div className="bio">
+            <p className="bio-text">
               Currently a Frontend Developer, sharpening my ReactJs skills at
                 <a className="cobalt" href="https://cobalt.co/" rel="noopener noreferrer" target="_blank"> Cobalt</a>
                 - contract based position.
@@ -111,19 +94,18 @@ class Home extends React.Component {
               When I'm not coding, I like watching documentaries, listening to
               music and baking delicious Canelés from Bordeaux!
             </p>
-          </div>
-          <div className="skills-business text-center mt-3">
-          <h5 className="skills">
-            <span>Technical skills:</span>{" "}
-            <span style={topicStyle}>{changeTechnical}</span>
-          </h5>
-          <h5 className="business">
-            <span>Business skills:</span>{" "}
-            <span style={topicStyle}>{changeBusiness}</span>
-          </h5>
+            <div className="skills-business text-left">
+              <h5 className="skills">
+                <span>Technical skills:</span>{" "}
+                <span className= "topics">{changeTechnical}</span>
+              </h5>
+              <h5 className="business">
+                <span>Business skills:</span>{" "}
+                <span className= "topics">{changeBusiness}</span>
+              </h5>
+            </div>
           </div>
         </div>
-    
     );
   }
 }

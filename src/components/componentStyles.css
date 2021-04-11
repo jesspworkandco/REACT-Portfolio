@@ -1,5 +1,21 @@
 body {
   font-family: "Cormorant", serif;
+  color: rgb(5, 5, 90);
+  height: 100vh;
+  width: 100vw;
+}
+/* HEADER */
+#header-wrapper h3 {
+  font-size: 1.2rem;
+}
+#header-wrapper:before {
+  content: " ";
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  right: 0px;
+  bottom: 7px;
+  border-bottom: navy 7px solid;
 }
 #header-wrapper {
   width: 100vw;
@@ -12,43 +28,29 @@ body {
   position: relative;
   border-bottom: red 7px solid;
 }
-#header-wrapper:before {
-  content: " ";
-  position: absolute;
-  top: 5px;
-  left: 0px;
-  right: 0px;
-  bottom: 7px;
-  border-bottom: navy 7px solid;
-}
-#eiffel {
-  width: 15px;
-}
 .eiffel-tower {
-  transform: rotate(270deg);
-}
-.eiffel-tower-2 {
-  transform: rotate(90deg);
+  fill: navy;
+  width: 45px;
 }
 #toggle {
   cursor: pointer;
-  color: black;
-  font-size: 70px;
+  color: navy;
+  font-size: 55px;
   margin-left: 20px;
-  margin-top: 5px;
   background: transparent;
   border: none;
 }
+/* SIDEBAR */
 .sidebar {
   text-align: center;
   height: 100vh;
-  background-color: navy;
+  background-color: rgb(2, 2, 78);
   opacity: 0.9;
   color: white;
   width: 220px;
   position: absolute;
   z-index: 200;
-  top: 59px;
+  top: 60px;
   left: -100%;
   animation: slide-open 0.4s forwards;
   overflow-y: scroll;
@@ -84,7 +86,6 @@ body {
   width: 150px;
 }
 h4 {
-  color: white;
   font-size: x-large;
   font-weight: bolder;
 }
@@ -104,14 +105,16 @@ p {
 }
 #email {
   font-style: normal;
-  font-size: 16px;
-  padding: 0;
+  font-size: 15px;
+  padding: 1px 10px;
   margin: 0;
-  color: yellow;
+  color: white;
 }
 #email:hover {
   color: red;
+  font-size: 19px;
 }
+
 .navigation-section {
   flex-flow: column wrap;
   justify-content: center;

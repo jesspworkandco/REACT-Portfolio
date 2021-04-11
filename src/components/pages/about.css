@@ -1,55 +1,52 @@
-body {
-  height: 100vh;
-  width: 100vw;
-}
 .about-container {
-  max-width: 900px;
-  max-height: 800px;
-  height: 100vw;
+  max-width: 80%;
+  min-width: 55%px;
+  max-height: 80%;
   margin: 0 auto;
-  text-align: center;
-  overflow-y: scroll;
+  margin-bottom: 20px;
+  /* overflow-y: scroll; */
 }
-
 .greeting {
   font-weight: bold;
   font-style: italic;
   font-size: 35px;
-  color: #494747;
-  margin-bottom: 30px;
+  color: rgb(5, 5, 90);
+  margin-bottom: 15px;
+}
+.greetings h4 {
+  text-align: center;
+  color: rgb(5, 5, 90);
+  font-size: 25;
 }
 .greeting:hover {
   color: red;
 }
-/* BERET ANIMATION */
-/* .beret {
-  position: relative;
-  animation: mymove 2s infinite;
-  animation-timing-function: linear;
+.cobalt {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(5, 5, 90);
 }
-@keyframes mymove {
-  from {
-    left: 7px;
-  }
-  to {
-    right: 10px;
-  }
-} */
-.coder-text {
-  color: rgb(73, 71, 71);
-  font-size: 2rem;
+.bio {
+  padding: 2rem;
+  font-size: 22px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.bio-text {
+  margin-bottom: 30px;
 }
 .skills,
 .business {
-  color: navy;
+  color: rgb(5, 5, 90);
   font-weight: bold;
   font-size: 1.5rem;
 }
 .business {
-  margin-bottom: 30px;
+  padding-bottom: 50px;
 }
-.cobalt {
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: navy;
+.skills-business {
+  letter-spacing: 0.1em;
 }
+/* .skills-business h5 .topics {
+  color: rgb(8, 8, 168);
+} */
