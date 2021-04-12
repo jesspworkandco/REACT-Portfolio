@@ -1,12 +1,13 @@
-.about-container {
+.about {
   max-width: 80%;
-  min-width: 55%px;
+  min-width: 55%;
   max-height: 80%;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin: 30px auto;
+  padding-top: 40px;
+  color: rgb(5, 5, 90);
   /* overflow-y: scroll; */
 }
-.greeting {
+.greeting-language {
   font-weight: bold;
   font-size: 35px;
   color: rgb(5, 5, 90);
@@ -15,9 +16,9 @@
 .greetings h4 {
   text-align: center;
   color: rgb(5, 5, 90);
-  font-size: 25;
+  font-size: 1.75rem;
 }
-.greeting:hover {
+.greeting-language:hover {
   color: red;
 }
 .cobalt {

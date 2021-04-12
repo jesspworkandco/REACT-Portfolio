@@ -12,7 +12,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Col xs={10} className="main-column mx-auto mb-5 mt-0 pt-0">
+        <Col xs={10} className="portfolio">
           <div className="main mx-sm-4 text-center">
             <h1>Work and Projects</h1>
             <div className="card-group">
@@ -22,7 +22,7 @@ class Portfolio extends React.Component {
                     <Card className="card">
                       <Row>
                         <Col className="image-col px-0" sm={12} xl={4}>
-                          <div className="container">
+                          <div className="container p-0">
                             <Card.Img
                               src={project.image}
                               className="image"

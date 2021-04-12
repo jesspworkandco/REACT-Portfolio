@@ -4,12 +4,12 @@ import "./contact.css";
 
 function Contact() {
   return (
-    <div className="contact-container mx-sm-4 text-center">
+    <div className="contact mx-sm-4 text-center">
       <div>
-        <h1 className="mb-2">Let's Stay in Touch</h1>
+        <h1 className="title">Let's Stay in Touch</h1>
         <h3>Actively looking for a Full Time Frontend Developer position!</h3>
         <ol className="connect text-center">
-          <h4>
+          {/* <h4> */}
             <li>
               <a
                 href="mailto:1jessicaperez@gmail.com"
@@ -33,7 +33,7 @@ function Contact() {
                 > Checkout my Resume
               </a>
             </li>
-          </h4>
+          {/* </h4> */}
         </ol>
       </div>
     </div>

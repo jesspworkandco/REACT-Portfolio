@@ -1,34 +1,39 @@
-.contact-container * {
-  font-family: "Cormorant", serif;
+.contact * {
+  /* font-family: "Cormorant", serif; */
   color: rgb(5, 5, 90);
   max-width: 80%;
   min-width: 55%px;
   max-height: 80%;
-  margin: 0 auto;
-  padding-bottom: 20px;
+  margin: 0px auto;
+  padding-top: 40px;
 }
 ol {
   list-style: none;
 }
 li {
-  line-height: 2.2rem;
+  line-height: 1.7rem;
   margin: 0 auto;
 }
 li:hover {
   transform: scale(1.2);
   transition: all ease 500ms;
 }
-a {
-  font-style: italic;
-  font-size: 1.8rem;
-}
-a:hover {
-  color: red;
-  text-decoration: none;
-}
 .connect {
   padding: 0;
 }
-.contact-container h1 {
+.connect a {
+  font-size: 1.7rem;
+  padding-top: 0;
+  font-weight: bold;
+}
+.connect a:hover {
+  color: red;
+  text-decoration: none;
+}
+.contact h1 {
   margin-bottom: 15px;
+}
+
+.contact h3 {
+  padding: 0;
 }

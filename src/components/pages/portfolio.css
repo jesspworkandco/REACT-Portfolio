@@ -1,14 +1,14 @@
-.main-column * {
-  font-family: "Cormorant", serif;
+.portfolio * {
+  /* font-family: "Cormorant", serif; */
   color: rgb(5, 5, 90);
 }
-.main-column {
+.portfolio {
   width: 100vh;
   display: grid;
   margin: 0 auto;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-  padding: 0.8rem;
+  margin: 30px auto;
+  padding-top: 40px;
+  position: relative;
 }
 .main {
   margin-bottom: 5rem;
@@ -33,13 +33,13 @@ h1 {
   border: none;
   border-radius: 15px;
   margin: 5px 0px;
+  margin-bottom: 25px;
   padding: none;
   min-height: 13rem;
   max-height: 28rem;
-  overflow: scroll;
+  background-color: transparent;
 }
 .container {
-  position: relative;
   max-height: 260px;
 }
 .image {
@@ -106,8 +106,11 @@ h1 {
   padding-top: 0;
 }
 .project-description {
+  text-align: justify;
   font-size: 1.2rem;
   max-width: 33rem;
+  max-height: 10rem;
+  overflow-y: scroll;
   margin: 0 auto;
 }
 .github-link {

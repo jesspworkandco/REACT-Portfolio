@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+
 //array of technical skills
 const technicalArray = [
   "HTML",
@@ -62,10 +63,10 @@ class Home extends React.Component {
     let changeBusiness =
       businessArray[this.state.businessIndex % businessArray.length];
     return (
-        <div className="about-container">
+        <div className="about">
           <div className="greetings text-center">
             <h2
-              className="greeting"
+              className="greeting-language"
               onMouseEnter={this.frenchTitle}
               onMouseLeave={this.englishTitle}
             >

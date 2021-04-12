@@ -1,0 +1,31 @@
+.brand {
+  padding: 20px 0px 0px 20px;
+  height: 70px;
+}
+
+.header .home {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: rgb(5, 5, 90);
+  font-style: normal;
+  text-decoration: none;
+}
+#header-wrapper {
+  width: 100vw;
+  height: 30px;
+  display: flex;
+  position: relative;
+  border-bottom: red 7px solid;
+}
+#header-wrapper:before {
+  content: " ";
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  right: 0px;
+  bottom: 7px;
+  border-bottom: rgb(5, 5, 90) 7px solid;
+}
+.eiffel-tower {
+  width: 40px;
+}
