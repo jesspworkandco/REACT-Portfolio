@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "react-bootstrap/Image";
 import Jpeg from "../assets/profile-pic.jpeg";
 import { Navbar, NavItem } from "react-bootstrap";
@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 import "../components/componentStyles.css";
 
 const Sidebar = (props) => {
+  const node = useRef();
   const [sidebarClass, setSidebarClass] = useState(props.sidebar);
+  // close sidebar when clicking on X
   const closeHandler = (e) => {
     e.preventDefault();
     setSidebarClass("sidebar close");
@@ -14,8 +16,28 @@ const Sidebar = (props) => {
       props.close();
     }, 1000);
   };
+
+  // handle close when clicking outside
+  const handleClick = e => {
+  if (node.current.contains(e.target)) {
+    // inside click
+    return;
+  }
+  // outside click 
+  setSidebarClass("sidebar close");
+  };
+
+  useEffect(() => {
+  // add when mounted
+  document.addEventListener("mousedown", handleClick);
+  // return function to be called when unmounted
+  return () => { 
+    document.removeEventListener("mousedown", handleClick);
+  };
+  }, []);
+
   return (
-    <div className={sidebarClass}>
+    <div className={sidebarClass} ref={node}>
       <button id="close" onClick={closeHandler}>
         &times;
       </button>
