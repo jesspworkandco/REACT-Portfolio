@@ -34,7 +34,7 @@ const Sidebar = (props) => {
   return () => { 
     document.removeEventListener("mousedown", handleClick);
   };
-  }, []);
+  }, [sidebarClass]);
 
   return (
     <div className={sidebarClass} ref={node}>
