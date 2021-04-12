@@ -116,3 +116,7 @@ h1 {
 .github-link {
   font-weight: bolder;
 }
+.github-link:hover {
+  text-decoration: none;
+  color: red;
+}
