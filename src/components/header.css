@@ -3,12 +3,18 @@
   height: 70px;
 }
 
-.header .home {
-  display: inline-block;
-  font-size: 1.2rem;
+.home {
+  font-size: 1.5rem;
   color: rgb(5, 5, 90);
   font-style: normal;
+}
+.header a.home {
+  position: absolute;
+  top: 25px;
   text-decoration: none;
+}
+a.home:hover {
+  color: rgb(5, 5, 90);
 }
 #header-wrapper {
   width: 100vw;

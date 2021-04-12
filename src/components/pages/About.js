@@ -72,14 +72,7 @@ class Home extends React.Component {
             >
               {this.state.title}, Jessica Perez
             </h2>
-            {/* <img
-              src="https://image.flaticon.com/icons/png/512/26/26868.png"
-              alt="beret icon"
-              width="60"
-              height="70"
-              className="beret pb-3 px-2 mx-auto"
-            ></img> */}
-            <h4 >Enthusiastic Frontend Developer, looking for a fulltime position</h4>
+            <h4 >Enthusiastic Frontend Developer, looking for a fulltime position!</h4>
           </div>
           <div className="bio">
             <p className="bio-text">
