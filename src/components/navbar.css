@@ -3,7 +3,11 @@
   color: rgb(5, 5, 90);
 }
 .navbar {
-  left: 15px;
+  left: 28px;
+  font-size: 25px;
+  padding: 0;
+  margin: 15px 0px;
+  width: 50px;
 }
 .nav-menu {
   background-color: rgb(5, 5, 90);
@@ -46,6 +50,17 @@
   margin: 30px auto;
   width: 140px;
 }
+.personal-info {
+  font-size: large;
+  font-weight: bold;
+  line-height: normal;
+}
+.city,
+.cell,
+#email {
+  margin: 0;
+  line-height: 1.8rem;
+}
 #email {
   font-size: 13px;
   color: white;
@@ -55,14 +70,16 @@
   text-decoration: none;
 }
 .nav-menu-items {
-  padding: 0px 20px;
   width: 100%;
   list-style: none;
 }
 .nav-text a {
   text-decoration: none;
+  font-size: 1.5rem;
   color: white;
+  line-height: 1.8rem;
 }
 .nav-text a:hover {
   color: red;
+  font-size: 1.5rem;
 }

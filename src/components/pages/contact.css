@@ -7,16 +7,12 @@
   margin: 0px auto;
   padding-top: 40px;
 }
-ol {
+ul {
   list-style: none;
 }
 li {
   line-height: 1.7rem;
   margin: 0 auto;
-}
-li:hover {
-  transform: scale(1.2);
-  transition: all ease 500ms;
 }
 .connect {
   padding: 0;
@@ -25,6 +21,10 @@ li:hover {
   font-size: 1.7rem;
   padding-top: 0;
   font-weight: bold;
+}
+.connect li:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
 }
 .connect a:hover {
   color: red;

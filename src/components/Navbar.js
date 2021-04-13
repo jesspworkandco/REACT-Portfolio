@@ -33,18 +33,19 @@ const Navbar = () => {
                           className="profile-pic"
                           src={Jpeg}
                         />
-                <h3>Jessica Perez</h3>
                 <div className="personal-info mt-1">
-                    <p className="city">Brooklyn, NY</p>
-                    <p className="cell">(917) 847-1533</p> 
-                    <p><a
-                    data-toggle="tooltip"
-                    title="Send me a message!"
-                    id="email"
-                    href="mailto:1jessicaperez@gmail.com"
-                >
-                    1JESSICAPEREZ@GMAIL.COM
-                    </a></p>
+                    <h3>Jessica Perez
+                    </h3>
+                        <p className="city">Brooklyn, NY</p>
+                        <p className="cell">(917) 847-1533</p> 
+                        <p><a
+                        data-toggle="tooltip"
+                        title="Send me a message!"
+                        id="email"
+                        href="mailto:1jessicaperez@gmail.com"
+                    >
+                        1JESSICAPEREZ@GMAIL.COM
+                        </a></p>
                 </div>
                     {NavbarData.map((item, index) => {
                         return (

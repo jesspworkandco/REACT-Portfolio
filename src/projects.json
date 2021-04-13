@@ -3,7 +3,7 @@
     "id": "1",
     "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80",
     "title": "Cobalt",
-    "technologies": "React/Redux, hooks, form validation/control, RESTful Apis, DraftJS",
+    "technologies": "DraftJS, form validation/control, hooks, React/Redux, RESTful Apis",
     "description": "The idea development platform! Built the 'Develop Idea' section: Save user's data to the DB, enable them to retrieve/update data any time to streamline the user experience. Pull in saved user data to populate 'Project Details' with proper project information: allow the user to access project details for editing. Create a responsive sidebar and notifications for an intuitive and optimized navigation. Added DraftJs to all form inputs that allows the user to enter rich text. Ensured newly created projects' design match general website design for a harmonious UI. React app using Redux, hooks, form validation/control, Routes, RESTful Apis, CSS.",
     "link": "https://cobalt.co"
   },
@@ -38,7 +38,7 @@
     "id": "5",
     "image": "https://images.unsplash.com/photo-1586034679970-cb7b5fc4928a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
     "title": "Budget Tracker",
-    "technologies": "IndexedDB, Mongoose/Express",
+    "technologies": "Express, IndexedDB, Mongoose",
     "description": "Track your budget - even while in the subway- this app allows you to add expenses and deposits to your budget whether you are online or offline.",
     "link": "https://obscure-wildwood-18662.herokuapp.com/",
     "github": "https://github.com/JessicaPerez1/Budget-Tracker.git"

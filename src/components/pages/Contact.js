@@ -8,8 +8,7 @@ function Contact() {
       <div>
         <h1 className="title">Let's Stay in Touch</h1>
         <h3>Actively looking for a Full Time Frontend Developer position!</h3>
-        <ol className="connect text-center">
-          {/* <h4> */}
+        <ul className="connect text-center">
             <li>
               <a
                 href="mailto:1jessicaperez@gmail.com"
@@ -33,8 +32,7 @@ function Contact() {
                 > Checkout my Resume
               </a>
             </li>
-          {/* </h4> */}
-        </ol>
+        </ul>
       </div>
     </div>
   );
