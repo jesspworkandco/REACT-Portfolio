@@ -20,11 +20,12 @@
 .greeting-language:hover {
   color: red;
 }
-.cobalt {
-  font-size: 1.4rem;
-  font-weight: bold;
+.cobalt,
+.cobalt:hover {
+  font-weight: bolder;
   color: rgb(5, 5, 90);
 }
+
 .bio {
   padding: 2rem;
   font-size: 22px;

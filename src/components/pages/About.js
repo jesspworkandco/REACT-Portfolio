@@ -78,7 +78,7 @@ class Home extends React.Component {
             <p className="bio-text">
               Currently a Frontend Developer, sharpening my ReactJs skills at
                 <a className="cobalt" href="https://cobalt.co/" rel="noopener noreferrer" target="_blank"> Cobalt</a>
-                - contract based position.
+                , contract based position.
               <br />
               Well organized with strong managing and client facing skills.
               Analytical, decisive, coupled with a passion for exceeding
