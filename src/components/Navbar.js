@@ -31,7 +31,7 @@ const Navbar = () => {
     return () => {
       document.removeEventListener("mousedown", handleRefOnClick);
     };
-  }, []);
+  });
 
   return (
     <>
