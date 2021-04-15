@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Jpeg from "../assets/profile-pic.jpeg";
@@ -10,36 +10,19 @@ import { NavbarData } from "./NavbarData";
 import "./navbar.css";
 
 const Navbar = () => {
-  const ref = useRef(null);
   // sidebar state isOpen/isClosed
   const [sidebar, setSidebar] = useState(false);
 
   //toggle sidebar
   const showSidebar = () => setSidebar(!sidebar);
-  // click outside
-  const handleRefOnClick = (e) => {
-    if (ref.current.contains(e.target)) {
-      return;
-    }
-    setSidebar(sidebar);
-  };
-
-  useEffect(() => {
-    // add when mounted
-    document.addEventListener("mousedown", handleRefOnClick);
-    // return function to be called when unmounted
-    return () => {
-      document.removeEventListener("mousedown", handleRefOnClick);
-    };
-  });
 
   return (
     <>
-      <div className="navbar">
+      <div className="navbar" onClick={showSidebar}>
         <Link to="#" className="menu-bars">
           <FaIcons.FaBars onClick={showSidebar} />
         </Link>
-        <nav ref={ref} className={sidebar ? "nav-menu active" : "nav-menu"}>
+        <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
             <li className="navbar-toggle">
               <Link to="#" className="menu-close">
