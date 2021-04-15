@@ -2,12 +2,15 @@
 
 ## Description
 
-Created my portfolio with REACT and REACT-BOOTSTRAP. Ensured a responsive layout and user friendly interface with sidenav and easy navigation to links.
+Created my portfolio with REACT (hooks, state, router, etc.) using some react-specific npm packages.
+Ensured a responsive layout and user friendly interface with sidenav and easy navigation to links.
+
+![](src/assets/Portfolio-JP-screenshot.png)
 
 ## Table of Contents
 
 1. [Usage](#Usage)
-2. [Github repository and Netlify deployed app link](#Github-repository-Heroku-deployed-link)
+2. [Github repository and Netlify deployed app link](#Github-repository-Netlify-deployed-link)
 3. [Questions](#Questions)
 
 ## Usage
