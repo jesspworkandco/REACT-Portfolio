@@ -20,9 +20,12 @@
 .greeting-language:hover {
   color: red;
 }
+.bold {
+  font-style: italic;
+}
 .cobalt,
 .cobalt:hover {
-  font-weight: bolder;
+  font-style: italic;
   color: rgb(5, 5, 90);
 }
 
