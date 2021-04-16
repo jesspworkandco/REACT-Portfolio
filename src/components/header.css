@@ -1,16 +1,19 @@
-.brand {
-  padding: 20px 0px 0px 20px;
-  height: 70px;
+.header {
+  padding-top: 15px;
 }
-
+.brand {
+  height: 75px;
+  width: auto;
+  display: inline;
+}
 .home {
   font-size: 1.5rem;
   color: rgb(5, 5, 90);
   font-style: normal;
 }
-.header a.home {
+a.home {
   position: absolute;
-  top: 25px;
+  top: 20px;
   text-decoration: none;
 }
 a.home:hover {
@@ -34,4 +37,26 @@ a.home:hover {
 }
 .eiffel-tower {
   width: 40px;
+  margin-left: 20px;
+}
+.croissant-icon {
+  color: black;
+  display: inline;
+  width: auto;
+  float: right;
+  margin-right: 20px;
+  font-size: 30px;
+  position: relative;
+  animation: mymove 1s infinite linear;
+}
+@keyframes mymove {
+  from {
+    left: 5px;
+  }
+  to {
+    right: 5px;
+  }
+}
+a.bonus {
+  color: navy;
 }

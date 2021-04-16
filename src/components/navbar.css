@@ -15,7 +15,7 @@
   width: 170px;
   height: 100vh;
   position: fixed;
-  top: 100px;
+  top: 90px;
   left: -100%;
   transition: 850ms;
 }
@@ -29,7 +29,7 @@
   left: 0;
   color: white;
   transition: 350ms;
-  top: 100px;
+  top: 90px;
   z-index: 2000;
 }
 .navbar-toggle {
@@ -72,6 +72,7 @@
 .nav-menu-items {
   width: 100%;
   list-style: none;
+  padding: 0;
 }
 .nav-text a {
   text-decoration: none;

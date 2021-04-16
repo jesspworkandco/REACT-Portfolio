@@ -11,8 +11,8 @@ class Portfolio extends React.Component {
   };
   render() {
     return (
-      <React.Fragment>
-        <Col xs={10} className="portfolio">
+      <div className="portfolio">
+        <Col className="main-col" xs={10}>
           <div className="main mx-sm-4 text-center">
             <h1>Work and Projects</h1>
             <div className="card-group">
@@ -21,8 +21,8 @@ class Portfolio extends React.Component {
                   <Col className="projects-col" sm={12} key={project.id}>
                     <Card className="card">
                       <Row>
-                        <Col className="image-col px-0" sm={12} xl={4}>
-                          <div className="container p-0">
+                        <Col className="image-col" sm={12} xl={4}>
+                          <div className="container-image p-0">
                             <Card.Img
                               src={project.image}
                               className="image"
@@ -40,23 +40,23 @@ class Portfolio extends React.Component {
                                   View Site
                                 </button>
                               </a>
-                              {project.github && 
-                              <a
-                                href={project.github}
-                                rel="noopener noreferrer"
-                                target="_blank"
-                              >
-                                <button className="project-github">
-                                  View Code
-                                </button>
-                              </a>}
- 
+                              {project.github && (
+                                <a
+                                  href={project.github}
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                >
+                                  <button className="project-github">
+                                    View Code
+                                  </button>
+                                </a>
+                              )}
                             </div>
                           </div>
                         </Col>
                         <Col className="project-description-col" sm={12} xl={8}>
-                          <Card.Body className="ml-lg-5">
-                            <Card.Title className="project-title mb-0">
+                          <Card.Body className="card-body">
+                            <Card.Title className="project-title mb-0 mt-sm-2">
                               {project.title}
                             </Card.Title>
                             <p className="technology">{project.technologies}</p>
@@ -71,10 +71,10 @@ class Portfolio extends React.Component {
                 ))}
               </Row>
             </div>
-            <h3 className="my-4">
+            <h3 className="github my-2">
               See more on my{" "}
               <a
-              className="github-link"
+                className="github-link"
                 href="https://github.com/JessicaPerez1"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -84,7 +84,7 @@ class Portfolio extends React.Component {
             </h3>
           </div>
         </Col>
-      </React.Fragment>
+      </div>
     );
   }
 }

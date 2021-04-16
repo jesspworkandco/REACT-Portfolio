@@ -1,17 +1,19 @@
 .contact * {
-  /* font-family: "Cormorant", serif; */
   color: rgb(5, 5, 90);
+}
+.contact {
   max-width: 80%;
   min-width: 55%px;
-  max-height: 80%;
+  height: 95%;
   margin: 0px auto;
   padding-top: 40px;
+  padding-bottom: 5rem;
 }
 ul {
   list-style: none;
 }
 li {
-  line-height: 1.7rem;
+  line-height: 2rem;
   margin: 0 auto;
 }
 .connect {
@@ -30,10 +32,12 @@ li {
   color: red;
   text-decoration: none;
 }
-.contact h1 {
-  margin-bottom: 15px;
+.title {
+  margin-bottom: 20px;
+  padding: 0;
 }
 
 .contact h3 {
   padding: 0;
+  margin-top: 0;
 }

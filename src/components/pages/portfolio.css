@@ -1,17 +1,17 @@
 .portfolio * {
-  /* font-family: "Cormorant", serif; */
   color: rgb(5, 5, 90);
 }
 .portfolio {
-  width: 100vh;
-  display: grid;
-  margin: 0 auto;
-  margin: 30px auto;
+  width: 90%;
+  height: 90%;
+  margin: 0px auto;
   padding-top: 40px;
-  position: relative;
+  padding-bottom: 5rem;
 }
+.main-col,
 .main {
-  margin-bottom: 5rem;
+  max-height: 95%;
+  margin: 0 auto;
 }
 .main h1 {
   margin-bottom: 20px;
@@ -39,19 +39,21 @@ h1 {
   max-height: 28rem;
   background-color: transparent;
 }
-.container {
+.container-image {
   max-height: 260px;
 }
+.image-col {
+  padding: 0;
+  margin: 0 auto;
+}
 .image {
-  margin: 0px 2px 0px 0px;
-  padding: 0px;
   max-width: 20rem;
   width: 18rem;
   height: 15rem;
   border-radius: 15px;
 }
 
-.container:hover .image {
+.container-image:hover .image {
   -webkit-filter: blur(4px);
   filter: blur(4px);
 }
@@ -65,7 +67,7 @@ h1 {
   height: 0;
   transition: 0.5s ease;
 }
-.container:hover .link-site {
+.container-image:hover .link-site {
   bottom: 0;
   height: 100%;
 }
@@ -91,7 +93,7 @@ h1 {
   top: 70%;
 }
 .project-title {
-  font-weight: 700;
+  font-weight: bold;
   color: red;
 }
 .technology {
@@ -103,7 +105,7 @@ h1 {
   margin: 0;
 }
 .card-body {
-  padding-top: 0;
+  padding: 0;
 }
 .project-description {
   text-align: justify;

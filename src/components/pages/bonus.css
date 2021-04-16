@@ -1,0 +1,11 @@
+.bonus * {
+  color: rgb(5, 5, 90);
+}
+.bonus {
+  max-width: 80%;
+  min-width: 55%px;
+  height: 95%;
+  margin: 0px auto;
+  padding-top: 40px;
+  padding-bottom: 5rem;
+}

@@ -2,8 +2,9 @@
   max-width: 80%;
   min-width: 55%;
   max-height: 80%;
-  margin: 30px auto;
+  margin: 0 auto;
   padding-top: 40px;
+  padding-bottom: 5rem;
   color: rgb(5, 5, 90);
 }
 .greeting-language {
@@ -30,10 +31,9 @@
 }
 
 .bio {
-  padding: 2rem;
+  padding-top: 2rem;
   font-size: 22px;
   text-align: justify;
-  margin-bottom: 10px;
 }
 .bio-text {
   margin-bottom: 30px;
@@ -44,9 +44,9 @@
   font-weight: bold;
   font-size: 1.5rem;
 }
-.business {
-  padding-bottom: 50px;
-}
+/* .business {
+  margin-bottom: 6rem;
+} */
 .skills-business {
   letter-spacing: 0.1em;
 }
