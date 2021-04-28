@@ -1,5 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import PngEmail from "../../assets/email-icon.png";
+import PngGithub from "../../assets/github-icon.png";
+import PngLinkedin from "../../assets/linkedin-icon.png";
 import "./footer.css";
 
 function Footer() {
@@ -12,11 +15,7 @@ function Footer() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image
-              className="logo"
-              src="https://icon-library.com/images/mail-icon-circle/mail-icon-circle-19.jpg"
-              roundedCircle
-            />
+            <Image className="logo" src={PngEmail} roundedCircle />
           </a>
         </Col>
         <Col xs={4} className="item">
@@ -25,11 +24,7 @@ function Footer() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image
-              className="logo"
-              src="https://icons-for-free.com/iconfiles/png/512/part+1+github-1320568339880199515.png"
-              roundedCircle
-            />
+            <Image className="logo" src={PngGithub} roundedCircle />
           </a>
         </Col>
         <Col xs={4} className="item">
@@ -38,10 +33,7 @@ function Footer() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image
-              className="logo"
-              src="https://icon-library.com/images/linkedin-icon-black-and-white/linkedin-icon-black-and-white-13.jpg"
-            />
+            <Image className="logo" src={PngLinkedin} roundedCircle />
           </a>
         </Col>
       </Row>

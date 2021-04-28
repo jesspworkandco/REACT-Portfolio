@@ -1,25 +1,23 @@
 .about {
-  max-width: 80%;
-  min-width: 55%;
-  max-height: 80%;
-  margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 5rem;
-  color: rgb(5, 5, 90);
+  color: navy;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0px auto;
+  background-image: linear-gradient(
+    225deg,
+    rgba(230, 224, 224, 0.8),
+    rgba(219, 238, 250, 0.8)
+  );
+  background-size: cover;
+  background-position: center center;
 }
-.greeting-language {
-  font-weight: bold;
-  font-size: 35px;
-  color: rgb(5, 5, 90);
-  margin-bottom: 15px;
+.title {
+  margin-bottom: 20px;
+  padding: 0;
 }
-.greetings h4 {
-  text-align: center;
-  color: rgb(5, 5, 90);
-  font-size: 1.75rem;
-}
-.greeting-language:hover {
-  color: red;
+.intro {
+  font-size: 25px;
+  margin: 0;
 }
 .bold {
   font-style: italic;
@@ -27,26 +25,23 @@
 .cobalt,
 .cobalt:hover {
   font-style: italic;
-  color: rgb(5, 5, 90);
+  color: navy;
 }
-
 .bio {
-  padding-top: 2rem;
-  font-size: 22px;
+  padding: 8rem 2rem;
+  margin: 0 auto;
   text-align: justify;
+  height: 90%;
+  width: 80%;
 }
 .bio-text {
   margin-bottom: 30px;
+  font-size: 22px;
 }
-.skills,
-.business {
-  color: rgb(5, 5, 90);
+.skills-title {
   font-weight: bold;
   font-size: 1.5rem;
 }
-/* .business {
-  margin-bottom: 6rem;
-} */
-.skills-business {
+.skills {
   letter-spacing: 0.1em;
 }

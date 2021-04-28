@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+import Header from "./Header";
 import Jpeg from "../assets/profile-pic.jpeg";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
@@ -17,7 +18,8 @@ const Navbar = () => {
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
-    <>
+    <div className="header-container">
+      <Header />
       <div className="navbar" onClick={showSidebar}>
         <Link to="#" className="menu-bars">
           <FaIcons.FaBars onClick={showSidebar} />
@@ -55,7 +57,7 @@ const Navbar = () => {
           </ul>
         </nav>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -2,10 +2,10 @@ import React from "react";
 import Pdf from "../../assets/Jessica-Perez-CV.pdf";
 import "./contact.css";
 
-function Contact() {
+const Contact = () => {
   return (
-    <div className="contact text-center">
-      <div>
+    <div className="contact-container text-center">
+      <div className="contact">
         <h1 className="title">Let's Stay in Touch</h1>
         <h3>Actively looking for a Full Time Frontend Developer position!</h3>
         <ul className="connect text-center">
@@ -36,5 +36,5 @@ function Contact() {
       </div>
     </div>
   );
-}
+};
 export default Contact;
