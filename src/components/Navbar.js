@@ -50,7 +50,12 @@ const Navbar = () => {
             {NavbarData.map((item, index) => {
               return (
                 <div key={index} className={item.cName}>
-                  <Link to={item.path}>{item.title}</Link>
+                  <Link
+                    title="path links to all different pages of the app"
+                    to={item.path}
+                  >
+                    {item.title}
+                  </Link>
                 </div>
               );
             })}
