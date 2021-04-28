@@ -19,6 +19,7 @@ const About = () => {
           becoming an engineer. After months of self-education and attending
           Columbia University Fullstack boot camp, I got the chance to work at
           <a
+            title="go visit cobalt website"
             className="cobalt"
             href="https://cobalt.co/"
             rel="noopener noreferrer"

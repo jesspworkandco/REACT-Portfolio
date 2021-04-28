@@ -1,5 +1,5 @@
-.menu-bars,
-.menu-bars:hover {
+.menu-bars-icon,
+.menu-bars-icon:hover {
   color: navy;
 }
 .navbar {
@@ -54,7 +54,8 @@
 }
 .city,
 .cell,
-#email {
+#email,
+.nav-text {
   margin: 0;
   line-height: 1.8rem;
 }
@@ -62,24 +63,16 @@
   font-size: 15px;
   color: white;
 }
-#email:hover {
-  color: rgb(161, 5, 8);
-  text-decoration: none;
-}
 .nav-menu-items {
   width: 100%;
   list-style: none;
   padding: 0;
 }
-li.nav-text {
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-}
 .nav-text a {
   color: white;
-  text-decoration: none;
 }
-.nav-text a:hover {
+.nav-text a:hover,
+#email:hover {
   color: rgb(161, 5, 8);
-  font-size: 1.5rem;
+  text-decoration: none;
 }

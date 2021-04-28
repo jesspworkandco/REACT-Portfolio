@@ -21,17 +21,17 @@ const Navbar = () => {
     <div className="header-container">
       <Header />
       <div className="navbar" onClick={showSidebar}>
-        <Link to="#" className="menu-bars">
+        <Link to="#" className="menu-bars-icon">
           <FaIcons.FaBars onClick={showSidebar} />
         </Link>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
-          <ul className="nav-menu-items" onClick={showSidebar}>
-            <li className="navbar-toggle">
+          <div className="nav-menu-items" onClick={showSidebar}>
+            <div className="navbar-toggle">
               <Link to="#" className="menu-close">
                 <AiIcons.AiOutlineClose />
               </Link>
-            </li>
-            <img alt="jess-pic" className="profile-pic" src={Jpeg} />
+            </div>
+            <img alt="jessica profile pic" className="profile-pic" src={Jpeg} />
             <div className="personal-info mt-1">
               <h3>Jessica Perez</h3>
               <p className="city">Brooklyn, NY</p>
@@ -49,12 +49,12 @@ const Navbar = () => {
             </div>
             {NavbarData.map((item, index) => {
               return (
-                <li key={index} className={item.cName}>
+                <div key={index} className={item.cName}>
                   <Link to={item.path}>{item.title}</Link>
-                </li>
+                </div>
               );
             })}
-          </ul>
+          </div>
         </nav>
       </div>
     </div>

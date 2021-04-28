@@ -13,40 +13,44 @@ class Home extends React.Component {
   };
   englishTitle = () => {
     this.setState({
-      title: "Hello I am",
+      title: "Hello, I am",
     });
   };
   render() {
     return (
       <div className="home">
         <div className="greetings">
-          <h2
+          <h1
             className="greeting-language"
             onMouseEnter={this.frenchTitle}
             onMouseLeave={this.englishTitle}
           >
             {this.state.title} Jessica Perez
-          </h2>
-          <h4>Enthusiastic Frontend Developer, ready for my next move!</h4>
+          </h1>
+          <h2>Enthusiastic Frontend Developer, ready for my next move!</h2>
           <div className="skills">
-            <h5 className="skills-title">Technical skills</h5>
+            <h3 className="skills-title">Technical skills</h3>
             <p className="topics">
               HTML JavaScript CSS React/Redux NodeJS Express MySQL Bootstrap
               MaterialUI
             </p>
 
-            <h5 className="skills-title">Business skills</h5>
+            <h3 className="skills-title">Business skills</h3>
             <p className="topics">
               Team Management Problem Solving Client Facing Marketing Data
               Analysis
             </p>
 
-            <h5 className="skills-title">Soft skills</h5>
+            <h3 className="skills-title">Soft skills</h3>
             <p className="topics">
               Empathetic Team player Time management Curiosity Quick learner
             </p>
           </div>
-          <Link className="btn-about" to="/about">
+          <Link
+            title="navigate to about page"
+            className="btn-about"
+            to="/about"
+          >
             More
           </Link>
         </div>

@@ -11,29 +11,47 @@ function Footer() {
       <Row className="fullrow">
         <Col xs={4} className="item">
           <a
+            title="send jessica perez an email"
             href="mailto:1jessicaperez@gmail.com"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image className="logo" src={PngEmail} roundedCircle />
+            <Image
+              alt="email icon"
+              className="logo"
+              src={PngEmail}
+              roundedCircle
+            />
           </a>
         </Col>
         <Col xs={4} className="item">
           <a
+            title="go to jessica perez github page"
             href="https://github.com/JessicaPerez1"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image className="logo" src={PngGithub} roundedCircle />
+            <Image
+              alt="github icon"
+              className="logo"
+              src={PngGithub}
+              roundedCircle
+            />
           </a>
         </Col>
         <Col xs={4} className="item">
           <a
+            title="go to jessica perez linkedin page"
             href="https://www.linkedin.com/in/jessica-p-a13a20b5/"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image className="logo" src={PngLinkedin} roundedCircle />
+            <Image
+              alt="linkedin icon"
+              className="logo"
+              src={PngLinkedin}
+              roundedCircle
+            />
           </a>
         </Col>
       </Row>

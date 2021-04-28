@@ -11,6 +11,7 @@ const Contact = () => {
         <ul className="connect text-center">
           <li>
             <a
+              title="send jessica perez an email"
               href="mailto:1jessicaperez@gmail.com"
               rel="noopener noreferrer"
               target="_blank"
@@ -20,6 +21,7 @@ const Contact = () => {
           </li>
           <li>
             <a
+              title="go to jessica perez linkedin page"
               href="https://www.linkedin.com/in/jessica-p-a13a20b5/"
               rel="noopener noreferrer"
               target="_blank"
@@ -28,7 +30,12 @@ const Contact = () => {
             </a>
           </li>
           <li>
-            <a href={Pdf} rel="noopener noreferrer" target="_blank">
+            <a
+              href={Pdf}
+              title="open jessica perez pdf resume"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               > Checkout my Resume
             </a>
           </li>

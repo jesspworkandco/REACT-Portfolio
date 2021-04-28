@@ -1,5 +1,5 @@
 .portfolio * {
-  color: rgb(5, 5, 90);
+  color: navy;
 }
 .portfolio {
   min-height: 100vh;
@@ -19,7 +19,6 @@
   text-align: center;
   height: 90%;
 }
-
 .main-col {
   max-height: 95%;
   margin: 0 auto;
@@ -108,11 +107,11 @@ h1 {
   top: 70%;
 }
 .project-title {
-  font-weight: bold;
+  font-size: x-large;
   color: rgb(161, 5, 8);
 }
 .technology {
-  color: rgb(128, 125, 125);
+  color: rgb(102, 99, 99);
   font-size: medium;
   font-weight: bold;
   font-style: italic;
@@ -129,9 +128,6 @@ h1 {
   max-height: 7rem;
   overflow-y: scroll;
   margin: 0 auto;
-}
-.github-link {
-  font-weight: bolder;
 }
 .github-link:hover {
   text-decoration: none;

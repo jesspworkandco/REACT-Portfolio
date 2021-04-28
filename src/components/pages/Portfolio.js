@@ -27,10 +27,11 @@ class Portfolio extends React.Component {
                               src={project.image}
                               className="image"
                               variant="top"
-                              alt="project image"
+                              alt="project illustrative image"
                             />
                             <div className="link-site">
                               <a
+                                title="go to the app website"
                                 href={project.link}
                                 rel="noopener noreferrer"
                                 target="_blank"
@@ -42,6 +43,7 @@ class Portfolio extends React.Component {
                               </a>
                               {project.github && (
                                 <a
+                                  title="go to the github project repository"
                                   href={project.github}
                                   rel="noopener noreferrer"
                                   target="_blank"
@@ -74,6 +76,7 @@ class Portfolio extends React.Component {
             <h3 className="github my-2">
               See more on my{" "}
               <a
+                title="go visit jessica perez github page"
                 className="github-link"
                 href="https://github.com/JessicaPerez1"
                 rel="noopener noreferrer"

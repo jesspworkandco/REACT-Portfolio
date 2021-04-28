@@ -8,14 +8,14 @@ const Header = () => {
   return (
     <div className="header">
       <div className="brand">
-        <Link className="brand-name" to="/">
+        <Link title="go to the home page" className="brand-name" to="/">
           ze French Coder
         </Link>
       </div>
       <div className="croissant-icon">
         <Link
           data-toggle="tooltip"
-          title="Sweet EXTRA things!"
+          title="go to the bonus page"
           className="bonus"
           to="/bonus"
         >
