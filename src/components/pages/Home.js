@@ -32,20 +32,20 @@ class Home extends React.Component {
           <div className="skills">
             <h3 className="skills-title">Technical skills</h3>
             <p className="topics">
-              HTML JavaScript CSS React/Redux NodeJS Express MySQL Bootstrap
-              MaterialUI
+              HTML CSS Bootstrap JavaScript React/Redux MaterialUI NodeJS
+              Express MySQL
             </p>
 
             <h3 className="skills-title">Business skills</h3>
             <p className="topics">
-              Team Management Problem Solving Client Facing Marketing Data
-              Analysis
+              Team management - Problem solving - Client facing - Marketing -
+              Data analysis
             </p>
 
             <h3 className="skills-title">Soft skills</h3>
             <p className="topics">
-              Empathetic Emotional intelligence Time management Curiosity Quick
-              learner Ability to work remote efficiently
+              Empathetic - Emotional intelligence - Time management - Curiosity
+              Quick learner - Work remote efficiently
             </p>
           </div>
           <Link
