@@ -28,6 +28,7 @@ class Home extends React.Component {
             {this.state.title} Jessica Perez
           </h1>
           <h2>Enthusiastic Frontend Developer, ready for my next move!</h2>
+          <h3 className="opportunities">Open to: Freelance || Full time</h3>
           <div className="skills">
             <h3 className="skills-title">Technical skills</h3>
             <p className="topics">
@@ -43,7 +44,8 @@ class Home extends React.Component {
 
             <h3 className="skills-title">Soft skills</h3>
             <p className="topics">
-              Empathetic Team player Time management Curiosity Quick learner
+              Empathetic Emotional intelligence Time management Curiosity Quick
+              learner Ability to work remote efficiently
             </p>
           </div>
           <Link

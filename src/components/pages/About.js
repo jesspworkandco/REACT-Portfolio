@@ -16,8 +16,9 @@ const About = () => {
           <br />
           After my job in hospitality ended due to COVID, with my new found
           time, I took a leap of faith and pivoted my profession towards
-          becoming an engineer. After months of self-education and attending
-          Columbia University Fullstack boot camp, I got the chance to work at
+          becoming software engineer. After months of self-education and
+          attending Columbia University Fullstack boot camp, I got the chance to
+          work at
           <a
             title="go visit cobalt website"
             className="cobalt"

@@ -8,6 +8,9 @@ const Contact = () => {
       <div className="contact">
         <h1 className="title">Let's Stay in Touch</h1>
         <h3>Actively looking for a Full Time Frontend Developer position!</h3>
+        <h3>
+          Freelancing: feel free to reach out, happy to help with your project!
+        </h3>
         <ul className="connect text-center">
           <li>
             <a
