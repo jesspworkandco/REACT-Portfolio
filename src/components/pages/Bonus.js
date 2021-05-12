@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -12,7 +11,7 @@ function Bonus() {
   return (
     <div className="bonus-container text-center">
       <div className="bonus">
-        <h1 className="title">Some little extras coming soon . . .</h1>
+        <h1 className="title">Some little extras. . .</h1>
         <Row className="first-row">
           <Col className="bonus-col" sm={{ span: 4, offset: 1 }}>
             {" "}
@@ -31,12 +30,12 @@ function Bonus() {
               title="go to the rgb app"
               href="https://jessicaperez1.github.io/RGB-Color-Game/"
             >
-              Click to start the game
+              Start playing
             </a>
           </Col>
           <Col className="bonus-col" sm={{ span: 4, offset: 1 }}>
             {" "}
-            Hang tight for the second bonus 😎{" "}
+            2 Player Dice game coming soon 😎{" "}
           </Col>
         </Row>
       </div>
