@@ -1,18 +1,3 @@
-.contact * {
-  color: navy;
-}
-.contact-container {
-  min-height: 100vh;
-  width: 100%;
-  margin: 0px auto;
-  background-image: linear-gradient(
-    225deg,
-    rgba(230, 224, 224, 0.8),
-    rgba(219, 238, 250, 0.8)
-  );
-  background-size: cover;
-  background-position: center center;
-}
 .contact {
   padding: 8rem 2rem;
   margin: 0 auto;
@@ -30,6 +15,7 @@ li {
   padding: 2rem;
 }
 .connect a {
+  color: navy;
   font-size: 1.7rem;
   padding-top: 0;
   font-weight: bold;
