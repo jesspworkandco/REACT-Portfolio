@@ -18,7 +18,7 @@ class Home extends React.Component {
   };
   render() {
     return (
-      <div className="home">
+      <div className="home-container">
         <div className="greetings">
           <h1
             className="greeting-language"

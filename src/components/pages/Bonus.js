@@ -9,7 +9,7 @@ import "./bonus.css";
 
 function Bonus() {
   return (
-    <div className="bonus-container text-center">
+    <div className="main-container text-center">
       <div className="bonus">
         <h1 className="title">Some little extras. . .</h1>
         <Row className="first-row">
