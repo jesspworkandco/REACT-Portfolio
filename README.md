@@ -6,6 +6,7 @@ Created my portfolio with REACT (hooks, state, router, etc.) using some react-sp
 Ensured a responsive layout and user friendly interface with sidenav and easy navigation to links.
 
 ![](src/assets/Portfolio-JP-screenshot.png)
+![](src/assets/Portfolio-JP-screenshot-BW.png)
 
 ## Table of Contents
 
