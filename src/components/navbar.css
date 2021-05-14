@@ -14,15 +14,14 @@
 }
 .nav-menu.active {
   text-align: center;
-  background-color: navy;
-  opacity: 0.9;
+  opacity: 0.96;
   width: 215px;
   height: 80vh;
   position: fixed;
-  left: 0;
   color: white;
+  left: 0;
   transition: 350ms;
-  top: 85px;
+  top: 86px;
   z-index: 2000;
 }
 .navbar-toggle {
@@ -30,9 +29,6 @@
   text-align: center;
   font-size: 25px;
   font-weight: bolder;
-}
-.menu-close {
-  color: white;
 }
 .menu-close:hover {
   color: rgb(161, 5, 8);
@@ -57,18 +53,9 @@
 }
 #email {
   font-size: 15px;
-  color: white;
 }
 .nav-menu-items {
   width: 100%;
   list-style: none;
   padding: 0;
-}
-.nav-text a {
-  color: white;
-}
-.nav-text a:hover,
-#email:hover {
-  color: rgb(161, 5, 8);
-  text-decoration: none;
 }

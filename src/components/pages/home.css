@@ -24,6 +24,13 @@
   word-spacing: 8px;
   padding-bottom: 20px;
 }
+.btn-about {
+  font-size: 22px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 8px 18px;
+}
 .btn-about:hover {
   color: lightgray;
   text-decoration: none;

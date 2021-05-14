@@ -1,8 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
-// import PngEmail from "../../assets/email-icon.png";
-// import PngGithub from "../../assets/github-icon.png";
-// import PngLinkedin from "../../assets/linkedin-icon.png";
+import { Container, Row, Col } from "react-bootstrap";
 import * as HiOutlineIcons from "react-icons/hi";
 import * as RiGithubIcons from "react-icons/ri";
 import * as RiLinkedinIcons from "react-icons/ri";

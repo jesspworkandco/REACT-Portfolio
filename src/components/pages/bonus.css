@@ -29,14 +29,9 @@
 }
 .play {
   font-size: 1.2rem;
-  color: white;
-  background-color: navy;
   border-radius: 15px;
   padding: 10px;
   margin: 3px;
   display: inline-block;
-}
-.play:hover {
-  color: rgb(161, 5, 8);
-  text-decoration: none;
+  color: white;
 }

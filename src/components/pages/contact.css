@@ -14,6 +14,11 @@ li {
 .connect {
   padding: 2rem;
 }
+.connect a {
+  font-size: 1.7rem;
+  padding-top: 0;
+  font-weight: bold;
+}
 .connect li:hover {
   transform: scale(1.1);
   transition: all ease 500ms;

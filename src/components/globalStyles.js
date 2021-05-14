@@ -25,31 +25,41 @@ body{
 a.brand-name:hover,
 .croissant,
 .menu-bars-icon,
-.menu-bars-icon:hover {
+.menu-bars-icon:hover,
+.github-link {
   color: ${({ theme }) => theme.linkText};
-  transition: all 0.50s linear;
 }
 .logo {
   font-size: 28px;
 }
-.btn-about {
-  font-size: 22px;
-  font-weight: bolder;
+.btn-about{
   color: ${({ theme }) => theme.btnText};
-  border: none;
   background-color: ${({ theme }) => theme.btnBackground};
-  border-radius: 0.6rem;
-  padding: 8px 18px;
 }
-.connect a {
-  font-size: 1.7rem;
-  padding-top: 0;
-  font-weight: bold;
-}
+.github-link:hover,
 .croissant:hover,
 .greeting-language:hover,
-.connect a:hover {
+.connect a:hover,
+.nav-text a:hover,
+#email:hover,
+.play:hover {
   color: ${({ theme }) => theme.linkHover};
   text-decoration: none;
+}
+.menu-close,
+.nav-menu.active ,
+.nav-text a,
+#email  {
+  color: ${({ theme }) => theme.navText};
+}
+.nav-menu.active {
+    background: ${({ theme }) => theme.navBackground};
+}
+.project-description,
+.card-title{
+    color: ${({ theme }) => theme.cardText}
+}
+.play {
+  background-color: ${({ theme }) => theme.playBackground};
 }
 `;

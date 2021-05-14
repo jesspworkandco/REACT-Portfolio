@@ -2,8 +2,9 @@ import React from "react";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Card from "react-bootstrap/Card";
 
-import PngRgb from "../../assets/rgb-hard.png";
+import { BonusData } from "./BonusData";
 
 import "./bonus.css";
 
@@ -13,30 +14,45 @@ function Bonus() {
       <div className="bonus">
         <h1 className="title">Some little extras. . .</h1>
         <Row className="first-row">
-          <Col className="bonus-col" sm={{ span: 4, offset: 1 }}>
-            {" "}
-            <h2 className="card-title">
-              Test your RGB color knoweledge while waiting for the train!
-            </h2>
-            <img
-              className="app-img"
-              src={PngRgb}
-              alt="rgb game screenshot"
-            ></img>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              className="play"
-              title="go to the rgb app"
-              href="https://jessicaperez1.github.io/RGB-Color-Game/"
-            >
-              Start playing
-            </a>
-          </Col>
-          <Col className="bonus-col" sm={{ span: 4, offset: 1 }}>
-            {" "}
-            2 Player Dice game coming soon 😎{" "}
-          </Col>
+          {BonusData.map((item, index) => {
+            return (
+              <>
+                {item.bonusTitle ? (
+                  <Col
+                    key={index}
+                    className="bonus-col"
+                    sm={{ span: 4, offset: 1 }}
+                  >
+                    {" "}
+                    <h2 className="card-title">{item.bonusTitle}</h2>
+                    {item.bonusImg ? (
+                      <>
+                        <Card.Img
+                          className="app-img"
+                          src={item.bonusImg}
+                          alt="game screenshot"
+                        />
+
+                        <a
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          className="play"
+                          title="go to the app"
+                          href={item.bonusLink}
+                        >
+                          Start playing
+                        </a>
+                      </>
+                    ) : (
+                      <div></div>
+                    )}
+                  </Col>
+                ) : (
+                  <div></div>
+                )}
+              </>
+            );
+          })}
         </Row>
       </div>
     </div>
