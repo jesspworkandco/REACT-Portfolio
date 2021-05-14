@@ -32,7 +32,6 @@ function Bonus() {
                           src={item.bonusImg}
                           alt="game screenshot"
                         />
-
                         <a
                           rel="noopener noreferrer"
                           target="_blank"

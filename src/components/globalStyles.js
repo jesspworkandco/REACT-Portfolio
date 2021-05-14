@@ -67,5 +67,4 @@ a.brand-name:hover,
 .profile-pic {
     border: ${({ theme }) => theme.profilePicBorder}
 }
-
 `;

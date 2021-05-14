@@ -24,7 +24,6 @@ export const darkTheme = {
     "linear-gradient(25deg,rgba(0, 0, 0,1),rgba(30, 30, 30, 0.9))",
   linkText: "white",
   linkHover: "rgb(161, 5, 8)",
-  // linkHover: "rgb(251, 251, 89)",
   navBackground:
     "linear-gradient(rgba(142, 139, 139, 0.98),rgba(250, 250, 250, 0.95))",
   navText: "black",
