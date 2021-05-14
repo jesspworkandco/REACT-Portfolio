@@ -10,7 +10,8 @@
   margin: 0 auto;
 }
 .logo {
-  width: 30px;
+  font-size: 28px;
+  color: navy;
 }
 .item {
   align-items: center;

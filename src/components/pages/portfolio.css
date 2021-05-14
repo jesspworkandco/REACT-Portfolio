@@ -1,8 +1,9 @@
 .main {
-  padding: 8rem 2rem;
+  padding: 4rem 2rem;
   margin: 0 auto;
   text-align: center;
   height: 90%;
+  margin-bottom: 50px;
 }
 .main-col {
   max-height: 95%;
@@ -114,6 +115,9 @@ h1 {
   overflow-y: scroll;
   margin: 0 auto;
 }
+/* .github-link {
+  color: navy;
+} */
 .github-link:hover {
   text-decoration: none;
   color: rgb(161, 5, 8);

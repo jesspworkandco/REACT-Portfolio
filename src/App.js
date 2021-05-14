@@ -6,6 +6,7 @@ import { GlobalStyles } from "./components/GlobalStyles";
 import { lightTheme, darkTheme } from "./components/Themes";
 
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Portfolio from "./components/pages/Portfolio";
@@ -13,9 +14,13 @@ import Contact from "./components/pages/Contact";
 import Bonus from "./components/pages/Bonus";
 import Footer from "./components/Footer";
 
+import * as CgDarkIcons from "react-icons/cg";
+import "./App.css";
+
 const App = () => {
   // initialize theme to light
   const [theme, setTheme] = useState("light");
+  // toggle
   const themeToggler = () => {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
@@ -25,8 +30,12 @@ const App = () => {
       <>
         <div className="App">
           <GlobalStyles />
-          <button onClick={themeToggler}>Switch Theme</button>
+          <CgDarkIcons.CgDarkMode
+            className="dark-mode-icon"
+            onClick={themeToggler}
+          />
           <Router>
+            <Header />
             <Navbar />
             <Switch>
               <Route path="/" exact component={Home} />

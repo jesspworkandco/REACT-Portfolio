@@ -1,8 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import PngEmail from "../../assets/email-icon.png";
-import PngGithub from "../../assets/github-icon.png";
-import PngLinkedin from "../../assets/linkedin-icon.png";
+// import PngEmail from "../../assets/email-icon.png";
+// import PngGithub from "../../assets/github-icon.png";
+// import PngLinkedin from "../../assets/linkedin-icon.png";
+import * as HiOutlineIcons from "react-icons/hi";
+import * as RiGithubIcons from "react-icons/ri";
+import * as RiLinkedinIcons from "react-icons/ri";
 import "./footer.css";
 
 function Footer() {
@@ -16,12 +19,7 @@ function Footer() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image
-              alt="email icon"
-              className="logo"
-              src={PngEmail}
-              roundedCircle
-            />
+            <HiOutlineIcons.HiOutlineMail className="logo" />
           </a>
         </Col>
         <Col xs={4} className="item">
@@ -31,12 +29,7 @@ function Footer() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image
-              alt="github icon"
-              className="logo"
-              src={PngGithub}
-              roundedCircle
-            />
+            <RiGithubIcons.RiGithubLine className="logo" />
           </a>
         </Col>
         <Col xs={4} className="item">
@@ -46,12 +39,7 @@ function Footer() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image
-              alt="linkedin icon"
-              className="logo"
-              src={PngLinkedin}
-              roundedCircle
-            />
+            <RiLinkedinIcons.RiLinkedinLine className="logo" />
           </a>
         </Col>
       </Row>

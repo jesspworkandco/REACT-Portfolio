@@ -21,12 +21,12 @@
   background-color: navy;
   opacity: 0.9;
   width: 215px;
-  height: 100vh;
+  height: 80vh;
   position: fixed;
   left: 0;
   color: white;
   transition: 350ms;
-  top: 65px;
+  top: 85px;
   z-index: 2000;
 }
 .navbar-toggle {

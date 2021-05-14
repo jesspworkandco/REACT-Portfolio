@@ -1,5 +1,5 @@
-.header-container {
-  height: 0;
+.header {
+  height: 10px;
 }
 .brand {
   margin-left: 60px;
@@ -12,7 +12,7 @@
 }
 a.brand-name {
   position: absolute;
-  top: 29px;
+  top: 55px;
   text-decoration: none;
 }
 a.brand-name:hover {
@@ -23,9 +23,9 @@ a.brand-name:hover {
   display: inline;
   width: auto;
   float: right;
-  margin-top: 15px;
-  margin-right: 15px;
-  font-size: 33px;
+  margin-top: 4px;
+  margin-right: 10px;
+  font-size: 30px;
   position: relative;
   animation: mymove 1s infinite linear;
 }
