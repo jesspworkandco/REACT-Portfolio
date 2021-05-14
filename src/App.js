@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import { ThemeProvider } from "styled-components";
-import GlobalStyles from "./components/GlobalStyles";
+import { GlobalStyles } from "./components/GlobalStyle";
 import { lightTheme, darkTheme } from "./components/Themes";
 
 import Navbar from "./components/Navbar";
