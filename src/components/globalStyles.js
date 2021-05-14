@@ -26,7 +26,8 @@ a.brand-name:hover,
 .croissant,
 .menu-bars-icon,
 .menu-bars-icon:hover,
-.github-link {
+.github-link,
+.cobalt {
   color: ${({ theme }) => theme.linkText};
 }
 .logo {
@@ -42,7 +43,8 @@ a.brand-name:hover,
 .connect a:hover,
 .nav-text a:hover,
 #email:hover,
-.play:hover {
+.play:hover,
+.cobalt:hover {
   color: ${({ theme }) => theme.linkHover};
   text-decoration: none;
 }
@@ -65,4 +67,5 @@ a.brand-name:hover,
 .profile-pic {
     border: ${({ theme }) => theme.profilePicBorder}
 }
+
 `;
