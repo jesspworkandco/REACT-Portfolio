@@ -14,42 +14,33 @@ function Bonus() {
       <div className="bonus">
         <h1 className="title">Some little extras. . .</h1>
         <Row className="first-row">
-          {BonusData.map((item, index) => {
+          {BonusData.map((item) => {
             return (
-              <>
-                {item.bonusTitle ? (
-                  <Col
-                    key={index}
-                    className="bonus-col"
-                    sm={{ span: 4, offset: 1 }}
-                  >
-                    {" "}
-                    <h2 className="card-title">{item.bonusTitle}</h2>
-                    {item.bonusImg ? (
-                      <>
-                        <Card.Img
-                          className="app-img"
-                          src={item.bonusImg}
-                          alt="game screenshot"
-                        />
-                        <a
-                          rel="noopener noreferrer"
-                          target="_blank"
-                          className="play"
-                          title="go to the app"
-                          href={item.bonusLink}
-                        >
-                          Start playing
-                        </a>
-                      </>
-                    ) : (
-                      <div></div>
-                    )}
-                  </Col>
-                ) : (
-                  <div></div>
+              <Col
+                key={item.bonusId}
+                className="bonus-col"
+                sm={{ span: 4, offset: 1 }}
+              >
+                <h2 className="card-title">{item.bonusTitle}</h2>
+                {item.bonusImg && (
+                  <>
+                    <Card.Img
+                      className="app-img"
+                      src={item.bonusImg}
+                      alt="game screenshot"
+                    />
+                    <a
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="play"
+                      title="go to the app"
+                      href={item.bonusLink}
+                    >
+                      Start playing
+                    </a>
+                  </>
                 )}
-              </>
+              </Col>
             );
           })}
         </Row>
