@@ -1,18 +1,3 @@
-/* .home-container {
-  background-image: linear-gradient( */
-/* from top to bottom angle */
-/* 90deg, */
-/* hue, saturation, lightness, opacity */
-/* hsla(0, 0%, 99%, 0.7), */
-/* rgba(219, 211, 211, 0.8)
-    ),
-    url("../../assets/tour-eiffel.jpeg");
-  background-size: cover;
-  background-position: center center;
-  min-height: 100vh;
-  width: 100%; */
-/* color: navy; */
-/* } */
 .greetings {
   padding: 4rem 2rem;
   margin: 0 auto;
@@ -24,9 +9,6 @@
   font-weight: bold;
   font-size: 35px;
   margin-bottom: 15px;
-}
-.greeting-language:hover {
-  color: rgb(161, 5, 8);
 }
 .greetings h2 {
   font-size: 1.75rem;
@@ -41,14 +23,6 @@
   font-size: 22px;
   word-spacing: 8px;
   padding-bottom: 20px;
-}
-.btn-about {
-  font-size: 22px;
-  color: lightgray;
-  border: none;
-  background-color: navy;
-  border-radius: 0.6rem;
-  padding: 8px 18px;
 }
 .btn-about:hover {
   color: lightgray;

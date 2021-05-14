@@ -15,6 +15,8 @@ export const lightTheme = {
   linkHover: "rgb(161, 5, 8)",
   navBackground: "navy",
   navText: "white",
+  btnBackground: "navy",
+  btnText: "lightgrey",
 };
 
 export const darkTheme = {
@@ -33,4 +35,6 @@ export const darkTheme = {
   linkHover: "rgb(251, 251, 89)",
   navBackground: "white",
   navText: "black",
+  btnBackground: "darkgrey",
+  btnText: "rgb(46, 46, 46)",
 };

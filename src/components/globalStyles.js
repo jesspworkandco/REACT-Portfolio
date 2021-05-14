@@ -32,11 +32,22 @@ a.brand-name:hover,
 .logo {
   font-size: 28px;
 }
+.btn-about {
+  font-size: 22px;
+  font-weight: bolder;
+  color: ${({ theme }) => theme.btnText};
+  border: none;
+  background-color: ${({ theme }) => theme.btnBackground};
+  border-radius: 0.6rem;
+  padding: 8px 18px;
+}
 .connect a {
   font-size: 1.7rem;
   padding-top: 0;
   font-weight: bold;
 }
+.croissant:hover,
+.greeting-language:hover,
 .connect a:hover {
   color: ${({ theme }) => theme.linkHover};
   text-decoration: none;

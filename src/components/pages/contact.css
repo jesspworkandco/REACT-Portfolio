@@ -18,10 +18,6 @@ li {
   transform: scale(1.1);
   transition: all ease 500ms;
 }
-/* .connect a:hover {
-  color: rgb(161, 5, 8);
-  text-decoration: none;
-} */
 .title {
   margin-bottom: 20px;
   padding: 0;
