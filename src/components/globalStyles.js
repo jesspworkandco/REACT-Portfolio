@@ -5,7 +5,7 @@ body{
     background: ${({ theme }) => theme.bodyBackground};
     color: ${({ theme }) => theme.textColor};
     font-family: Cormorant, serif;
-    transition: all 0.50s linear;
+    transition: all 0.20s linear;
 }
 .home-container{
     background: ${({ theme }) => theme.homeBackground};
@@ -61,5 +61,8 @@ a.brand-name:hover,
 }
 .play {
   background-color: ${({ theme }) => theme.playBackground};
+}
+.profile-pic {
+    border: ${({ theme }) => theme.profilePicBorder}
 }
 `;

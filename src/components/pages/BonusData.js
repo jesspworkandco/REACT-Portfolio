@@ -11,7 +11,7 @@ export const BonusData = [
     bonusLink: "",
   },
   {
-    bonusTitle: "Hi",
+    bonusTitle: "",
     bonusImg: "",
     bonusLink: "",
   },

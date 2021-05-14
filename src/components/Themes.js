@@ -13,6 +13,7 @@ export const lightTheme = {
   btnText: "lightgrey",
   cardText: "navy",
   playBackground: "navy",
+  profilePicBorder: "2px solid white",
 };
 
 export const darkTheme = {
@@ -30,4 +31,5 @@ export const darkTheme = {
   btnText: "rgb(46, 46, 46)",
   cardText: "black",
   playBackground: "black",
+  profilePicBorder: "2px solid black",
 };
