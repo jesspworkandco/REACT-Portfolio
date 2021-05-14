@@ -14,20 +14,14 @@ li {
 .connect {
   padding: 2rem;
 }
-.connect a {
-  color: navy;
-  font-size: 1.7rem;
-  padding-top: 0;
-  font-weight: bold;
-}
 .connect li:hover {
   transform: scale(1.1);
   transition: all ease 500ms;
 }
-.connect a:hover {
+/* .connect a:hover {
   color: rgb(161, 5, 8);
   text-decoration: none;
-}
+} */
 .title {
   margin-bottom: 20px;
   padding: 0;

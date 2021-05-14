@@ -5,13 +5,14 @@ export const lightTheme = {
   linkColor: "white",
   linkBackground: "navy",
   bodyBackground:
-    "linear-gradient(225deg,rgba(230, 224, 224, 0.8),rgba(219, 238, 250, 0.8))",
-  homeBackground: `linear-gradient(90deg,hsla(0, 0%, 99%, 0.8),rgba(219, 211, 211, 0.8)),url("${eiffelImg}")`,
+    "linear-gradient(225deg,rgba(230, 224, 224, 0.9),rgba(219, 238, 250, 0.9))",
+  homeBackground: `linear-gradient(90deg,hsla(0, 0%, 99%, 0.8),rgba(240, 235, 235, 0.9)),url("${eiffelImg}")`,
   buttonText: "lightgray",
   buttonBackground: "navy",
   sideBarBackground: "white",
   sideBarText: "black",
   linkText: "navy",
+  linkHover: "rgb(161, 5, 8)",
   navBackground: "navy",
   navText: "white",
 };
@@ -29,6 +30,7 @@ export const darkTheme = {
   sideBarBackground: "white",
   sideBarText: "black",
   linkText: "white",
+  linkHover: "rgb(251, 251, 89)",
   navBackground: "white",
   navText: "black",
 };

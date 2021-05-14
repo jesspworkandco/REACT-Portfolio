@@ -19,7 +19,7 @@ const Header = () => {
           className="bonus"
           to="/bonus"
         >
-          <GiIcons.GiCroissant />
+          <GiIcons.GiCroissant className="croissant" />
         </Link>
       </div>
     </div>
