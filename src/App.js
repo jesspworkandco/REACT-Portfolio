@@ -33,6 +33,7 @@ const App = () => {
           <CgDarkIcons.CgDarkMode
             className="dark-mode-icon"
             onClick={themeToggler}
+            title="switch theme button"
           />
           <Router>
             <Header />
