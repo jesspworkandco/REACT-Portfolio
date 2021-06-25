@@ -19,7 +19,7 @@ h1 {
 }
 .card-group {
   display: flex;
-  flex-wrap: row;
+  /* flex-wrap: row; */
 }
 .projects-col {
   padding: 0;
@@ -29,7 +29,7 @@ h1 {
   border-radius: 15px;
   margin: 5px 0px;
   margin-bottom: 25px;
-  padding: 0.4rem;
+  /* padding: 0.4rem; */
   min-width: 15rem;
   max-width: 70rem;
   min-height: 13rem;
