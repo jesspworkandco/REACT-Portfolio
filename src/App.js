@@ -26,9 +26,10 @@ const App = () => {
   };
 
   return (
-    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
-      <>
-        <div className="App">
+    <div className="App">
+      <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+        <>
+          {/* <div className="App"> */}
           <GlobalStyles />
           <CgDarkIcons.CgDarkMode
             className="dark-mode-icon"
@@ -47,9 +48,10 @@ const App = () => {
             </Switch>
             <Footer />
           </Router>
-        </div>
-      </>
-    </ThemeProvider>
+          {/* </div> */}
+        </>
+      </ThemeProvider>
+    </div>
   );
 };
 

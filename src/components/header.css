@@ -1,23 +1,25 @@
 .header {
-  height: 10px;
+  height: 20px;
 }
 .brand {
   margin-left: 60px;
   display: inline;
 }
 a.brand-name {
-  position: absolute;
-  top: 55px;
+  position: relative;
+  top: 25px;
+  margin-left: 10px;
+  /* padding-top: 110px; */
   text-decoration: none;
 }
 .croissant-icon {
   display: inline;
   width: auto;
   float: right;
-  margin-top: 4px;
-  margin-right: 10px;
-  font-size: 30px;
+  /* margin-right: 10px; */
+  font-size: 2.5rem;
   position: relative;
+  top: -35px;
   animation: mymove 1s infinite linear;
 }
 @keyframes mymove {

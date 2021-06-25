@@ -2,8 +2,8 @@
   padding: 4rem 2rem;
   margin: 0 auto;
   text-align: center;
-  height: 90%;
-  margin-bottom: 50px;
+
+  /* margin-bottom: 50px; */
 }
 .greeting-language {
   font-weight: bold;

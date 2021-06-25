@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Jpeg from "../assets/profile-pic.jpeg";
-import * as FaIcons from "react-icons/fa";
+import Png from "../assets/french-flag.png";
+// import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 
 import { NavbarData } from "./NavbarData";
@@ -19,8 +20,17 @@ const Navbar = () => {
   return (
     // <div className="header-container">
     <div className="navbar" onClick={showSidebar}>
-      <Link to="#" className="menu-bars-icon">
-        <FaIcons.FaBars onClick={showSidebar} />
+      <Link to="#">
+        <img
+          alt="french flag"
+          className="flag"
+          title="menu"
+          src={Png}
+          onClick={showSidebar}
+        />
+        {/* <FaIcons.FaBars
+          onClick={showSidebar}
+        /> */}
       </Link>
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <div className="nav-menu-items" onClick={showSidebar}>

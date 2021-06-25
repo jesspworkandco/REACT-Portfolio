@@ -3,6 +3,7 @@
   margin: 0 auto;
   text-align: center;
   height: 90%;
+  /* box-sizing: border-box; */
 }
 .main-col {
   max-height: 95%;

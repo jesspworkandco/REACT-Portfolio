@@ -9,11 +9,11 @@ body{
 }
 .home-container{
     background: ${({ theme }) => theme.homeBackground};
-    z-index: 100;
+    background-position: center;
     background-size: cover;
-    background-position: center center;
-    min-height: 100vh;
-    width: 100%; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto
 }
 .brand-name {
   font-size: 1.5rem;
