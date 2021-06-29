@@ -8,20 +8,20 @@
 .nav-menu {
   height: 100vh;
   position: fixed;
-  top: 65px;
+  /* top: 65px; */
   left: -100%;
   transition: 850ms;
 }
 .nav-menu.active {
   text-align: center;
   opacity: 0.96;
-  width: 225px;
+  width: 227px;
   height: 80vh;
   position: fixed;
   color: white;
   left: 0;
   transition: 350ms;
-  top: 86px;
+  top: 88px;
   z-index: 2000;
 }
 .navbar-toggle {

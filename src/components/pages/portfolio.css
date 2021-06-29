@@ -91,6 +91,10 @@ h1 {
 .project-github {
   top: 70%;
 }
+.project-link:hover,
+.project-github:hover {
+  font-size: 30px;
+}
 .project-title {
   font-size: x-large;
   color: rgb(161, 5, 8);

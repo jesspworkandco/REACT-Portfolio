@@ -5,7 +5,7 @@ export const lightTheme = {
   bodyBackground: "white",
   homeBackground: `linear-gradient(90deg,rgb(255, 255, 255, 0.8),rgba(255, 255, 255)),url("${eiffelImg}")`,
   linkText: "navy",
-  linkHover: "rgb(161, 5, 8)",
+  linkHover: "rgb(239,65,53)",
   navBackground: "navy",
   navText: "white",
   btnBackground: "navy",
