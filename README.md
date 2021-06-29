@@ -5,8 +5,11 @@
 Created my portfolio with REACT (hooks, state, router, etc.) using some react-specific npm packages.
 Ensured a responsive layout and user friendly interface with sidenav and easy navigation to links.
 
-![](src/assets/Portfolio-JP-screenshot.png)
-![](src/assets/Portfolio-JP-screenshot-BW.png)
+![](src/assets/portfolio-homepage-light.png)
+![](src/assets/portfolio-home-sidebar-light.png)
+![](src/assets/portfolio-contact-sidebar-dark.png)
+![](src/assets/portfolio-projects-dark.png)
+![](src/assets/portfolio-bonus-light.png)
 
 ## Table of Contents
 

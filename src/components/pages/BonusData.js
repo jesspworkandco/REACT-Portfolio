@@ -1,4 +1,5 @@
 import rgbPng from "../../assets/rgb-hard.png";
+import dicePng from "../../assets/dice-game.png";
 export const BonusData = [
   {
     bonusId: "1",
@@ -8,8 +9,8 @@ export const BonusData = [
   },
   {
     bonusId: "2",
-    bonusTitle: "2 Player Dice game coming soon 😎",
-    bonusImg: "",
-    bonusLink: "",
+    bonusTitle: "2 Player Dice game: the first that scores 100 wins!",
+    bonusImg: `${dicePng}`,
+    bonusLink: "https://jessicaperez1.github.io/Dice-Game/",
   },
 ];
