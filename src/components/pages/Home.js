@@ -27,13 +27,24 @@ class Home extends React.Component {
           >
             {this.state.title} Jessica Perez
           </h1>
-          <h2>Enthusiastic Frontend Developer, ready for my next move!</h2>
-          <h3 className="opportunities">Open to: Freelance || Full time</h3>
+          <h2 className="jobTitle">
+            Associate Developer at
+            <a
+              title="go visit workco website"
+              className="workco"
+              href="https://work.co/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              {" "}
+              Work&Co{" "}
+            </a>
+          </h2>
           <div className="skills">
             <h3 className="skills-title">Technical skills</h3>
             <p className="topics">
-              HTML - CSS - JavaScript - NodeJS - React/Redux - Bootstrap -
-              MaterialUI
+              JavaScript - NodeJS - ReactJS - React Native - Typescript -
+              Bootstrap - MaterialUI - Storybook
             </p>
 
             <h3 className="skills-title">Business skills</h3>
@@ -45,7 +56,7 @@ class Home extends React.Component {
             <h3 className="skills-title">Soft skills</h3>
             <p className="topics">
               Empathy - Quick learning - Emotional intelligence - Time
-              management - Experience working remotely
+              management
             </p>
           </div>
           <Link

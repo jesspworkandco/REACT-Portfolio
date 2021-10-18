@@ -1,3 +1,6 @@
+.main-container {
+  color: navy;
+}
 .title {
   margin-bottom: 20px;
   padding: 0;
@@ -12,6 +15,7 @@
 .cobalt,
 .cobalt:hover {
   font-style: italic;
+  color: navy;
 }
 .bio {
   padding: 4rem 2rem;

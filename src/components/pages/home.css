@@ -3,6 +3,7 @@
   margin: 0 auto;
   text-align: center;
   max-width: 62rem;
+  color: navy;
 }
 .greeting-language {
   font-weight: bold;
@@ -12,7 +13,7 @@
 .greetings h2 {
   font-size: 1.75rem;
 }
-.greetings .opportunities {
+.greetings .jobTitle {
   margin-bottom: 90px;
 }
 .skills-title {
@@ -34,4 +35,12 @@
   color: lightgray;
   text-decoration: none;
   font-size: 27px;
+}
+.workco {
+  color: navy;
+}
+.workco:hover {
+  color: red;
+  font-weight: bolder;
+  text-decoration: none;
 }

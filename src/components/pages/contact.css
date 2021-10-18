@@ -7,10 +7,6 @@
 ul {
   list-style: none;
 }
-li {
-  line-height: 2.2rem;
-  margin: 0 auto;
-}
 .connect {
   padding: 2rem;
 }
@@ -18,16 +14,13 @@ li {
   font-size: 1.7rem;
   padding-top: 0;
   font-weight: bold;
+  color: navy;
 }
-.connect li:hover {
-  transform: scale(1.1);
-  transition: all ease 500ms;
+.connect a:hover {
+  text-decoration: none;
+  font-size: 2rem;
 }
 .title {
   margin-bottom: 20px;
   padding: 0;
-}
-.contact h3 {
-  padding: 0;
-  margin-top: 0;
 }

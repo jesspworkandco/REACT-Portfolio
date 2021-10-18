@@ -1,32 +1,30 @@
+.container {
+  min-width: 100%;
+  font-size: x-large;
+}
 .header {
-  height: 20px;
+  display: flex;
+  height: 6rem;
+  background-color: navy;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 .brand {
-  margin-left: 60px;
-  display: inline;
+  overflow: hidden;
+  white-space: nowrap;
 }
-a.brand-name {
-  position: relative;
-  top: 25px;
-  margin-left: 10px;
-  /* padding-top: 110px; */
+.brandName:hover {
   text-decoration: none;
+  color: rgb(239, 65, 53);
+}
+.flag {
+  height: 2rem;
+  width: auto;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 .croissant-icon {
-  display: inline;
-  width: auto;
-  float: right;
-  /* margin-right: 10px; */
-  font-size: 2.5rem;
-  position: relative;
-  top: -35px;
-  animation: mymove 1s infinite linear;
-}
-@keyframes mymove {
-  from {
-    left: 5px;
-  }
-  to {
-    right: 5px;
-  }
+  font-size: 1.7rem;
+  color: white;
 }

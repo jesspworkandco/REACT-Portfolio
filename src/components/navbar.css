@@ -1,67 +1,13 @@
 .navbar {
-  left: 28px;
-  font-size: 25px;
-  padding: 0;
-  max-width: 50px;
-  display: inline;
-}
-.nav-menu {
-  height: 100vh;
-  position: fixed;
-  /* top: 65px; */
-  left: -100%;
-  transition: 850ms;
-}
-.nav-menu.active {
-  text-align: center;
-  opacity: 0.96;
-  width: 227px;
-  height: 80vh;
-  position: fixed;
-  color: white;
-  left: 0;
-  transition: 350ms;
-  top: 88px;
-  z-index: 2000;
-}
-.navbar-toggle {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 25px;
-  font-weight: bolder;
-}
-.menu-close:hover {
-  color: rgb(161, 5, 8);
-}
-.profile-pic {
-  border-radius: 50%;
-
-  margin: 14px auto;
-  width: 140px;
-}
-.personal-info {
-  font-size: large;
-  font-weight: bold;
-  line-height: normal;
-}
-.city,
-.cell,
-#email,
-.nav-text {
-  margin: 0;
-  line-height: 1.8rem;
-}
-#email {
-  font-size: 15px;
-}
-.nav-menu-items {
+  height: 100%;
   width: 100%;
-  list-style: none;
-  padding: 0;
+  justify-content: space-evenly;
 }
-
-.flag {
-  height: 2rem;
-  width: auto;
-  /* transform: rotate(90deg); */
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
 }

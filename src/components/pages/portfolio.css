@@ -3,7 +3,7 @@
   margin: 0 auto;
   text-align: center;
   height: 90%;
-  /* box-sizing: border-box; */
+  color: navy;
 }
 .main-col {
   max-height: 95%;
@@ -19,7 +19,6 @@ h1 {
 }
 .card-group {
   display: flex;
-  /* flex-wrap: row; */
 }
 .projects-col {
   padding: 0;
@@ -29,7 +28,6 @@ h1 {
   border-radius: 15px;
   margin: 5px 0px;
   margin-bottom: 25px;
-  /* padding: 0.4rem; */
   min-width: 15rem;
   max-width: 70rem;
   min-height: 13rem;
@@ -93,7 +91,7 @@ h1 {
 }
 .project-link:hover,
 .project-github:hover {
-  font-size: 30px;
+  font-size: 28px;
 }
 .project-title {
   font-size: x-large;
@@ -117,4 +115,7 @@ h1 {
   max-height: 7rem;
   overflow-y: scroll;
   margin: 0 auto;
+}
+a.github-link {
+  color: navy;
 }
