@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": "1",
     "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80",
     "title": "Cobalt",
@@ -33,14 +33,5 @@
     "description": "Get the current weather conditions and a 5 day forecast for any city you search for!",
     "link": "https://jessicaperez1.github.io/Weather-Dashboard/",
     "github": "https://github.com/JessicaPerez1/Weather-Dashboard.git"
-  },
-  {
-    "id": "5",
-    "image": "https://images.unsplash.com/photo-1586034679970-cb7b5fc4928a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
-    "title": "Budget Tracker",
-    "technologies": "Express, IndexedDB, Mongoose",
-    "description": "Track your budget - even while in the subway- this app allows you to add expenses and deposits to your budget whether you are online or offline.",
-    "link": "https://obscure-wildwood-18662.herokuapp.com/",
-    "github": "https://github.com/JessicaPerez1/Budget-Tracker.git"
   }
 ]

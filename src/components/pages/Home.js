@@ -3,29 +3,30 @@ import { Link } from "react-router-dom";
 import "./home.css";
 
 class Home extends React.Component {
-  state = {
-    title: "Hello, I am",
-  };
-  frenchTitle = () => {
-    this.setState({
-      title: "Bonjour, je m'appelle",
-    });
-  };
-  englishTitle = () => {
-    this.setState({
-      title: "Hello, I am",
-    });
-  };
+  // state = {
+  //   title: "Hello, I am",
+  // };
+  // frenchTitle = () => {
+  //   this.setState({
+  //     title: "Bonjour, je m'appelle",
+  //   });
+  // };
+  // englishTitle = () => {
+  //   this.setState({
+  //     title: "Hello, I am",
+  //   });
+  // };
   render() {
     return (
       <div className="home-container">
         <div className="greetings">
           <h1
             className="greeting-language"
-            onMouseEnter={this.frenchTitle}
-            onMouseLeave={this.englishTitle}
+            // onMouseEnter={this.frenchTitle}
+            // onMouseLeave={this.englishTitle}
           >
-            {this.state.title} Jessica Perez
+            {/* {this.state.title} */}
+            Jessica Perez
           </h1>
           <h2 className="jobTitle">
             Associate Developer at
@@ -59,11 +60,7 @@ class Home extends React.Component {
               management
             </p>
           </div>
-          <Link
-            title="navigate to about page"
-            className="btn-about"
-            to="/about"
-          >
+          <Link title="navigate to about page" className="more" to="/about">
             More
           </Link>
         </div>

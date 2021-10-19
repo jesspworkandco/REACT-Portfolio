@@ -14,7 +14,7 @@
   font-size: 1.75rem;
 }
 .greetings .jobTitle {
-  margin-bottom: 90px;
+  margin-bottom: 4rem;
 }
 .skills-title {
   text-transform: uppercase;
@@ -24,14 +24,15 @@
   word-spacing: 8px;
   padding-bottom: 20px;
 }
-.btn-about {
+.more {
   font-size: 22px;
   font-weight: bolder;
   border: none;
   border-radius: 0.6rem;
   padding: 8px 18px;
+  background-color: navy;
 }
-.btn-about:hover {
+.more:hover {
   color: lightgray;
   text-decoration: none;
   font-size: 27px;
@@ -39,8 +40,7 @@
 .workco {
   color: navy;
 }
-.workco:hover {
+a.workco:hover {
   color: red;
-  font-weight: bolder;
   text-decoration: none;
 }

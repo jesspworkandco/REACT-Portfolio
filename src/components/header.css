@@ -16,7 +16,8 @@
 }
 .brandName:hover {
   text-decoration: none;
-  color: rgb(239, 65, 53);
+  color: white;
+  font-size: 1.6rem;
 }
 .flag {
   height: 2rem;

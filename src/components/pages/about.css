@@ -1,20 +1,13 @@
+.cobalt,
 .main-container {
   color: navy;
 }
-.title {
-  margin-bottom: 20px;
+h1.mystory {
   padding: 0;
 }
-.intro {
-  font-size: 25px;
-  margin: 0;
-}
-.bold {
-  font-style: italic;
-}
-.cobalt,
-.cobalt:hover {
-  font-style: italic;
+a.cobalt:hover,
+a.workco:hover {
+  font-size: 1.6rem;
   color: navy;
 }
 .bio {
@@ -25,7 +18,7 @@
   width: 80%;
 }
 .bio-text {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 22px;
 }
 .skills-title {
@@ -34,4 +27,9 @@
 }
 .skills {
   letter-spacing: 0.1em;
+}
+.pic {
+  border-radius: 50%;
+  margin: 2rem auto;
+  width: 140px;
 }

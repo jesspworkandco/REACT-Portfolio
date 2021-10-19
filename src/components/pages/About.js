@@ -1,4 +1,5 @@
 import React from "react";
+import Png from "../../assets/headshot.png";
 import "./about.css";
 
 const About = () => {
@@ -6,20 +7,12 @@ const About = () => {
     <div className="main-container">
       <div className="bio text-center">
         <div className="bio-text">
-          <h1 className="title ">My story in short...</h1>
-          <h4 className="intro">
-            With all that has been going on in 2020, I thought: <br />
-            <span className="bold">“what best way to come out of it?”</span> and
-            the answer was
-            <span className="bold"> “better than I went in!”</span>.
-          </h4>
-          <br />
+          <h1 className="mystory ">My story in short...</h1>
+          <img alt="jessica profile pic" className="pic" src={Png} />
           <p>
-            After my job in hospitality ended due to COVID, with my new found
-            time, I took a leap of faith and pivoted my profession towards
-            becoming software engineer. After months of self-education and
-            attending Columbia University Fullstack immersive course, I got the
-            chance to work at
+            After months of self-education and attending Columbia University
+            Fullstack immersive course in 2020, I got the chance to work as a
+            freelance frontend developer helping{" "}
             <a
               title="go visit cobalt website"
               className="cobalt"
@@ -29,14 +22,25 @@ const About = () => {
             >
               {" "}
               Cobalt{" "}
-            </a>
-            as a Frontend Engineer (ReactJS). I am now looking to make my mark
-            and grow with a fulltime position!
+            </a>{" "}
+            improve their website.
           </p>
           <p>
-            The road ahead, I’m sure will not be easy but nothing worth doing
-            comes easy.
-            <br />
+            I then did a 3 month internship at
+            <a
+              title="go visit workand co website"
+              className="workco"
+              href="https://work.co/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              {" "}
+              Work&Co
+            </a>
+            , after which I started a full time position as an Associate
+            Developer.
+          </p>
+          <p>
             Well organized, analytical, decisive, coupled with a passion for
             exceeding expectations - proven ability to self-teach and learn new
             skills quickly.
