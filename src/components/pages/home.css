@@ -16,15 +16,15 @@
 .greetings .jobTitle {
   margin-bottom: 4rem;
 }
-.skills-title {
+/* .skills-title {
   text-transform: uppercase;
 }
 .topics {
   font-size: 22px;
   word-spacing: 8px;
   padding-bottom: 20px;
-}
-.more {
+} */
+/* .more {
   font-size: 22px;
   font-weight: bolder;
   border: none;
@@ -36,11 +36,39 @@
   color: lightgray;
   text-decoration: none;
   font-size: 27px;
-}
+} */
 .workco {
   color: navy;
 }
 a.workco:hover {
   color: red;
   text-decoration: none;
+}
+
+.cobalt,
+.main-container {
+  color: navy;
+}
+
+a.cobalt:hover,
+a.workco:hover {
+  font-size: 1.6rem;
+  color: navy;
+}
+.bio {
+  margin: 0 auto;
+  text-align: justify;
+  height: 90%;
+  width: 80%;
+}
+.bio-text {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.skills-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.skills {
+  letter-spacing: 0.1em;
 }

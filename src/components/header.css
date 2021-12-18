@@ -2,30 +2,25 @@
   min-width: 100%;
   font-size: x-large;
 }
-.header {
-  display: flex;
-  height: 6rem;
-  background-color: navy;
-  padding: 10px;
-  justify-content: space-between;
-  align-items: center;
-}
 .brand {
-  overflow: hidden;
-  white-space: nowrap;
+  padding-left: 2rem;
+}
+.header {
+  background-color: navy;
+  align-items: center;
+  height: 6rem;
+}
+.navItems {
+  display: flex;
+  align-items: center;
 }
 .brandName:hover {
   text-decoration: none;
-  color: white;
-  font-size: 1.6rem;
+  color: rgb(239, 65, 53);
 }
 .flag {
   height: 2rem;
   width: auto;
   margin-right: 10px;
   margin-bottom: 5px;
-}
-.croissant-icon {
-  font-size: 1.7rem;
-  color: white;
 }

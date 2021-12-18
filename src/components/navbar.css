@@ -1,13 +1,20 @@
 .navbar {
-  height: 100%;
   width: 100%;
-  justify-content: space-evenly;
+  display: flex;
+  justify-content: space-between;
 }
 a {
   color: white;
 }
-a:hover {
+a:hover,
+.croissant:hover {
   text-decoration: none;
+  color: rgb(239, 65, 53);
+}
+.croissant {
+  font-size: 1.7rem;
   color: white;
-  font-size: 1.6rem;
+}
+a.bonus {
+  margin: 0px;
 }

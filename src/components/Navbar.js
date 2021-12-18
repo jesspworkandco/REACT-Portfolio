@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import * as GiIcons from "react-icons/gi";
 import { NavbarData } from "./NavbarData";
 
 import "./navbar.css";
@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="navbar">
       {NavbarData.map((item, index) => {
         return (
-          <div key={index} className={item.cName}>
+          <div key={index} className={item.className}>
             <Link
               title="path links to all different pages of the app"
               to={item.path}
@@ -20,6 +20,14 @@ const Navbar = () => {
           </div>
         );
       })}
+      <Link
+        data-toggle="tooltip"
+        title="go to the bonus page"
+        className="bonus"
+        to="/bonus"
+      >
+        <GiIcons.GiCroissant className="croissant" />
+      </Link>
     </div>
   );
 };
