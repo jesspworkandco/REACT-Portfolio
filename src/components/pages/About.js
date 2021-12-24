@@ -1,25 +1,11 @@
 import React from "react";
-import "./home.css";
+import "./about.css";
 
-const Home = () => {
+const About = () => {
   return (
     <div className="home-container">
       <div className="greetings">
-        <h1 className="name">Jessica Perez</h1>
-        <h2 className="jobTitle">
-          Associate Developer at
-          <a
-            title="go visit workco website"
-            className="workco"
-            href="https://work.co/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            {" "}
-            Work&Co{" "}
-          </a>
-        </h2>
-
+        <h1>About</h1>
         <div className="bio-text text-center">
           <p>
             After months of self-education and attending Columbia University
@@ -64,4 +50,4 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
+export default About;

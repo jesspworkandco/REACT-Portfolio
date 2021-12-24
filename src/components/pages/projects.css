@@ -1,4 +1,28 @@
 .projects-container {
+  color: navy;
+}
+.short-about {
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(241, 241, 242);
+}
+.name {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.short-bio {
+  font-size: 20px;
+}
+.workco {
+  color: navy;
+}
+a.workco:hover {
+  color: red;
+  text-decoration: none;
+}
+.projects-container {
   margin-bottom: 2rem;
   color: navy;
 }
@@ -8,7 +32,7 @@ h1 {
   margin-bottom: 15px;
 }
 .main {
-  padding: 4rem 2rem;
+  padding: 1rem;
   text-align: center;
 }
 .project-row {

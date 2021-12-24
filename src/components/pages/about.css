@@ -7,27 +7,18 @@
   text-align: center;
   color: navy;
 }
-.name {
-  font-weight: bold;
-  font-size: 35px;
-  margin-bottom: 15px;
-}
 .greetings h2 {
   font-size: 1.75rem;
 }
 .greetings .jobTitle {
   margin-bottom: 4rem;
 }
-.workco {
-  color: navy;
-}
 .cobalt,
 .main-container {
   color: navy;
 }
 
-a.cobalt:hover,
-a.workco:hover {
+a.cobalt:hover {
   color: red;
   text-decoration: none;
 }
@@ -41,17 +32,3 @@ a.workco:hover {
   margin-bottom: 20px;
   font-size: 22px;
 }
-
-/* .more {
-  font-size: 22px;
-  font-weight: bolder;
-  border: none;
-  border-radius: 0.6rem;
-  padding: 8px 18px;
-  background-color: navy;
-}
-.more:hover {
-  color: lightgray;
-  text-decoration: none;
-  font-size: 27px;
-} */

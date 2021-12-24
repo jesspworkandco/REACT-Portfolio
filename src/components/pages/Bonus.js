@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
-import { BonusData } from "./BonusData";
+import { bonusData } from "../../data/bonusData";
 
 import "./bonus.css";
 
@@ -13,8 +13,8 @@ function Bonus() {
     <div className="main-container text-center">
       <div className="bonus">
         <h1 className="title">Some little extras. . .</h1>
-        <Row className="first-row">
-          {BonusData.map((item) => {
+        <Row className="bonusrow">
+          {bonusData.map((item) => {
             return (
               <Col
                 key={item.bonusId}

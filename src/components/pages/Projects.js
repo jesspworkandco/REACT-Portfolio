@@ -14,6 +14,25 @@ const Projects = () => {
   }, [projectsList]);
   return (
     <div className="projects-container">
+      <div className="short-about">
+        <p className="name">
+          Bonjour, I am Jessica Perez, Associate Developer at
+          <a
+            title="go visit workco website"
+            className="workco"
+            href="https://work.co/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            {" "}
+            Work&Co.
+          </a>
+        </p>
+        <p className="short-bio">
+          Focused on creating user friendly applications with sleek designs,
+          while writing clean code.
+        </p>
+      </div>
       <div className="main">
         <h1>Projects</h1>
         <Row className="project-row">

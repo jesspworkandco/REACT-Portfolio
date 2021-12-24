@@ -6,7 +6,7 @@ h1.title {
   margin-bottom: 3rem;
   padding: 0;
 }
-.first-row {
+.bonus-row {
   width: 100%;
   margin: 0 auto;
 }
@@ -19,6 +19,8 @@ h1.title {
   font-size: 1.3rem;
 }
 .app-img {
+  margin: 20px;
+  border: 0.1px lightgrey solid;
   border-radius: 15px;
   max-width: 95%;
 }

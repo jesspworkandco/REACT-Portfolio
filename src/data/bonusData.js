@@ -1,9 +1,9 @@
-import rgbPng from "../../assets/rgb-hard.png";
-import dicePng from "../../assets/dice-game.png";
-export const BonusData = [
+import rgbPng from "../assets/rgb-hard.png";
+import dicePng from "../assets/dice-game.png";
+export const bonusData = [
   {
     bonusId: "1",
-    bonusTitle: "Test your RGB color knoweledge while waiting for the train!",
+    bonusTitle: "Test your RGB color knoweledge!",
     bonusImg: `${rgbPng}`,
     bonusLink: "https://jessicaperez1.github.io/RGB-Color-Game/",
   },
