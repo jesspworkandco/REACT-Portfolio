@@ -1,58 +1,21 @@
-.main {
-  padding: 4rem 2rem;
-  margin: 0 auto;
-  text-align: center;
-  height: 90%;
+.projects-container {
+  margin-bottom: 2rem;
   color: navy;
 }
-.main-col {
-  max-height: 95%;
-  margin: 0 auto;
-}
-.main h1 {
-  margin-bottom: 20px;
-}
 h1 {
-  font-weight: bolder;
-  font-size: 2.2rem;
-  margin-top: 0;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 15px;
 }
-.card-group {
-  display: flex;
+.main {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.project-row {
+  margin-top: 3rem;
 }
 .projects-col {
-  padding: 0;
-}
-.card {
-  border: none;
-  border-radius: 15px;
-  margin: 5px 0px;
-  margin-bottom: 25px;
-  min-width: 15rem;
-  max-width: 70rem;
-  min-height: 13rem;
-  max-height: 28rem;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.5),
-    rgba(250, 250, 250, 0.95)
-  );
-}
-.container-image {
-  max-height: 260px;
-}
-.image-col {
-  padding: 0;
-  margin: 0 auto;
-}
-.image {
-  max-width: 19rem;
-  width: 15rem;
-  height: 13rem;
-  border-radius: 15px;
-}
-.container-image:hover .image {
-  -webkit-filter: blur(4px);
-  filter: blur(4px);
+  padding: 1.2rem;
 }
 .link-site {
   position: absolute;
@@ -63,19 +26,17 @@ h1 {
   width: 100%;
   height: 0;
   transition: 0.5s ease;
-}
-.container-image:hover .link-site {
-  bottom: 0;
-  height: 100%;
+  background-color: white;
+  opacity: 0.8;
 }
 .project-link,
 .project-github {
-  width: 10rem;
-  padding: 10px;
+  width: 8rem;
+  padding: 5px;
   background-color: white;
-  color: black;
+  border: 0.1px navy solid;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 18px;
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -84,38 +45,41 @@ h1 {
   text-align: center;
 }
 .project-link {
-  top: 30%;
+  top: 85%;
 }
 .project-github {
-  top: 70%;
+  top: 95%;
+}
+.project-title,
+.project-description.card-text {
+  top: 40%;
+  margin: 2rem;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bolder;
 }
 .project-link:hover,
 .project-github:hover {
-  font-size: 28px;
+  color: red;
 }
-.project-title {
-  font-size: x-large;
-  color: rgb(161, 5, 8);
+.container-image:hover .image {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
 }
-.technology {
-  color: rgb(102, 99, 99);
-  font-size: medium;
-  font-weight: bold;
-  font-style: italic;
-  padding: 0;
-  margin: 0;
-}
-.card-body {
-  padding: 0;
-}
-.project-description {
-  text-align: justify;
-  font-size: 1.2rem;
-  max-width: 39rem;
-  max-height: 7rem;
-  overflow-y: scroll;
-  margin: 0 auto;
+
+.container-image:hover .link-site {
+  bottom: 0;
+  height: 100%;
 }
 a.github-link {
   color: navy;
+}
+a.github-link:hover {
+  color: rgb(161, 5, 8);
+}
+button {
+  color: navy;
+}
+.technology {
+  margin: 2rem;
 }

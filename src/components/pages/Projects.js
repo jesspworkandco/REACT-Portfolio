@@ -2,94 +2,79 @@ import React, { useState, useEffect } from "react";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import projects from "../../projects.json";
+import { projectsData } from "../../data/projectsData";
 import "./projects.css";
 
 const Projects = () => {
-  const [projectsList, setProjectsList] = useState(projects);
-
+  const [projectsList, setProjectsList] = useState(projectsData);
+  const viewWebsite = "View Website";
+  const downloadApp = "Download App";
   useEffect(() => {
     setProjectsList(projectsList);
   }, [projectsList]);
-
   return (
-    <div className="portfolio">
-      <Col className="main-col" xs={10}>
-        <div className="main mx-sm-4 text-center">
-          <h1>Projects</h1>
-          <div className="card-group">
-            <Row>
-              {projects.map((project) => (
-                <Col className="projects-col" sm={12} key={project.id}>
-                  <Card className="card">
-                    <Row>
-                      <Col className="image-col" sm={12} xl={4}>
-                        <div className="container-image p-0">
-                          <Card.Img
-                            src={project.image}
-                            className="image"
-                            variant="top"
-                            alt="project illustrative image"
-                          />
-                          <div className="link-site">
-                            <a
-                              title="go to the app website"
-                              href={project.link}
-                              rel="noopener noreferrer"
-                              target="_blank"
-                            >
-                              {" "}
-                              <button className="project-link">
-                                View Site
-                              </button>
-                            </a>
-                            {project.github && (
-                              <a
-                                title="go to the github project repository"
-                                href={project.github}
-                                rel="noopener noreferrer"
-                                target="_blank"
-                              >
-                                <button className="project-github">
-                                  View Code
-                                </button>
-                              </a>
-                            )}
-                          </div>
-                        </div>
-                      </Col>
-                      <Col className="project-description-col" sm={12} xl={8}>
-                        <Card.Body className="card-body">
-                          <Card.Title className="project-title mb-0 mt-sm-2">
-                            {project.title}
-                          </Card.Title>
-                          <p className="technology">{project.technologies}</p>
-                          <Card.Text className="project-description">
-                            {project.description}
-                          </Card.Text>
-                        </Card.Body>
-                      </Col>
-                    </Row>
-                  </Card>
-                </Col>
-              ))}
-            </Row>
-          </div>
-          <h3 className="github my-2">
-            See more on my{" "}
-            <a
-              title="go visit jessica perez github page"
-              className="github-link"
-              href="https://github.com/JessicaPerez1"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              GitHub!{" "}
-            </a>
-          </h3>
-        </div>
-      </Col>
+    <div className="projects-container">
+      <div className="main">
+        <h1>Projects</h1>
+        <Row className="project-row">
+          {projectsData.map((project) => (
+            <Col className="projects-col" sm={6} key={project.id}>
+              <div className="container-image p-0">
+                <Card.Img
+                  src={project.image}
+                  className="image"
+                  variant="top"
+                  alt="project illustrative image"
+                />
+                <div className="link-site">
+                  <div className="project-info">
+                    <h5 className="project-title">{project.title}</h5>
+                    <Card.Text className="project-description">
+                      {project.description}
+                    </Card.Text>
+                    <p className="technology">{project.technologies}</p>
+                  </div>
+                  <a
+                    title="go to the app website"
+                    href={project.link}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <button className="project-link">{viewWebsite}</button>
+                    {!project.isWebsite && (
+                      <button className="project-link">{downloadApp}</button>
+                    )}
+                  </a>
+                  {project.github && (
+                    <a
+                      title="go to the github project repository"
+                      href={project.github}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <button className="project-github">View Code</button>
+                    </a>
+                  )}
+                </div>
+              </div>
+            </Col>
+          ))}
+        </Row>
+        <h3 className="github my-3">
+          See more on my{" "}
+          <a
+            title="go visit jessica perez github page"
+            className="github-link"
+            href="https://github.com/JessicaPerez1"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub!{" "}
+          </a>
+        </h3>
+      </div>
     </div>
   );
 };
+
 export default Projects;
