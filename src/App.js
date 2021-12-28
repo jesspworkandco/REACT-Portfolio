@@ -17,10 +17,10 @@ const App = () => {
         <Header />
         <Switch>
           <Route path={["/", "/projects"]} exact component={Projects} />
-          <Route path={"/about"} exact component={About} />
-          <Route path={"/skills"} exact component={Skills} />
-          <Route path={"/contact"} exact component={Contact} />
-          <Route path={"/bonus"} exact component={Bonus} />
+          <Route path="/about" exact component={About} />
+          <Route path="/skills" exact component={Skills} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/bonus" exact component={Bonus} />
         </Switch>
         <Footer />
       </Router>
