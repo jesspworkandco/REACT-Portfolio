@@ -17,7 +17,7 @@ const Header = () => {
       variant="dark"
     >
       <Container className="container">
-        <Navbar.Brand href="/about">
+        <Navbar.Brand as={Link} to="/about">
           <img alt="french flag" className="flag" title="menu" src={Png} />
           ze French Coder
         </Navbar.Brand>
