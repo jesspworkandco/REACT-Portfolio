@@ -1,22 +1,13 @@
-.container {
-  min-width: 100%;
-  font-size: x-large;
-}
-.brand {
-  padding-left: 2rem;
-}
-.header {
+.header-container {
   background-color: navy;
-  align-items: center;
-  height: 6rem;
+  padding: 1.2rem;
 }
-.navItems {
-  display: flex;
-  align-items: center;
+.container {
+  font-size: x-large;
+  min-width: 100%;
 }
-.brandName:hover {
-  text-decoration: none;
-  color: rgb(239, 65, 53);
+#responsive-navbar-nav {
+  justify-content: flex-end;
 }
 .flag {
   height: 2rem;

@@ -45,35 +45,37 @@ const Projects = () => {
                   variant="top"
                   alt="project illustrative image"
                 />
-                <div className="link-site">
-                  <div className="project-info">
-                    <h5 className="project-title">{project.title}</h5>
-                    <Card.Text className="project-description">
-                      {project.description}
-                    </Card.Text>
-                    <p className="technology">{project.technologies}</p>
-                  </div>
-                  <a
-                    title="go to the app website"
-                    href={project.link}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <button className="project-link">{viewWebsite}</button>
-                    {!project.isWebsite && (
-                      <button className="project-link">{downloadApp}</button>
-                    )}
-                  </a>
-                  {project.github && (
+                <div className="overlay">
+                  <div className="link-site">
+                    <div className="project-info">
+                      <h5 className="project-title">{project.title}</h5>
+                      <Card.Text className="project-description">
+                        {project.description}
+                      </Card.Text>
+                      <div className="technology">{project.technologies}</div>
+                    </div>
                     <a
-                      title="go to the github project repository"
-                      href={project.github}
+                      title="go to the app website"
+                      href={project.link}
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      <button className="project-github">View Code</button>
+                      <button className="project-link">{viewWebsite}</button>
+                      {!project.isWebsite && (
+                        <button className="project-link">{downloadApp}</button>
+                      )}
                     </a>
-                  )}
+                    {project.github && (
+                      <a
+                        title="go to the github project repository"
+                        href={project.github}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <button className="project-github">View Code</button>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             </Col>

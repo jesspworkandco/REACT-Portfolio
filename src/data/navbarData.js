@@ -1,4 +1,4 @@
-export const NavbarData = [
+export const navbarData = [
   {
     title: "Projects",
     path: "/projects",

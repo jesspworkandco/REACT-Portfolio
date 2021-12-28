@@ -1,5 +1,6 @@
 .projects-container {
   color: navy;
+  margin-bottom: 2rem;
 }
 .short-about {
   padding: 1rem;
@@ -22,10 +23,6 @@ a.workco:hover {
   color: red;
   text-decoration: none;
 }
-.projects-container {
-  margin-bottom: 2rem;
-  color: navy;
-}
 h1 {
   font-weight: bold;
   font-size: 35px;
@@ -41,6 +38,10 @@ h1 {
 .projects-col {
   padding: 1.2rem;
 }
+.overlay {
+  height: 90%;
+  align-content: space-between;
+}
 .link-site {
   position: absolute;
   bottom: 100%;
@@ -55,12 +56,12 @@ h1 {
 }
 .project-link,
 .project-github {
-  width: 8rem;
-  padding: 5px;
+  width: 7rem;
+  padding: 2px;
   background-color: white;
   border: 0.1px navy solid;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 16px;
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -69,17 +70,16 @@ h1 {
   text-align: center;
 }
 .project-link {
-  top: 85%;
+  bottom: 12%;
 }
 .project-github {
-  top: 95%;
+  bottom: 2%;
 }
 .project-title,
 .project-description.card-text {
-  top: 40%;
-  margin: 2rem;
+  margin: 10px;
   text-align: center;
-  font-size: 23px;
+  font-size: 17px;
   font-weight: bolder;
 }
 .project-link:hover,
@@ -90,7 +90,6 @@ h1 {
   -webkit-filter: blur(5px);
   filter: blur(5px);
 }
-
 .container-image:hover .link-site {
   bottom: 0;
   height: 100%;

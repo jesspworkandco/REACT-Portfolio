@@ -1,28 +1,45 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import { Link } from "react-router-dom";
 import Png from "../assets/french-flag.png";
-import Navbar from "./Navbar";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import { navbarData } from "../data/navbarData";
 
 import "./header.css";
 
 const Header = () => {
   return (
-    <Container className="container">
-      <Row className="header">
-        <Col sm={7} className="brand">
-          <Link title="go to the about page" className="brandName" to="/about">
-            <img alt="french flag" className="flag" title="menu" src={Png} />
-            ze French Coder
-          </Link>
-        </Col>
-        <Col sm={5} className="navItems">
-          <Navbar />
-        </Col>
-      </Row>
-    </Container>
+    <Navbar
+      className="header-container"
+      collapseOnSelect
+      expand="lg"
+      variant="dark"
+    >
+      <Container className="container">
+        <Navbar.Brand href="/about">
+          {" "}
+          <img alt="french flag" className="flag" title="menu" src={Png} />
+          ze French Coder
+        </Navbar.Brand>
+
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            {navbarData.map((item, index) => {
+              return (
+                <Nav.Link
+                  title="navigate to navigation item page"
+                  key={index}
+                  href={item.path}
+                >
+                  {item.title}
+                </Nav.Link>
+              );
+            })}
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
