@@ -16,7 +16,7 @@ const Projects = () => {
     <div className="projects-container">
       <div className="short-about">
         <p className="name">
-          Bonjour, I am Jessica Perez, Associate Developer at
+          Bonjour, I am Jessica Perez, Software Developer at
           <a
             title="go visit workco website"
             className="workco"
@@ -38,7 +38,8 @@ const Projects = () => {
         <Row className="project-row">
           {projectsData.map((project) => (
             <Col className="projects-col" sm={6} key={project.id}>
-              <div className="container-image p-0">
+              <div className="container-image">
+                <h4>{project.title}</h4>
                 <Card.Img
                   src={project.image}
                   className="image"
@@ -47,24 +48,39 @@ const Projects = () => {
                 />
                 <div className="overlay">
                   <div className="link-site">
-                    <div className="project-info">
-                      <h5 className="project-title">{project.title}</h5>
-                      <Card.Text className="project-description">
+                    <Card.Text className="info-container">
+                      <p className="project-description">
                         {project.description}
-                      </Card.Text>
-                      <div className="technology">{project.technologies}</div>
-                    </div>
-                    <a
+                      </p>
+                      <p className="technology">{project.technologies}</p>
+                    </Card.Text>
+
+                    {/* <a
                       title="go to the app website"
                       href={project.link}
                       rel="noopener noreferrer"
                       target="_blank"
-                    >
-                      <button className="project-link">{viewWebsite}</button>
-                      {!project.isWebsite && (
+                    > */}
+                    {project.isWebsite ? (
+                      <a
+                        title="go to the app website"
+                        href={project.link}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <button className="project-link">{viewWebsite}</button>
+                      </a>
+                    ) : (
+                      <a
+                        title="go to the app website"
+                        href={project.link}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
                         <button className="project-link">{downloadApp}</button>
-                      )}
-                    </a>
+                      </a>
+                    )}
+
                     {project.github && (
                       <a
                         title="go to the github project repository"

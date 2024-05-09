@@ -1,6 +1,15 @@
 export const projectsData = [
   {
     id: "1",
+    image: require("../assets/bnp.png"),
+    title: "BNP PARIBAS OPEN",
+    technologies: "NextJs, TypeScript",
+    description: "Website for BNP Paribas Open Indian Wells tennis tournament.",
+    link: "https://bnpparibasopen.com/",
+    isWebsite: true,
+  },
+  {
+    id: "2",
     image: require("../assets/ssense.png"),
     title: "SSENSE",
     technologies: "React Native, TypeScript",
@@ -9,24 +18,12 @@ export const projectsData = [
     link: "https://ssen.se/3orny3c",
   },
   {
-    id: "2",
-    image: require("../assets/cobalt-website-landing.png"),
-    title: "Cobalt",
-    technologies: "React/Redux, state management, form control, RESTful Apis.",
-    description:
-      "The idea development platform that supports you make your projects come true.",
-    link: "https://cobalt.co",
-    isWebsite: true,
-  },
-  {
     id: "3",
-    image: require("../assets/weather-app.png"),
-    title: "Weather Dashboard",
-    technologies: "Javascript, 3rd party API",
-    description:
-      "Get the current weather conditions and a 5 day forecast for any city in the world.",
-    link: "https://jessicaperez1.github.io/Weather-Dashboard/",
-    github: "https://github.com/JessicaPerez1/Weather-Dashboard.git",
+    image: require("../assets/harley.png"),
+    title: "HARLEY DAVIDSON",
+    technologies: "React",
+    description: "Create online motorcycle buying experience.",
+    link: "https://www.harley-davidson.com/us/en/products/bikes.html",
     isWebsite: true,
   },
 ];
