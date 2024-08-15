@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../../assets/Jessica-Perez-CV.pdf";
+import CV from "../../assets/Jess-Perez-CV.pdf";
 import "./contact.css";
 
 const Contact = () => {
@@ -18,7 +18,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              > Email me
+              {">"} Email me
             </a>
           </li>
           <li>
@@ -28,17 +28,17 @@ const Contact = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              > Connect on LinkedIn
+              {">"} Connect on LinkedIn
             </a>
           </li>
           <li>
             <a
-              href={Pdf}
+              href={CV}
               title="open jessica perez pdf resume"
               rel="noopener noreferrer"
               target="_blank"
             >
-              > Checkout my Resume
+              {">"} Checkout my Resume
             </a>
           </li>
         </ul>
